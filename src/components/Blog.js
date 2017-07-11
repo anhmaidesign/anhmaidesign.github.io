@@ -1,10 +1,10 @@
 import React from 'react';
 import v from '../styles/variables';
 
-const Home = () => (
+const Blog = () => (
   <div>
-    Portfolio Coming soon
+    Blog Coming soon
   </div>
 );
 
-export default Home;
+export default Blog;

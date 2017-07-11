@@ -1,45 +1,51 @@
 import React from 'react';
-import Interactive from 'react-interactive';
-import { Switch, Route } from 'react-router-dom';
-import Home from './Home';
-import ExampleComponent from './ExampleComponent';
+import { Switch, Route, Link} from 'react-router-dom';
+import Nav from './Nav';
 import PageNotFound from './PageNotFound';
-import Breadcrumbs from './Breadcrumbs';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
+import Blog from './Blog';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import Avatar from 'material-ui/Avatar';
+import { Tabs, Tab} from 'material-ui/Tabs';
+import {deepOrange500} from 'material-ui/styles/colors'
+import v from '../styles/variables';
 import s from '../styles/app.style';
 
+injectTapEventPlugin();
+
+const muiTheme = getMuiTheme({
+  palette: {
+    textColor: v.textColor,
+    accent1Color: deepOrange500
+  }
+});
+
 export default function App() {
+
   return (
-    <div style={s.root}>
-      <h1 style={s.title}>Single Page Apps for GitHub Pages</h1>
-      <Interactive
-        as="a"
-        href="https://github.com/rafrex/spa-github-pages"
-        style={s.repoLink}
-        {...s.link}
-      >https://github.com/rafrex/spa-github-pages</Interactive>
-
-      <nav style={s.breadcrumbs}>
-        <Breadcrumbs />
-      </nav>
-
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/example" component={ExampleComponent} />
-        <Route component={PageNotFound} />
-      </Switch>
-
-      <div style={s.creditLine}>
-        <Interactive
-          as="a"
-          href="http://www.rafaelpedicini.com"
-          interactiveChild
-          focus={{}}
-          touchActive={{}}
-          touchActiveTapOnly
-        >
-          Code and concept by <span {...s.childLink}>Rafael Pedicini</span>
-        </Interactive>
+    <MuiThemeProvider muiTheme={muiTheme}>
+      <div style={s.root}>
+        <div style={s.logo}>
+          <Avatar backgroundColor={'transparent'}
+            size={ 145 }
+            src={'https://res.cloudinary.com/dlz9ujl2i/image/upload/v1499748764/AM_logo-02_ivz8f5.png'} />
+          <div style={s.logoName}>ANH HOAI MAI</div>
+        </div>
+        <div style={s.nav}>
+          <Nav/>
+        </div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/about" component={About} />
+          <Route component={PageNotFound} />
+        </Switch>
       </div>
-    </div>
+    </MuiThemeProvider>
   );
 }
