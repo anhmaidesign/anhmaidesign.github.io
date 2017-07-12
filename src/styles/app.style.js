@@ -13,9 +13,8 @@ s.logo = {
 }
 
 s.logoName = {
-  fontSize: '20px',
-  marginLeft: '10px',
-  marginTop: '10px'
+  fontSize: '18px',
+  marginBottom: '15px'
 }
 
 s.nav = {

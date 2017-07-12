@@ -33,7 +33,7 @@ export default function App() {
           <Avatar backgroundColor={'transparent'}
             size={ 145 }
             src={'https://res.cloudinary.com/dlz9ujl2i/image/upload/v1499748764/AM_logo-02_ivz8f5.png'} />
-          <div style={s.logoName}>ANH HOAI MAI</div>
+          <p style={s.logoName}>ANH HOAI MAI</p>
         </div>
         <div style={s.nav}>
           <Nav/>
