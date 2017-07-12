@@ -6,6 +6,7 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact';
 import Blog from './Blog';
+import Footer from './Footer';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
@@ -33,18 +34,25 @@ export default function App() {
           <Avatar backgroundColor={'transparent'}
             size={ 145 }
             src={'https://res.cloudinary.com/dlz9ujl2i/image/upload/v1499748764/AM_logo-02_ivz8f5.png'} />
-          <p style={s.logoName}>ANH HOAI MAI</p>
+          <div style={s.logoName}>ANH HOAI MAI</div>
         </div>
-        <div style={s.nav}>
-          <Nav/>
+        <div style={s.navWrapper}>
+          <hr style={s.navLineLeft}/>
+          <hr style={s.navLineRight}/>
+          <div style={s.nav}>
+            <Nav/>
+          </div>
         </div>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/blog" component={Blog} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/about" component={About} />
-          <Route component={PageNotFound} />
-        </Switch>
+        <div style={s.container}>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/about" component={About} />
+            <Route component={PageNotFound} />
+          </Switch>
+        </div>
+        <Footer/>
       </div>
     </MuiThemeProvider>
   );
