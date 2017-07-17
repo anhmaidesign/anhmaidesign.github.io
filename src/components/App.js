@@ -29,14 +29,14 @@ export default function App() {
 
   return (
     <MuiThemeProvider muiTheme={muiTheme}>
-      <div style={s.root}>
+      <div id="app">
         <div style={s.logo}>
           <Avatar backgroundColor={'transparent'}
             size={ 145 }
             src={'https://res.cloudinary.com/dlz9ujl2i/image/upload/v1499748764/AM_logo-02_ivz8f5.png'} />
           <div style={s.logoName}>ANH HOAI MAI</div>
         </div>
-        <div style={s.navWrapper}>
+        <div id="nav-wrapper">
           <hr id="nav-line-left" style={s.navLineLeft}/>
           <hr id="nav-line-right" style={s.navLineRight}/>
           <div style={s.nav}>
