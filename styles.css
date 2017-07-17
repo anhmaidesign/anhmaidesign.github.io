@@ -89,26 +89,88 @@ nav ul li a {
   transition: .3s ease-in-out;
 }
 
+#nav-line-left {
+  display: none;
+}
+
+#nav-line-right {
+  display: none;
+}
+
+@media only screen and (min-width: 760px) {
+  #nav-line-left {
+    display: block;
+  }
+
+  #nav-line-right {
+    display: block;
+  }
+}
+
 /*Contact form*/
 #contact-container {
   max-width: 650px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 #contact-title {
-  font-size: 20px;
-  font-weight: 400
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
 }
 
 #contact-body {
-  font-size: 14px
+  font-size: 14px;
 }
 
 #contact-body-right {
-  display: inline-block
+  display: block;
 }
 
 #contact-body-left {
+  display: block;
+}
+
+@media only screen and (min-width: 760px) {
+  #contact-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  #contact-body-right {
+    display: inline-block
+  }
+
+  #contact-body-left {
+    display: inline-block;
+    max-width: 50%;
+  }
+
+}
+
+/*Footer*/
+#footer-icons {
+  display: none;
+}
+
+#footer-text {
   display: inline-block;
-  max-width: 40%;
+  margin-top: 5px;
+  float: right;
+  font-size: 12px;
+}
+@media only screen and (min-width: 760px) {
+  #footer {
+    
+  }
+
+  #footer-icons {
+    display: inline-block;
+  }
+
+  #footer-text {
+    margin-top: 12px;
+    font-size: 14px;
+  }
 }

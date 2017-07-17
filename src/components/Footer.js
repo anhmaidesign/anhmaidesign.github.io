@@ -11,8 +11,8 @@ const iconStyles = {
 };
 
 const Footer = () => (
-  <div style={s.footer}>
-    <div style={{display: 'inline-block'}}>
+  <div id="footer" style={s.footer}>
+    <div id="footer-icons">
       <IconButton touch={true} style={iconStyles} href={"https://www.linkedin.com/in/anhhmai/"}>
         <FontIcon className="fa fa-linkedin"/>
       </IconButton>
@@ -23,7 +23,7 @@ const Footer = () => (
         <FontIcon className="fa fa-instagram"/>
       </IconButton>
     </div>
-    <p style={{display: 'inline-block', marginTop: '12px', float: 'right', fontSize: '14px'}}>Web design and content &copy; 2017 Anh Mai</p>
+    <p id="footer-text">Web design and content &copy; 2017 Anh Mai</p>
   </div>
 );
 

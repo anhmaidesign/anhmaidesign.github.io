@@ -37,8 +37,8 @@ export default function App() {
           <div style={s.logoName}>ANH HOAI MAI</div>
         </div>
         <div style={s.navWrapper}>
-          <hr style={s.navLineLeft}/>
-          <hr style={s.navLineRight}/>
+          <hr id="nav-line-left" style={s.navLineLeft}/>
+          <hr id="nav-line-right" style={s.navLineRight}/>
           <div style={s.nav}>
             <Nav/>
           </div>
