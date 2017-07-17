@@ -9,14 +9,11 @@ class Nav extends React.Component {
       case '/':
         active = "one";
         break;
-      case '/blog':
+      case '/resume':
         active = "two";
         break;
-      case '/about':
-        active = "three";
-        break;
       case '/contact':
-        active = "four";
+        active = "three";
         break;
     }
 
@@ -29,27 +26,22 @@ class Nav extends React.Component {
     return (
       <nav>
         <ul>
-          <li id="nav-portfolio">
+          <li id="nav-one">
             <a href="/">
               PORTFOLIO
             </a>
           </li>
-          <li id="nav-blog">
-            <a href="/blog">
-              BLOG
+          <li id="nav-two">
+            <a href="/resume">
+              RESUME
             </a>
           </li>
-          <li id="nav-about">
-            <a href="/about">
-              ABOUT
-            </a>
-          </li>
-          <li id="nav-contact">
+          <li id="nav-three">
             <a href="/contact">
               CONTACT
             </a>
           </li>
-          <hr className={this.state.active}/>
+          <hr id="nav-hr" className={this.state.active}/>
         </ul>
       </nav>
     );

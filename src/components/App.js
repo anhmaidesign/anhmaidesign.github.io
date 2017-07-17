@@ -3,9 +3,8 @@ import { Switch, Route, Link} from 'react-router-dom';
 import Nav from './Nav';
 import PageNotFound from './PageNotFound';
 import Home from './Home';
-import About from './About';
+import Resume from './Resume';
 import Contact from './Contact';
-import Blog from './Blog';
 import Footer from './Footer';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -20,6 +19,7 @@ injectTapEventPlugin();
 
 const muiTheme = getMuiTheme({
   palette: {
+    primary1Color: v.textColor,
     textColor: v.textColor,
     accent1Color: deepOrange500
   }
@@ -46,9 +46,8 @@ export default function App() {
         <div style={s.container}>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/blog" component={Blog} />
+            <Route exact path="/resume" component={Resume} />
             <Route exact path="/contact" component={Contact} />
-            <Route exact path="/about" component={About} />
             <Route component={PageNotFound} />
           </Switch>
         </div>

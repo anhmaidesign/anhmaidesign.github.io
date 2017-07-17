@@ -24,7 +24,7 @@ s.navWrapper = {
 }
 
 s.nav = {
-  width: '400px',
+  width: '300px',
   margin: '0 auto',
   marginBottom: '50px',
 }
@@ -32,13 +32,21 @@ s.navLineLeft = {
   position: "absolute",
   top: "15px",
   left: "0",
-  height: "1px"
+  width: "33%",
+  background: "#692C4F",
+  height: "1px",
+  margin: "0",
+  border: "none"
 }
 s.navLineRight = {
   position: "absolute",
   top: "15px",
   right: "0",
-  height: "1px"
+  width: "33%",
+  background: "#692C4F",
+  height: "1px",
+  margin: "0",
+  border: "none"
 }
 
 s.container = {
