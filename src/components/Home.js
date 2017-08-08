@@ -8,7 +8,7 @@ const tilesData = [
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
     id: '1',
-    name: 'Project 1',
+    name: 'Project 1'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
