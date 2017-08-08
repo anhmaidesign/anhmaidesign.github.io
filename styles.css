@@ -1,31 +1,21 @@
 /*App*/
 html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  box-sizing: inherit;
   font-family: 'Roboto', sans-serif;
   color: #692C4F;
   background: #FCFCF5;
-  line-height: 1.7em;
-  letter-spacing: 0;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px;
-  height: 100%;
 }
 
-#app {
-  padding: 10px;
-  height: 100%;
+/*Logo*/
+#logo {
+  margin-top: 35px;
+  text-align: center;
 }
 
-@media only screen and (min-width: 760px) {
-  #app {
-    padding: 30px;
-  }
+#logo-name {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
-
 /*Navigation*/
 #nav-wrapper {
   position: relative;
@@ -33,74 +23,60 @@ html, body {
   margin: 0 auto;
 }
 
+nav {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  line-height: 1.5em;
-  font-size: 13px;
   text-align: center;
-  opacity: 0.8;
 }
 
 nav ul li {
   display: inline;
-  text-align: center;
 }
 
 nav ul li a {
-  font-family: 'Roboto', sans-serif;
-  text-decoration: inherit;
-  text-align: inherit;
-  color: #692C4F;
   display: inline-block;
-  width: 33%;
-  padding: .75rem 0;
-  margin: 0;
+  width: 25%;
   text-decoration: none;
   cursor: pointer;
-  border: 0;
-  padding: 0;
-  box-sizing: inherit;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: inherit;
-  text-align: inherit;
   line-height: 1.7em;
-  letter-spacing: 0;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 16px;
+  font-size: 1.1em;
 }
+
 
 #nav-one:hover ~ hr {
   margin-left: 0;
 }
-
 #nav-two:hover ~ hr {
-  margin-left: 33%;
+  margin-left: 25%;
 }
-
 #nav-three:hover ~ hr {
-  margin-left: 66%;
+  margin-left: 50%;
 }
-
+#nav-four:hover ~ hr {
+  margin-left: 75%;
+}
 #nav-hr.one {
   margin-left: 0;
 }
 #nav-hr.two {
-  margin-left: 33%;
+  margin-left: 25%;
 }
 #nav-hr.three {
-  margin-left: 66%;
+  margin-left: 50%;
+}
+#nav-hr.four {
+  margin-left: 75%;
 }
 
 #nav-hr {
   height: .15rem;
-  width: 33%;
+  width: 25%;
   margin: 0;
   background: #692C4F;
   border: none;
@@ -117,14 +93,30 @@ nav ul li a {
 
 @media only screen and (min-width: 760px) {
   #nav-wrapper {
-    max-width: 950px;
+    position: relative;
+    margin: 0 auto;
   }
   #nav-line-left {
     display: block;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 30%;
+    background: #692C4F;
+    height: 1px;
+    margin: 0;
+    border: none;
   }
-
   #nav-line-right {
     display: block;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 30%;
+    background: #692C4F;
+    height: 1px;
+    margin: 0;
+    border: none;
   }
 }
 
@@ -170,6 +162,10 @@ nav ul li a {
 
 }
 
+.porfolio-tile {
+  width: 100%;
+}
+
 /*Footer*/
 #footer-icons {
   display: none;
@@ -183,7 +179,11 @@ nav ul li a {
 }
 @media only screen and (min-width: 760px) {
   #footer {
-    
+    margin: 0 auto;
+    padding: 5px;
+    border-top: 1px dashed;
+    margin-top: 50px;
+    margin-bottom: 35px;
   }
 
   #footer-icons {

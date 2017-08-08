@@ -1,5 +1,5 @@
 import React from 'react';
-import {GridList, GridTile} from 'material-ui/GridList';
+import { Grid, Row, Col } from 'react-bootstrap';
 import IconButton from 'material-ui/IconButton';
 import Subheader from 'material-ui/Subheader';
 import StarBorder from 'material-ui/svg-icons/toggle/star-border';
@@ -42,19 +42,15 @@ class Home extends React.Component {
 
   render() {
     return (
-      <GridList
-        cellHeight={300}
-        cols={3}
-        padding={30}
-      >
-        {tilesData.map((tile) => (
-          <GridTile
-            key={tile.id}
-          >
-            <img src={tile.img} />
-          </GridTile>
-        ))}
-      </GridList>
+      <Row>
+          {
+            tilesData.map((tile) => (
+            <Col xs={12} sm={4} key={tile.id}>
+              <img src={tile.img} className="porfolio-tile"/>
+            </Col>
+          ))
+          }
+      </Row>
     );
   }
 }

@@ -12,8 +12,11 @@ class Nav extends React.Component {
       case '/resume':
         active = "two";
         break;
-      case '/contact':
+      case '/blog':
         active = "three";
+        break;
+      case '/contact':
+        active = "four";
         break;
     }
 
@@ -37,6 +40,11 @@ class Nav extends React.Component {
             </a>
           </li>
           <li id="nav-three">
+            <a href="/blog">
+              BLOG
+            </a>
+          </li>
+          <li id="nav-four">
             <a href="/contact">
               CONTACT
             </a>

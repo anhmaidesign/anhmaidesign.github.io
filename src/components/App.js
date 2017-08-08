@@ -4,6 +4,7 @@ import Nav from './Nav';
 import PageNotFound from './PageNotFound';
 import Home from './Home';
 import Resume from './Resume';
+import Blog from './Blog';
 import Contact from './Contact';
 import Footer from './Footer';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -13,7 +14,6 @@ import Avatar from 'material-ui/Avatar';
 import { Tabs, Tab} from 'material-ui/Tabs';
 import {deepOrange500} from 'material-ui/styles/colors'
 import v from '../styles/variables';
-import s from '../styles/app.style';
 
 injectTapEventPlugin();
 
@@ -29,29 +29,40 @@ export default function App() {
 
   return (
     <MuiThemeProvider muiTheme={muiTheme}>
-      <div id="app">
-        <div style={s.logo}>
-          <Avatar backgroundColor={'transparent'}
-            size={ 145 }
-            src={'https://res.cloudinary.com/dlz9ujl2i/image/upload/v1499748764/AM_logo-02_ivz8f5.png'} />
-          <div style={s.logoName}>ANH HOAI MAI</div>
-        </div>
-        <div id="nav-wrapper">
-          <hr id="nav-line-left" style={s.navLineLeft}/>
-          <hr id="nav-line-right" style={s.navLineRight}/>
-          <div style={s.nav}>
-            <Nav/>
+      <div className="container">
+        <div className="row">
+          <div className="col-xs-12">
+            <div id="logo">
+              <Avatar backgroundColor={'transparent'}
+                size={ 145 }
+                src={'http://res.cloudinary.com/anhmaidesign/image/upload/v1502161388/Web_logo_kyeifn.png'} />
+              <div id="logo-name">ANH HOAI MAI</div>
+            </div>
           </div>
         </div>
-        <div style={s.container}>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/contact" component={Contact} />
-            <Route component={PageNotFound} />
-          </Switch>
+        <div className="row">
+          <div className="col-xs-12">
+            <div id="nav-wrapper">
+              <hr id="nav-line-left"/>
+              <hr id="nav-line-right"/>
+              <div>
+                <Nav/>
+              </div>
+            </div>
+          </div>
         </div>
-        <Footer/>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/contact" component={Contact} />
+          <Route component={PageNotFound} />
+        </Switch>
+        <div className="row">
+          <div className="col-xs-12">
+            <Footer/>
+          </div>
+        </div>
       </div>
     </MuiThemeProvider>
   );
