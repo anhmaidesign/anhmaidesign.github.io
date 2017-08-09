@@ -8,40 +8,40 @@ import Modal from './Modal';
 
 const tilesData = [
   {
-    img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
+    img: 'files/sam-cover.jpg',
     id: '1',
-    title: 'Project 1',
-    info: 'SAM Project'
+    title: 'Seattle Art Museum',
+    info: 'SAM Wayfinding posters'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
     id: '2',
     title: 'Project 2',
-    info: 'SAM Project'
+    info: 'Coming soon'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
     id: '3',
     title: 'Project 3',
-    info: 'SAM Project'
+    info: 'Coming soon'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
     id: '4',
     title: 'Project 4',
-    info: 'SAM Project'
+    info: 'Coming soon'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
     id: '5',
     title: 'Project 5',
-    info: 'SAM Project'
+    info: 'Coming soon'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
     id: '6',
     title: 'Project 6',
-    info: 'SAM Project'
+    info: 'Coming soon'
   },
 ];
 
@@ -53,11 +53,18 @@ class Home extends React.Component {
       isOpenModal: false
     }
     this.handleClickTile = this.handleClickTile.bind(this);
+    this.handleCloseModal = this.handleCloseModal.bind(this);
   }
+
   handleClickTile(id) {
     this.setState({
       isOpenModal: true,
-      openModal: id
+    })
+  }
+
+  handleCloseModal() {
+    this.setState({
+      isOpenModal: false
     })
   }
 
@@ -71,7 +78,7 @@ class Home extends React.Component {
             </Col>
           ))
           }
-          <Modal isOpen={this.state.isOpenModal}/>
+          <Modal isOpen={this.state.isOpenModal} onClose={this.handleCloseModal}/>
       </Row>
     );
   }
