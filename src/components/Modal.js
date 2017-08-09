@@ -42,8 +42,15 @@ class Modal extends React.Component {
 
   updateDimensions() {
     let windowWidth = $(window).width();
+    let pdfWidth = (windowWidth - 250) * this.state.scale;
 
-    this.setState({ pdfWidth: (windowWidth - 250) * this.state.scale });
+    if (windowWidth < 760) {
+      pdfWidth = (windowWidth - 30) * this.state.scale;
+    }
+
+    this.setState({ 
+      pdfWidth: pdfWidth
+    });
   }
 
   componentWillMount() {
