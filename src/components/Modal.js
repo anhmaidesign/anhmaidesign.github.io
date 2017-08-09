@@ -1,7 +1,7 @@
 import React from 'react';
 import IconButton from 'material-ui/IconButton';
 import FontIcon from 'material-ui/FontIcon';
-import ReactPDF from 'react-pdf';
+import ReactPDF from 'react-pdf/build/entry.webpack'
 import $ from 'jquery';
 
 class Modal extends React.Component {
