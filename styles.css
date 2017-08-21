@@ -115,7 +115,7 @@ nav ul li a {
     position: absolute;
     top: 15px;
     left: 0;
-    width: 30%;
+    width: 20%;
     background: #692C4F;
     height: 1px;
     margin: 0;
@@ -127,12 +127,21 @@ nav ul li a {
     position: absolute;
     top: 15px;
     right: 0;
-    width: 30%;
+    width: 20%;
     background: #692C4F;
     height: 1px;
     margin: 0;
     border: none;
     opacity: 0.8;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #nav-line-left {
+    width: 30%;
+  }
+  #nav-line-right {
+    width: 30%;
   }
 }
 
@@ -296,6 +305,7 @@ nav ul li a {
 }
 .portfolio-img-page {
   width: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .resume-title {
   font-weight: 500;

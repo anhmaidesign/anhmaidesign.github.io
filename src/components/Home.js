@@ -14,11 +14,11 @@ const tilesData = [
     info: 'SAM Wayfinding posters'
   },
   {
-    img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
+    img: 'files/dp-cover.jpg',
     id: '2',
-    link: '/sam',
-    title: 'Project 2',
-    info: 'Coming soon'
+    link: '/dp',
+    title: 'First Place School',
+    info: 'The Story of Digital Printing'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
