@@ -7,21 +7,22 @@ import Resume from './Resume';
 import Blog from './Blog';
 import Contact from './Contact';
 import Footer from './Footer';
+
+import SAM from './portfolios/SAM';
+
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import Avatar from 'material-ui/Avatar';
 import { Tabs, Tab} from 'material-ui/Tabs';
 import {deepOrange500} from 'material-ui/styles/colors'
-import v from '../styles/variables';
 
 injectTapEventPlugin();
 
 const muiTheme = getMuiTheme({
   palette: {
-    primary1Color: v.textColor,
-    textColor: v.textColor,
-    accent1Color: deepOrange500
+    primary1Color: '#692C4F',
+    textColor: '#692C4F'
   }
 });
 
@@ -56,6 +57,7 @@ export default function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/sam" component={SAM} />
           <Route component={PageNotFound} />
         </Switch>
         <div className="row">

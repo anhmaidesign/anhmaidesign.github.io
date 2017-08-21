@@ -7,7 +7,7 @@ class Tile extends React.Component {
   }
 
   handleClick() {
-    this.props.onClick(this.props.data.id)
+    this.props.onClick(this.props.data.link)
   }
 
   render() {

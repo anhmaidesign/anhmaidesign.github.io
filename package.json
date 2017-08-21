@@ -1,18 +1,16 @@
 {
-  "name": "spa-github-pages",
-  "version": "5.0.0",
+  "name": "anhmaidesign",
+  "version": "0.0.1",
   "private": true,
-  "description": "Single Page Apps for GitHub Pages",
+  "description": "Anh Mai's personal website",
   "scripts": {
     "start": "webpack-dev-server --devtool eval-source-map --history-api-fallback",
     "build": "webpack -p"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rafrex/spa-github-pages.git"
+    "type": "git"
   },
-  "author": "Rafael Pedicini <code@rafrex.com>",
-  "license": "MIT",
+  "author": "Anh Mai",
   "dependencies": {
     "jquery": "^3.2.1",
     "material-ui": "^0.18.6",
@@ -21,7 +19,6 @@
     "react-bootstrap": "^0.31.1",
     "react-dom": "^15.5.4",
     "react-interactive": "^0.6.5",
-    "react-pdf": "^1.8.3",
     "react-router-dom": "^4.1.1",
     "react-tap-event-plugin": "^2.0.0"
   },

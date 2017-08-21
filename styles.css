@@ -5,6 +5,9 @@ html, body {
   font-weight: 300;
   background: #FCFCF5;
 }
+.text-center {
+  text-align: center;
+}
 
 /*Logo*/
 #logo {
@@ -262,65 +265,43 @@ nav ul li a {
           transition-delay: 0.25s;
 }
 
-/*Modal*/
-.modal-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 999;
+/*Porfolio*/
+.portfolio {
+  padding: 15px 0;
+  font-family: 'Avenir', 'Roboto', sans-serif;
 }
 
-.modal-content {
-  background: #FCFCF5;
-  opacity: 1;
-  padding: 5px;
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  right: 10px;
-  left: 10px;
+.portfolio-row {
+  display: flex;
+  flex-direction: row;
+}
+.portfolio-row > [class*=" portfolio-vertical-align"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.modal-body {
-  overflow-y: auto;
-  height: calc(100% - 50px);
+.portfolio-left-col {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+.portfolio-right-col {
+  padding: 15px 0;
+  border-top: 1px dashed #692C4F;
+}
+.portfolio-title {
   text-align: center;
-}
-
-.modal-footer {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  left: 10px;
-  text-align: center;
-}
-.modal-title {
-  font-size: 1.8em;
+  text-transform: uppercase;
+  font-size: 3em;
   font-weight: 500;
 }
-.modal-close {
-  position: absolute;
-  top: 0;
-  right: 0;
+.portfolio-subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 10px 0;
 }
-
-@media only screen and (min-width: 760px) {
-  .modal-content {
-    padding: 25px;
-    top: 30px;
-    bottom: 30px;
-    right: 100px;
-    left: 100px;
-  }
-
-  .modal-body {
-    height: calc(100% - 50px);
-  }
-}
-
 /*Footer*/
 #footer-icons {
   display: none;

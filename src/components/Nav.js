@@ -41,7 +41,7 @@ class Nav extends React.Component {
           </li>
           <li id="nav-three">
             <a href="/blog">
-              WRITTING
+              WRITING
             </a>
           </li>
           <li id="nav-four">

@@ -1,5 +1,4 @@
 import React from 'react';
-import v from '../styles/variables';
 import IconButton from 'material-ui/IconButton';
 import FontIcon from 'material-ui/FontIcon';
 import TextField from 'material-ui/TextField';
