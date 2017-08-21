@@ -267,18 +267,8 @@ nav ul li a {
 
 /*Porfolio*/
 .portfolio {
-  padding: 15px 0;
+  padding: 10px 0;
   font-family: 'Avenir', 'Roboto', sans-serif;
-}
-
-.portfolio-row {
-  display: flex;
-  flex-direction: row;
-}
-.portfolio-row > [class*=" portfolio-vertical-align"] {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .portfolio-left-col {
@@ -287,21 +277,50 @@ nav ul li a {
   font-size: 1.1em;
 }
 .portfolio-right-col {
-  padding: 15px 0;
+  padding: 10px 0;
   border-top: 1px dashed #692C4F;
 }
 .portfolio-title {
   text-align: center;
   text-transform: uppercase;
-  font-size: 3em;
+  font-size: 1.8em;
   font-weight: 500;
 }
 .portfolio-subtitle {
   text-align: center;
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.1em;
   margin: 10px 0;
 }
+.resume-title {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+@media only screen and (min-width: 760px) {
+  .portfolio {
+    padding: 15px 0;
+  }
+  .portfolio-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .portfolio-row > [class*=" portfolio-vertical-align"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .portfolio-right-col {
+    padding: 15px 0;
+  }
+  .portfolio-title {
+    font-size: 3em;
+  }
+  .portfolio-subtitle {
+    font-size: 1.5em;
+  }
+}
+
 /*Footer*/
 #footer-icons {
   display: none;
