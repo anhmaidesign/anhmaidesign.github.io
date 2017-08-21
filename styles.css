@@ -294,6 +294,9 @@ nav ul li a {
   font-size: 1.1em;
   margin: 10px 0;
 }
+.portfolio-img-page {
+  width: 100%;
+}
 .resume-title {
   font-weight: 500;
   font-size: 1.1em;

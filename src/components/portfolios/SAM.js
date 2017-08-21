@@ -1,4 +1,21 @@
 import React from 'react';
+import IconButton from 'material-ui/IconButton';
+import FontIcon from 'material-ui/FontIcon';
+import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
+import Back from 'material-ui/svg-icons/navigation/arrow-back';
+import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
+
+const styles = {
+  mediumIcon: {
+    width: 48,
+    height: 48,
+  },
+  medium: {
+    width: 96,
+    height: 96,
+    padding: 24,
+  }
+};
 
 class SAM extends React.Component {
   constructor(props) {
@@ -119,6 +136,34 @@ class SAM extends React.Component {
               Illustrator, InDesign
               </p>
             </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-4">
+            <img className="portfolio-img-page" src="files/sam1.png"/>
+          </div>
+          <div className="col-xs-12 col-sm-4">
+            <img className="portfolio-img-page" src="files/sam2.png"/>
+          </div>
+          <div className="col-xs-12 col-sm-4">
+            <img className="portfolio-img-page" src="files/sam3.png"/>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+        <div className="col-xs-4" style={{textAlign: 'left'}}>
+            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} href={"/sam"} title="Previous project">
+              <Back/>
+            </IconButton>
+          </div>
+          <div className="col-xs-4" style={{textAlign: 'center'}}>
+            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} target="_blank" href={"files/anhmai-SAM-posters.pdf"} title="Download">
+              <PDF/>
+            </IconButton>
+          </div>
+          <div className="col-xs-4" style={{textAlign: 'right'}}>
+            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} href={"/sam"} title="Next Project">
+              <Forward/>
+            </IconButton>
           </div>
         </div>
       </div>
