@@ -68,7 +68,7 @@ class Resume extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <div className="row">
+              <div className="row portfolio-row">
                 <div className="col-xs-12 col-sm-12">
                   <div className="resume-title">
                     UX/UI Design
@@ -76,7 +76,7 @@ class Resume extends React.Component {
                   <p>User Flowchart, User Research & Usability, Typography, Interface Design, Visual Design, Information Architecture, Rapid Protyping, Wire-framing, Facilitate Service Design</p>
                 </div>
               </div>
-              <div className="row">
+              <div className="row portfolio-row">
                 <div className="col-xs-12 col-sm-12">
                   <div className="resume-title">
                     Web Design
@@ -84,7 +84,7 @@ class Resume extends React.Component {
                   <p>HTML & CSS, JavaScript, Bootstrap, Responsive Design, Mobile Design, Color Theory, Layout Design</p>
                 </div>
               </div>
-              <div className="row">
+              <div className="row portfolio-row">
                 <div className="col-xs-12 col-sm-12">
                   <div className="resume-title">
                     Motion Design
@@ -92,7 +92,7 @@ class Resume extends React.Component {
                   <p>Understanding Of Animation, Color theory, Typography</p>
                 </div>
               </div>
-              <div className="row">
+              <div className="row portfolio-row">
                 <div className="col-xs-12 col-sm-12">
                   <div className="resume-title">
                     Graphic Design
@@ -100,7 +100,7 @@ class Resume extends React.Component {
                   <p>Layout Design, Poster Design, Branding, Color theory, Typography, Wayfinding Design</p>
                 </div>
               </div>
-              <div className="row">
+              <div className="row portfolio-row">
                 <div className="col-xs-12 col-sm-12">
                   <div className="resume-title">
                     Tools

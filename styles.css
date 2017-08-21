@@ -270,7 +270,9 @@ nav ul li a {
   padding: 10px 0;
   font-family: 'Avenir', 'Roboto', sans-serif;
 }
-
+.portfolio-row {
+  margin-bottom: 15px;
+}
 .portfolio-left-col {
   font-weight: 600;
   text-transform: uppercase;
