@@ -4,6 +4,7 @@ import FontIcon from 'material-ui/FontIcon';
 import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
 import Back from 'material-ui/svg-icons/navigation/arrow-back';
 import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
+import FlatButton from 'material-ui/FlatButton';
 
 const styles = {
   mediumIcon: {
@@ -149,21 +150,32 @@ class SAM extends React.Component {
             <img className="portfolio-img-page" src="files/sam3.png"/>
           </div>
         </div>
-        <div className="row portfolio-row">
-        <div className="col-xs-4" style={{textAlign: 'left'}}>
-            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} title="Previous project" disabled={true}>
-              <Back/>
-            </IconButton>
+        <div className="row portfolio-row portfolio-control">
+          <div className="col-xs-12 col-sm-4" style={{textAlign: 'left'}}>
+            <FlatButton
+              label="Back"
+              labelPosition="after"
+              disabled={true}
+              icon={<Back />}
+            />
           </div>
-          <div className="col-xs-4" style={{textAlign: 'center'}}>
-            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} target="_blank" href={"files/anhmai-SAM-posters.pdf"} title="Download">
-              <PDF/>
-            </IconButton>
+          <div className="col-xs-12 col-sm-4" style={{textAlign: 'center'}}>
+            <FlatButton
+              label="Download"
+              labelPosition="after"
+              primary={true}
+              href={"files/anhmai-SAM-posters.pdf"}
+              icon={<PDF />}
+            />
           </div>
-          <div className="col-xs-4" style={{textAlign: 'right'}}>
-            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} href={"/dp"} title="The Story of Digital Printing">
-              <Forward/>
-            </IconButton>
+          <div className="col-xs-12 col-sm-4" style={{textAlign: 'right'}}>
+            <FlatButton
+              label="The Story of Digital Printing"
+              labelPosition="before"
+              primary={true}
+              href={"/dp"}
+              icon={<Forward />}
+            />
           </div>
         </div>
       </div>

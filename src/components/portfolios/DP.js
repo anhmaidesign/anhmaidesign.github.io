@@ -4,6 +4,7 @@ import FontIcon from 'material-ui/FontIcon';
 import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
 import Back from 'material-ui/svg-icons/navigation/arrow-back';
 import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
+import FlatButton from 'material-ui/FlatButton';
 
 const styles = {
   mediumIcon: {
@@ -186,21 +187,34 @@ class DP extends React.Component {
             <img className="portfolio-img-page" src="files/dp9.jpg"/>
           </div>
         </div>
-        <div className="row portfolio-row">
-        <div className="col-xs-4" style={{textAlign: 'left'}}>
-            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} href={"/sam"} title="Wayfinding posters">
-              <Back/>
-            </IconButton>
+        <div className="row portfolio-row portfolio-control">
+          <div className="col-xs-12 col-sm-4" style={{textAlign: 'left'}}>
+            <FlatButton
+              label="Wayfinding posters"
+              href={"/sam"}
+              labelPosition="after"
+              primary={true}
+              icon={<Back />}
+            />
           </div>
-          <div className="col-xs-4" style={{textAlign: 'center'}}>
-            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} target="_blank" href={"files/anhmai-digital-printing-book.zip"} title="Download">
-              <PDF/>
-            </IconButton>
+          <div className="col-xs-12 col-sm-4" style={{textAlign: 'center'}}>
+            <FlatButton
+              label="Download"
+              labelPosition="after"
+              primary={true}
+              target="_blank"
+              href={"files/anhmai-digital-printing-book.zip"}
+              icon={<PDF />}
+            />
           </div>
-          <div className="col-xs-4" style={{textAlign: 'right'}}>
-            <IconButton iconStyle={styles.mediumIcon} style={styles.medium} touch={true} title="Next Project" disabled={true}>
-              <Forward/>
-            </IconButton>
+          <div className="col-xs-12 col-sm-4" style={{textAlign: 'right'}}>
+            <FlatButton
+              label="Up Next"
+              labelPosition="before"
+              disabled={true}
+              href={"/dp"}
+              icon={<Forward />}
+            />
           </div>
         </div>
       </div>

@@ -307,6 +307,9 @@ nav ul li a {
   width: 100%;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+.portfolio-control {
+  padding-top: 35px;
+}
 .resume-title {
   font-weight: 500;
   font-size: 1.1em;
