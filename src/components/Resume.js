@@ -8,11 +8,6 @@ class Resume extends React.Component {
   render() {
     return (
       <div className="portfolio">
-        <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
-            <div className="portfolio-title">Anh Mai</div>
-          </div>
-        </div>
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -20,17 +15,16 @@ class Resume extends React.Component {
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
+            <div>
               <div className="row portfolio-row">
                 <div className="col-xs-9 col-sm-9">
                   <div className="resume-title">
                     The Art Institute of Seattle
                   </div>
-                  <p>Bachelor of Fine Art</p>
-                  <p>Graphic and Web Design</p>
+                  <p className="resume-subtitle">Bachelor of Fine Art (BFA), Graphic and Web Design</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>2016-2018</p>
+                  <p>2016 - 2018</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -38,8 +32,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Seattle Central College
                   </div>
-                  <p>Associate of Art Degree</p>
-                  <p>Communication concentratede</p>
+                  <p className="resume-subtitle">Associate of Art (AA), Communication</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>03/2014</p>
@@ -50,8 +43,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Martin College
                   </div>
-                  <p>Associate of Art</p>
-                  <p>Business Management</p>
+                  <p className="resume-subtitle">Associate of Art (AA), Business Management</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>04/2012</p>
