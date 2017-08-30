@@ -165,6 +165,7 @@ class SAM extends React.Component {
               labelPosition="after"
               primary={true}
               href={"files/anhmai-SAM-posters.pdf"}
+              target="_blank"
               icon={<PDF />}
             />
           </div>

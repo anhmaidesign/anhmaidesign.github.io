@@ -35,10 +35,12 @@ export default function App() {
         <div className="row">
           <div className="col-xs-12">
             <div id="logo">
-              <Avatar backgroundColor={'transparent'}
-                size={ 145 }
-                src={'http://res.cloudinary.com/anhmaidesign/image/upload/v1502161388/Web_logo_kyeifn.png'} />
-              <div id="logo-name">ANH HOAI MAI</div>
+              <a href="/">
+                <Avatar backgroundColor={'transparent'}
+                  size={ 120 }
+                  src={'http://res.cloudinary.com/anhmaidesign/image/upload/v1502161388/Web_logo_kyeifn.png'} />
+                <div id="logo-name">ANH HOAI MAI</div>
+              </a>
             </div>
           </div>
         </div>
