@@ -151,7 +151,7 @@ class SAM extends React.Component {
           </div>
         </div>
         <div className="row portfolio-row portfolio-control">
-          <div className="col-xs-12 col-sm-4" style={{textAlign: 'left'}}>
+          <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
               label="Back"
               labelPosition="after"
@@ -159,7 +159,7 @@ class SAM extends React.Component {
               icon={<Back />}
             />
           </div>
-          <div className="col-xs-12 col-sm-4" style={{textAlign: 'center'}}>
+          <div className="col-xs-12 col-sm-4 portfolio-download">
             <FlatButton
               label="Download"
               labelPosition="after"
@@ -169,7 +169,7 @@ class SAM extends React.Component {
               icon={<PDF />}
             />
           </div>
-          <div className="col-xs-12 col-sm-4" style={{textAlign: 'right'}}>
+          <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
               label="The Story of Digital Printing"
               labelPosition="before"

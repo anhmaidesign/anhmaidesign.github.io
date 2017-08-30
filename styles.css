@@ -340,6 +340,15 @@ nav ul li a {
   .portfolio-subtitle {
     font-size: 1.5em;
   }
+  .portfolio-back {
+    text-align: left;
+  }
+  .portfolio-download {
+    text-align: center;
+  }
+  .portfolio-next {
+    text-align: right;
+  }
 }
 
 /*Footer*/

@@ -1,4 +1,8 @@
 import React from 'react';
+import IconButton from 'material-ui/IconButton';
+import FontIcon from 'material-ui/FontIcon';
+import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
+import FlatButton from 'material-ui/FlatButton';
 
 class Resume extends React.Component {
   constructor(props) {
@@ -101,6 +105,18 @@ class Resume extends React.Component {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="row portfolio-row portfolio-control">
+          <div className="col-xs-12 col-sm-4 col-sm-offset-4" style={{textAlign: 'center'}}>
+            <FlatButton
+              label="Download"
+              labelPosition="after"
+              primary={true}
+              href={"files/anhmai-resume.pdf"}
+              target="_blank"
+              icon={<PDF />}
+            />
           </div>
         </div>
       </div>
