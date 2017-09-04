@@ -209,10 +209,10 @@ class DP extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Up Next"
+              label="Women in Tech Infographic"
               labelPosition="before"
-              disabled={true}
-              href={"/dp"}
+              primary={true}
+              href={"/wit"}
               icon={<Forward />}
             />
           </div>

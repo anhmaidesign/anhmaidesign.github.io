@@ -174,21 +174,20 @@ class WIT extends React.Component {
           </div>
         </div>
         <div className="row portfolio-row">
-          <div className="col-xs-12">
+          <div className="col-xs-12 col-sm-6">
             <img className="portfolio-img-page" src="files/wit1.png"/>
           </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12">
+          <div className="col-xs-12 col-sm-6">
             <img className="portfolio-img-page" src="files/wit2.png"/>
           </div>
         </div>
         <div className="row portfolio-row portfolio-control">
-          <div className="col-xs-12 col-sm-4" style={{textAlign: 'left'}}>
+          <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Back"
+              label="The Story of Digital Printing"
+              href={"/dp"}
               labelPosition="after"
-              disabled={true}
+              primary={true}
               icon={<Back />}
             />
           </div>
@@ -197,15 +196,16 @@ class WIT extends React.Component {
               label="Download"
               labelPosition="after"
               primary={true}
-              href={"files/anhmai-SAM-posters.pdf"}
+              target="_blank"
+              href={"files/anhmai-wit-info.pdf"}
               icon={<PDF />}
             />
           </div>
-          <div className="col-xs-12 col-sm-4" style={{textAlign: 'right'}}>
+          <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="The Story of Digital Printing"
+              label="Up Next"
               labelPosition="before"
-              primary={true}
+              disabled={true}
               href={"/dp"}
               icon={<Forward />}
             />
