@@ -340,9 +340,22 @@ nav ul li a {
   .portfolio-subtitle {
     font-size: 1.5em;
   }
+  .portfolio-back {
+    text-align: left;
+  }
+  .portfolio-download {
+    text-align: center;
+  }
+  .portfolio-next {
+    text-align: right;
+  }
 }
 
 /*Footer*/
+#footer {
+  margin-bottom: 25px;
+}
+
 #footer-icons {
   display: none;
 }
@@ -353,13 +366,14 @@ nav ul li a {
   float: right;
   font-size: 12px;
 }
+
 @media only screen and (min-width: 760px) {
   #footer {
     margin: 0 auto;
     padding: 5px;
     border-top: 1px dashed;
     margin-top: 50px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
   }
 
   #footer-icons {
