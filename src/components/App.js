@@ -10,6 +10,7 @@ import Footer from './Footer';
 
 import SAM from './portfolios/SAM';
 import DP from './portfolios/DP';
+import WIT from './portfolios/WIT';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -60,6 +61,7 @@ export default function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/sam" component={SAM} />
           <Route exact path="/dp" component={DP} />
+          <Route exact path="/wit" component={WIT} />
           <Route component={PageNotFound} />
         </Switch>
         <div className="row">

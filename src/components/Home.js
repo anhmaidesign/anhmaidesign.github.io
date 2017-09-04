@@ -21,11 +21,11 @@ const tilesData = [
     info: 'The Story of Digital Printing'
   },
   {
-    img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
+    img: 'files/wit-cover.png',
     id: '3',
-    link: '/sam',
-    title: 'Project 3',
-    info: 'Coming soon'
+    link: '/wit',
+    title: 'Girls Who Code',
+    info: 'Women in Tech Infographic'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
