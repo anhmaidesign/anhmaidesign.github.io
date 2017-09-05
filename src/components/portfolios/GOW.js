@@ -4,6 +4,7 @@ import FontIcon from 'material-ui/FontIcon';
 import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
 import Back from 'material-ui/svg-icons/navigation/arrow-back';
 import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
+import LinkIcon from 'material-ui/svg-icons/content/link';
 import FlatButton from 'material-ui/FlatButton';
 
 const styles = {
@@ -59,21 +60,7 @@ class GOW extends React.Component {
               </p>
             </div>
           </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              PURPOSE
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              The purpose of this project is to promote summer programs to high school girls to learn coding and get exposure to tech jobs.
-              </p>
-            </div>
-          </div>
-        </div>
+        </div>        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -132,6 +119,99 @@ class GOW extends React.Component {
             <div className="portfolio-right-col">
               <p>
               HTML, CSS, JavaScript, Bootstrap Framework, Paper protyping, Wireframe, Illustrator, InDesign
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row portfolio-control">
+          <div className="col-xs-12 col-sm-4 col-sm-offset-4 portfolio-download">
+            <FlatButton
+              label="Link To Final Design"
+              labelPosition="after"
+              primary={true}
+              target="_blank"
+              href={"http://anhmai-garden-of-wisdom.bitballoon.com/"}
+              icon={<LinkIcon />}
+            />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+            <div className="portfolio-group">Project Narrative</div>
+            <div className="portfolio-subgroup">Client & Product</div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Client
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <p>
+              Garden Of Wisdom ( GOW) is a family business based in Prescott, Arizona. Their goal is to formulate and stock unique and effective skin care products to better assist customers and their unique skin types in finding a happy while sustaining a high level of skin health.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Target Audiences
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <p>
+              The main target audience is women and perhaps men between the ages of 20 to 50 who are looking forward to having a healthy skin with affordable prices.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              My Task & Goal
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <p>
+              Understanding that GOW is just a family business, they do not have a big budget so the current website design confuses their customers and it does not look like they sell good quality products. In addition, if a customer wants to buy skin care to treat themselves, GOW is not a good choice for them because the user interface makes them feel uncomfortable and not welcoming. That is why this website needs to be fixed to gain more customers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+            <div className="portfolio-subgroup">Creative Brief</div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Current Problems
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <p>
+              The current GOW site has too many unnecessary features and lack of a clear message. Poor navigation bar confuses customers and slows down the shopping experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Solutions
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <p>
+              My site content will be based on the current Garden Of Wisdom (GWO) website. I will focus on the navigation bar and shopping features that will bring to customers more special information as well as guide customer to the page they want.
               </p>
             </div>
           </div>
