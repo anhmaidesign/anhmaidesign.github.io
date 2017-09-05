@@ -197,7 +197,7 @@ class WIT extends React.Component {
               labelPosition="after"
               primary={true}
               target="_blank"
-              href={"files/anhmai-wit-info.pdf"}
+              href={"files/anhmai_womenintech_infographic.pdf"}
               icon={<PDF />}
             />
           </div>
