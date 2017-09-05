@@ -123,8 +123,8 @@ class GOW extends React.Component {
             </div>
           </div>
         </div>
-        <div className="row portfolio-row portfolio-control">
-          <div className="col-xs-12 col-sm-4 col-sm-offset-4 portfolio-download">
+        <div className="row">
+          <div className="col-xs-12 portfolio-download">
             <FlatButton
               label="Link To Final Design"
               labelPosition="after"
