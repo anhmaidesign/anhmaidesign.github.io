@@ -31,7 +31,7 @@ const tilesData = [
     img: 'files/gow-cover.jpg',
     id: '4',
     link: '/gow',
-    title: 'Garden og Wisdom',
+    title: 'Garden of Wisdom',
     info: 'Web Application Proposal'
   },
   {

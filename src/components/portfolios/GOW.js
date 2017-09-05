@@ -146,7 +146,7 @@ class GOW extends React.Component {
               icon={<Back />}
             />
           </div>
-          <div className="col-xs-12 col-sm-4" style={{textAlign: 'center'}}>
+          <div className="col-xs-12 col-sm-4 portfolio-download">
             <FlatButton
               label="Download"
               labelPosition="after"
