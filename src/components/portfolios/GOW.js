@@ -18,7 +18,7 @@ const styles = {
   }
 };
 
-class WIT extends React.Component {
+class GOW extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -28,8 +28,8 @@ class WIT extends React.Component {
       <div className="portfolio">
         <div className="row">
           <div className="col-xs-12 col-sm-9 col-sm-offset-3">
-            <div className="portfolio-title">GIRLS WHO CODE</div>
-            <div className="portfolio-subtitle">WOMEN IN TECH INFOGRAPHIC</div>
+            <div className="portfolio-title">GARDEN OF WISDOM</div>
+            <div className="portfolio-subtitle">WEB APPLICATION PROPOSAL</div>
           </div>
         </div>
         <div className="row portfolio-row">
@@ -41,13 +41,7 @@ class WIT extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Girls Who Code (GWC) was founded by Reshma Saujani in 2012 who came up with the idea of creating the organization during her run for the United States Congress. It is a nonprofit organization which aims to support and increases the number of women in computer science.
-              </p>
-              <p>
-              Their mission is to run the summer programs which teach computing and programming skills to high school girls.
-              </p>
-              <p>
-              The summer programs provide free seven weeks for current 10th - 11th grade girls to learn coding and get exposure to tech jobs.
+              Garden Of Wisdom ( GOW) is a family business based in Prescott, Arizona. Their goal is to formulate and stock unique and effective skin care products to better assist customers and their unique skin types in finding a happy while sustaining a high level of skin health.
               </p>
             </div>
           </div>
@@ -55,13 +49,13 @@ class WIT extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              BACKGROUND
+              PROBLEM
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The Puget Sound Community school will give out 2018 summer program folders that includes several different pieces of information for returning students and new students. This flyer will be included in this folder.
+              The current Garden of Wisdow website has too many unnecessary features and lack a clear message. Its navigation bar confuses customers and slows down the shopping experience. The current website lacks a coherent feel and appears to be designed by half a dozen different people. The font and color choices do not have a consistency to convey a “family handmade” feeling.
               </p>
             </div>
           </div>
@@ -83,50 +77,19 @@ class WIT extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              CLIENT EXPECTATION
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Convert statistics into an engaging and educational Infographic. Highlighting the reality of women working in technology to call more students to participate in the summer program.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
               TARGET AUDIENCE
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              High school students
+              Aged 20-55
               </p>
               <p>
-              Undergradute students
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              STRATEGIES
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Show information visually with graphs, charts and icons.
+              Women and men with skin concerns but skews 85/15
               </p>
               <p>
-              Simplified layout to present information clearly.
-              </p>
-              <p>
-              Information is factual and reliable, current and helpful.
+              Middle classes
               </p>
             </div>
           </div>
@@ -134,13 +97,13 @@ class WIT extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              PROJECT STYLE
+              PROJECT CONCEPT
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Design and present the statistics visually. Layout the content in a way that helps students understand and remember by using contrasting colors, readable typography and a well-structured layout.
+              The core user value is to make the website functional with a great design and to appeal to its most important audience which is women in their 20s. To analyze every page and bring things closer to GOW manager's sale goal.
               </p>
             </div>
           </div>
@@ -154,7 +117,7 @@ class WIT extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              A both size portrait flyer size 6.6 x 11 inches
+              Develop and design a unique skin care website that would satisfy every customer who visits the page with just a few clicks instead of overwhelming.
               </p>
             </div>
           </div>
@@ -168,24 +131,16 @@ class WIT extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Illustrator, InDesign
+              HTML, CSS, JavaScript, Bootstrap Framework, Paper protyping, Wireframe, Illustrator, InDesign
               </p>
             </div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-6">
-            <img className="portfolio-img-page" src="files/wit1.png"/>
-          </div>
-          <div className="col-xs-12 col-sm-6">
-            <img className="portfolio-img-page" src="files/wit2.png"/>
           </div>
         </div>
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="The Story of Digital Printing"
-              href={"/dp"}
+              label="Women in Tech Infographic"
+              href={"/wit"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -197,15 +152,15 @@ class WIT extends React.Component {
               labelPosition="after"
               primary={true}
               target="_blank"
-              href={"files/anhmai_womenintech_infographic.pdf"}
+              href={"files/anhmai-garden-of-wisdom.pdf"}
               icon={<PDF />}
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Garden of Wisdom"
+              label="Up Next"
               labelPosition="before"
-              href={"/gow"}
+              disabled={true}
               icon={<Forward />}
             />
           </div>
@@ -215,4 +170,4 @@ class WIT extends React.Component {
   }
 }
 
-export default WIT;
+export default GOW;

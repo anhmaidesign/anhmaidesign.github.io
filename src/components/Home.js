@@ -28,11 +28,11 @@ const tilesData = [
     info: 'Women in Tech Infographic'
   },
   {
-    img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
+    img: 'files/gow-cover.jpg',
     id: '4',
-    link: '/sam',
-    title: 'Project 4',
-    info: 'Coming soon'
+    link: '/gow',
+    title: 'Garden og Wisdom',
+    info: 'Web Application Proposal'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
