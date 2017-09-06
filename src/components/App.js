@@ -20,6 +20,10 @@ import Avatar from 'material-ui/Avatar';
 import { Tabs, Tab} from 'material-ui/Tabs';
 import {deepOrange500} from 'material-ui/styles/colors'
 
+import FloatingActionButton from 'material-ui/FloatingActionButton';
+import ArrowUpward from 'material-ui/svg-icons/navigation/arrow-upward';
+import ScrollUp from 'react-scroll-up'
+
 injectTapEventPlugin();
 
 const muiTheme = getMuiTheme({
@@ -73,6 +77,11 @@ export default function App() {
             <Footer/>
           </div>
         </div>
+        <ScrollUp showUnder={160} style={{right: '20px'}}>
+          <FloatingActionButton>
+            <ArrowUpward />
+          </FloatingActionButton>
+        </ScrollUp>
       </div>
     </MuiThemeProvider>
   );

@@ -216,6 +216,46 @@ class GOW extends React.Component {
             </div>
           </div>
         </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Measure Success
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <p>
+              The success of this site will be measured based on following criteria:
+              </p>
+              <p>
+              <b>Profit:</b> The difference between the cost spent to re-design the site and the revenue after finishing
+              </p>
+              <p>
+              <b>Timing:</b> By enter to the site, users will have their products right away without wasting time.
+              </p>
+              <p>
+              <b>Quality:</b> After throughout testing and quality assurance, I will evaluate whether the main target was achieved in following terms: Is the new site difficult to use? Are they satisfy with the site?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+            <div className="portfolio-subgroup">Competitive Analysis</div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Competitors
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <img className="portfolio-img-page" src="files/gow-competitive-analysis.png"/>
+            </div>
+          </div>
+        </div>
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
