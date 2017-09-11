@@ -368,28 +368,63 @@ class GOW extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" src="files/gow_sketches/Sketch1.jpg"/>
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch1.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" src="files/gow_sketches/Sketch2.jpg"/>
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch2.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" src="files/gow_sketches/Sketch3.jpg"/>
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch3.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" src="files/gow_sketches/Sketch4.jpg"/>
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch4.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" src="files/gow_sketches/Sketch5.jpg"/>
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch5.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" src="files/gow_sketches/Sketch6.jpg"/>
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch6.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" src="files/gow_sketches/Sketch7.jpg"/>
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch7.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" src="files/gow_sketches/Sketch8.jpg"/>
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch8.jpg"/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Wireframes
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="col-xs-12 col-sm-6">
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/1.png"/>
+              </div>
+              <div className="col-xs-12 col-sm-6">
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/2.png"/>
+              </div>
+              <div className="col-xs-12 col-sm-6">
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/3.png"/>
+              </div>
+              <div className="col-xs-12 col-sm-6">
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/4.png"/>
+              </div>
+              <div className="col-xs-12 col-sm-6">
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/5.png"/>
+              </div>
+              <div className="col-xs-12 col-sm-6">
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/6.png"/>
+              </div>
+              <div className="col-xs-12 col-sm-6">
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/7.png"/>
+              </div>
+              <div className="col-xs-12 col-sm-6">
+                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/8.png"/>
               </div>
             </div>
           </div>
