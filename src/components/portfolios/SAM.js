@@ -5,6 +5,7 @@ import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
 import Back from 'material-ui/svg-icons/navigation/arrow-back';
 import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
 import FlatButton from 'material-ui/FlatButton';
+import ShareButton from '../ShareButton';
 
 const styles = {
   mediumIcon: {
@@ -179,6 +180,11 @@ class SAM extends React.Component {
             />
           </div>
         </div>
+        <ShareButton
+          url="http://anhmaidesign.com/sam"
+          title="Seattle Art Museum - Way finding posters"
+          description="Anh Mai's Design Portfolio for Seattle Art Museum"
+          picture="http://anhmaidesign.com/files/sam-cover.jpg"/>
       </div>
     )
   }

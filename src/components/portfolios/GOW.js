@@ -6,6 +6,9 @@ import Back from 'material-ui/svg-icons/navigation/arrow-back';
 import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
 import LinkIcon from 'material-ui/svg-icons/content/link';
 import FlatButton from 'material-ui/FlatButton';
+import ShareButton from '../ShareButton';
+import RaisedButton from 'material-ui/RaisedButton';
+
 import {
   Table,
   TableBody,
@@ -14,7 +17,6 @@ import {
   TableRow,
   TableRowColumn,
 } from 'material-ui/Table';
-
 
 const styles = {
   mediumIcon: {
@@ -132,20 +134,6 @@ class GOW extends React.Component {
             </div>
           </div>
         </div>
-      {/*
-        <div className="row">
-          <div className="col-xs-12 portfolio-download">
-            <FlatButton
-              label="Link To Final Design"
-              labelPosition="after"
-              primary={true}
-              target="_blank"
-              href={"http://anhmai-garden-of-wisdom.bitballoon.com/"}
-              icon={<LinkIcon />}
-            />
-          </div>
-        </div>
-        */}
         <div className="row">
           <div className="col-xs-12 col-sm-9 col-sm-offset-3">
             <div className="portfolio-subtitle">Project Narrative</div>
@@ -426,6 +414,18 @@ class GOW extends React.Component {
               <div className="col-xs-12 col-sm-6">
                 <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/8.png"/>
               </div>
+              <div className="col-xs-12">
+                <div style={{textAlign: 'center', marginTop: '50px', clear: 'both'}}>
+                  <RaisedButton
+                    label="Link To Final Design"
+                    labelPosition="after"
+                    primary={true}
+                    target="_blank"
+                    href={"http://anhmai-garden-of-wisdom.bitballoon.com/"}
+                    icon={<LinkIcon />}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -458,6 +458,11 @@ class GOW extends React.Component {
             />
           </div>
         </div>
+        <ShareButton
+          url="http://anhmaidesign.com/gow"
+          title="Garden of Wisdom - Web Application Proposal"
+          description="Anh Mai's Design Portfolio for Garden of Wisdom"
+          picture="http://anhmaidesign.com/files/gow-cover.jpg"/>
       </div>
     )
   }

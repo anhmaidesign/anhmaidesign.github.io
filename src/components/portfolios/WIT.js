@@ -5,6 +5,7 @@ import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
 import Back from 'material-ui/svg-icons/navigation/arrow-back';
 import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
 import FlatButton from 'material-ui/FlatButton';
+import ShareButton from '../ShareButton';
 
 const styles = {
   mediumIcon: {
@@ -210,6 +211,11 @@ class WIT extends React.Component {
             />
           </div>
         </div>
+        <ShareButton
+          url="http://anhmaidesign.com/wit"
+          title="Girls Who Code - Woman in tech Infographic"
+          description="Anh Mai's Design Portfolio for Girls Who Code"
+          picture="http://anhmaidesign.com/files/wit-cover.jpg"/>
       </div>
     )
   }
