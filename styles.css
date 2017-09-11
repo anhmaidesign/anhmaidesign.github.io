@@ -392,7 +392,8 @@ nav ul li a {
   font-size: 12px;
 }
 
-#share-group { 
+#share-group {
+  display: none;
   position: fixed; 
   left: 0;
   top: 50%; 
@@ -416,5 +417,8 @@ nav ul li a {
   #footer-text {
     margin-top: 12px;
     font-size: 14px;
+  }
+  #share-group {
+    display: block;
   }
 }
