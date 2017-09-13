@@ -42,11 +42,11 @@ const tilesData = [
     info: 'Motion Graphic - Stop Stress'
   },
   {
-    img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
+    img: 'files/hp-cover.png',
     id: '6',
-    link: '/sam',
-    title: 'Project 6',
-    info: 'Coming soon'
+    link: '/hp',
+    title: 'Hopper',
+    info: 'Flight Mobile App Proposal'
   },
 ];
 

@@ -199,9 +199,9 @@ class SS extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Up Next"
+              label="Flight Mobile App Proposal"
               labelPosition="before"
-              disabled={true}
+              href={"/hp"}
               icon={<Forward />}
             />
           </div>
