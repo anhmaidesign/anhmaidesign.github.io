@@ -392,10 +392,17 @@ nav ul li a {
   font-size: 12px;
 }
 
-#share-group { 
+#share-group {
+  right: 0;
+  bottom: 125px;
+  background: rgb(252, 252, 245);
+  border-left: 1px dashed;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  display: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   position: fixed; 
-  left: 0;
-  top: 50%; 
   z-index: 1000;
   padding: 5px 5px 5px 0;
 }
@@ -416,5 +423,13 @@ nav ul li a {
   #footer-text {
     margin-top: 12px;
     font-size: 14px;
+  }
+  #share-group {
+    right: auto;
+    left: 0;
+    top: 50%; 
+    bottom: auto;
+    border: 0;
+    display: block;
   }
 }
