@@ -146,11 +146,73 @@ class HP extends React.Component {
             </div>
           </div>
         </div>
+
         <div className="row">
           <div className="col-xs-12 col-sm-9 col-sm-offset-3">
             <div className="portfolio-subtitle">Project Narrative</div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Hopping Team Tasks
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <p><b>ANH MAI</b></p>
+                  <ul>
+                    <li><p>RESEARCH</p></li>
+                    <li><p>CONTENT STRATEGY</p></li>
+                    <li><p>COMPETITIVE ANALYSIS</p></li>
+                    <li><p>PERSONA</p></li>
+                    <li><p>UI DESIGN</p></li>
+                    <li><p>PAPER PROTOTYPE - FLIGHT PAGE</p></li>
+                    <li><p>WIREFRAME - FLIGHT PAGE</p></li>
+                    <li><p>PROTOTYPING</p></li>
+                    <li><p>USABILITY TESTING</p></li>
+                    <li><p>STYLE GUIDE</p></li>
+                    <li><p>CASE STUDY DOCUMENTATION</p></li>
+                    <li><p>LAYOUT DESIGN</p></li>
+                    <li><p>UX DESIGN</p></li>
+                  </ul>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <p><b>ELIZABETH GANGSTAD</b></p>
+                  <ul>
+                    <li><p>RESEARCH</p></li>
+                    <li><p>CONTENT STRATEGY</p></li>
+                    <li><p>COMPETITIVE ANALYSIS</p></li>
+                    <li><p>PERSONA</p></li>
+                    <li><p>UI DESIGN</p></li>
+                    <li><p>PAPER PROTOTYPE - HOME PAGE</p></li>
+                    <li><p>WIREFRAME - HOME PAGE</p></li>
+                    <li><p>PROTOTYPING</p></li>
+                    <li><p>USABILITY TESTING</p></li>
+                    <li><p>INTRODUCTION PARAGRAPH</p></li>
+                  </ul>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <p><b>CARLOS AVILA</b></p>
+                  <ul>
+                    <li><p>RESEARCH</p></li>
+                    <li><p>CONTENT STRATEGY</p></li>
+                    <li><p>USER SCENARIO</p></li>
+                    <li><p>PAPER PROTOTYPE - PAYMENT PAGE</p></li>
+                    <li><p>WIREFRAME - PAYMENT PAGE</p></li>
+                    <li><p>USABILITY TESTING</p></li>
+                    <li><p>FLOW CHART</p></li>
+                    <li><p>XD PROTOTYPING</p></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -725,6 +787,20 @@ when they rise.</li>
                 </div>
                 <div className="col-xs-12 col-sm-4">
                   <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn18.png"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12">
+                  <div style={{textAlign: 'center', marginTop: '50px', clear: 'both'}}>
+                    <RaisedButton
+                      label="Link To Adobe XD Prototype"
+                      labelPosition="after"
+                      primary={true}
+                      target="_blank"
+                      href={"https://xd.adobe.com/view/949de50a-4b9a-4edf-a16a-8908ee0990d9/"}
+                      icon={<LinkIcon />}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
