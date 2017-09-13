@@ -204,8 +204,8 @@ class HP extends React.Component {
                     <li><p>PAPER PROTOTYPE - PAYMENT PAGE</p></li>
                     <li><p>WIREFRAME - PAYMENT PAGE</p></li>
                     <li><p>USABILITY TESTING</p></li>
-                    <li><p>FLOW CHART</p></li>
                     <li><p>XD PROTOTYPING</p></li>
+                    <li><p>FLOW CHART</p></li>
                   </ul>
                 </div>
               </div>
