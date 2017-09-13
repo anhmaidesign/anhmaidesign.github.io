@@ -544,6 +544,7 @@ when they rise.</li>
             </div>
           </div>
         </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -556,7 +557,7 @@ when they rise.</li>
             </div>
           </div>
         </div>
-      {/*
+      
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -565,11 +566,171 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/hp-flow-chart2.png"/>
+              <div className="row">
+                <div className="col-xs-12 col-sm-6">
+                  <p><b>Participant Qualifications</b></p>
+                  <ul>
+                    <li><p>College students</p></li>
+                    <li><p>Existing Hopper users for updating testing and new potential customers</p></li>
+                    <li><p>Shopping for flight twice a year</p></li>
+                  </ul>
+                </div>
+                <div className="col-xs-12 col-sm-6">
+                  <p><b>Tasks</b></p>
+                  <ol>
+                    <li><p>You are a new customer who are searching for round trip flight from SEA to CHI from Sep 2 to Sep 15</p></li>
+                    <li><p>Select the cheapest flight</p></li>
+                    <li><p>Choose the flight and review your trip, then adding your card to make a payment</p></li>
+                  </ol>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-6">
+                  <p><b>Testing Scenario</b></p>
+                  <ul>
+                    <li><p>The resident of Seattle looking out of state for college to Chicago University.</p></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <p><b>Tasks #1</b></p>
+                  <p>You are a new customer who are searching for round trip flight from SEA to CHI from Sep 2 to Sep 15</p>
+                  <p><b>Testing Steps</b></p>
+                  <ul>
+                    <li><p>Open the app and land on the landing page</p></li>
+                    <li><p>Please enter the departure and destination to Seattle and Chicago</p></li>
+                    <li><p>Select round trip option</p></li>
+                    <li><p>Pick departure date as September 25th and 15th for returning</p></li>
+                    <li><p>Selecting one traveler</p></li>
+                    <li><p>Press search for the ticket</p></li>
+                  </ul>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <p><b>Tasks #2</b></p>
+                  <p>Select the cheapest flight</p>
+                  <p><b>Testing Steps</b></p>
+                  <ul>
+                    <li><p>Looking for the cheapest ticket and search under price tab</p></li>
+                    <li><p>Choose 6am-12pm nonstop flight with United airline for $200</p></li>
+                  </ul>
+                  <p>Under trip summary:</p>
+                  <ul>
+                    <li><p>Enter number on bags checked in: None</p></li>
+                    <li><p>Click "Select traveler and payment" button</p></li>
+                  </ul>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <p><b>Tasks #3</b></p>
+                  <p>Choose the flight and review your trip, then adding your card to make a payment</p>
+                  <p><b>Testing Steps</b></p>
+                  <ul>
+                    <li><p>Select "Add new user" to create a new account under "Jane Cruz"</p></li>
+                    <li><p>Fill the sign up form</p></li>
+                    <li><p>Add new payment card</p></li>
+                    <li><p>Select review payment button</p></li>
+                    <li><p>Review and press submit payment button</p></li>
+                    <li><p>To finalize purchase press "yes" to confirm</p></li>
+                    <li><p>Logo and "payment confirmed" page will appear</p></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      */}
+      
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Style Guide
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/sg1.png"/>
+              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/sg2.png"/>
+            </div>
+          </div>
+        </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Final Design
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn1.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn2.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn3.png"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn4.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn5.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn6.png"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn7.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn8.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn9.png"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn10.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn11.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn12.png"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn13.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn14.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn15.png"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn16.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn17.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn18.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
@@ -586,7 +747,7 @@ when they rise.</li>
               labelPosition="after"
               primary={true}
               target="_blank"
-              href={"files/anhmai-garden-of-wisdom.pdf"}
+              href={"files/hp/anhmai-hopper-casestudy.pdf"}
               icon={<PDF />}
             />
           </div>
