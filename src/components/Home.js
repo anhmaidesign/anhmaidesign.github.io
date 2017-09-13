@@ -35,11 +35,11 @@ const tilesData = [
     info: 'Web Application Proposal'
   },
   {
-    img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',
+    img: 'files/ss-cover.jpg',
     id: '5',
-    link: '/sam',
-    title: 'Project 5',
-    info: 'Coming soon'
+    link: '/ss',
+    title: 'The Art Institute of Seattle',
+    info: 'Motion Graphic - Stop Stress'
   },
   {
     img: 'https://walk-ons.com/uploads/special_images/Specials_coming_soon.jpg',

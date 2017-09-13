@@ -451,9 +451,9 @@ class GOW extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Up Next"
+              label="Stop Stress Motion Graphic"
               labelPosition="before"
-              disabled={true}
+              href={"/ss"}
               icon={<Forward />}
             />
           </div>
