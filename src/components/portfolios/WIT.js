@@ -119,7 +119,7 @@ girls to learn coding and get exposure to tech jobs.
               High school students
               </p>
               <p>
-              undergraduate students
+              Undergraduate students
               </p>
             </div>
           </div>
