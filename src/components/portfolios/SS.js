@@ -70,7 +70,10 @@ of their life.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              AIS creates an annual stress relief workshop that helps students connect and share their problems. The upcoming workshop is on Oct 4, 2017 and the "Stop Stress" motion graphic will be shown during the introduction section of the workshop.
+              AIS creates an annual stress relief workshop that help students connect
+and share their problems. The upcoming workshop is on Oct 4, 2017 and the
+“Stop Stress” motion graphic will be shown during the introduction section of
+the workshop.
               </p>
             </div>
           </div>
@@ -84,7 +87,9 @@ of their life.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The "Stop Stress" motion graphic will focus on raising awareness about stress and help AIS students understand the care of the school to the students and help their life much more manageable and happy.
+              The “Stop Stress” motion graphic will focus on raising awareness about stress
+and help AIS students understand the care of the school to the students and
+help their life much more manageable and happy.
               </p>
             </div>
           </div>
@@ -98,13 +103,13 @@ of their life.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              A motion graphic highlighting the problems.
+              A motion graphic highlighting the problems
               </p>
               <p>
-              Encouraging more AIS students participate in annual stress relief workshop.
+              Encouraging more AIS students participate in annual stress relief workshop 
               </p>
               <p>
-              Content is straightforward to understand and enjoyable for viewers.
+              Content is straightforward to understand and enjoyable for viewers
               </p>
             </div>
           </div>
@@ -126,6 +131,25 @@ of their life.
             </div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              PROJECT STYLE
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <p>
+              Comprehend problems to develop as well as convey the full message to the
+viewers. Minimalism is the goal for this project. Furthermore, by using only
+lines, shapes, striking colors and emotions to encourge more students realize
+their problems.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -140,24 +164,11 @@ of their life.
             </div>
           </div>
         </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              PROJECT STYLE
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Comprehend problems to develop as well as convey the full message to the viewers. Minimalism is the goal for this project. Furthermore, by using only lines, shapes, striking colors and emotions to encourge more students realize their problems before it’s too late.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              PROJECT TOOL
+              PROJECT TOOLS
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">

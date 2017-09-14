@@ -42,10 +42,15 @@ class SAM extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The Seattle Art Museum (commonly known as "SAM") is an art museum located in Seattle, Washington, USA. SAM brings creative collections, powerful exhibitions and dynamic programs to provide unique educational resources to benefit the Seattle area and beyond.
+              The Seattle Art Museum (commonly known as "SAM") is an art museum
+located in Seattle, Washington. SAM brings creative collections, powerful
+exhibitions and dynamic programs to provide unique educational resources
+to benefit the Seattle area and beyond.
               </p>
               <p>
-              SAM’s vision is connecting art to life and through art, SAM improves lives and engages diverse communities.Also, help people understand its unique power to inspire creative thinking which have a good effect to our live.
+              SAM’s vision is connecting art to life through art, SAM improves lives and
+engages diverse communities. Furthermore, helping people understand its
+unique power to inspire creative thinking, which can greatly affect our lives.
               </p>
             </div>
           </div>
@@ -59,7 +64,9 @@ class SAM extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              This project was launched to introduce the upcoming exhibit to everybody. It will be used as the wayfinding posters to introduce the collections are exhibited in the building.
+              This project was launched to introduce the upcoming exhibit. Wayfinding
+posters will introduce the collections that are exhibited in the building to
+the customers. 
               </p>
             </div>
           </div>
@@ -73,7 +80,13 @@ class SAM extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Three posters with different styles but convey the same message Wayfinding design should be success in guiding people Pictograms must expresses the soul and personality of the collections
+              Three posters with different styles but convey the same message.
+              </p>
+               <p>
+              The wayfinding design should be successful in guiding people.
+              </p>
+              <p>
+              Pictograms must express the soul and personality of the collections.
               </p>
             </div>
           </div>
@@ -107,7 +120,11 @@ class SAM extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Applying knowledge of design principles to create well-structured paths and regions of differing visual character. Equally important, focus on exploiting the collection features but still create a harmonious layout for poster to make the audience colect the key information. A wonderfully designed place presents itself to tourists and residents alike with a kind of intuitive ease
+              Applying knowledge of design principles to create well-structured paths and
+regions of differing visual character. Equally important, focus on exploiting
+the collection features but still create a harmonious layout for a poster to
+make the audience collect the key information. A wonderfully designed place
+presents itself to tourists and residents alike with a kind of intuitive ease.
               </p>
             </div>
           </div>
@@ -121,7 +138,8 @@ class SAM extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Three portrait poster in 11 x 17 inches with different styles including 12 collection pictograms for each poster
+              Three portrait posters in 11 x 17 inches with different styles including the
+collection pictograms.
               </p>
             </div>
           </div>
@@ -129,13 +147,13 @@ class SAM extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              PROJECT TOOL
+              PROJECT TOOLS
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Illustrator, InDesign
+              Sketches, Illustrator, InDesign
               </p>
             </div>
           </div>

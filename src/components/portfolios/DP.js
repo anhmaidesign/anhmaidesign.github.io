@@ -42,10 +42,18 @@ class DP extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The First Place organization was established in 1989 by a small group of educators and social workers who understood that homeless children were not in school and decided to accomplish something. The First Place organization joined as a 501 (c) (3) and became one of four Washington State sites through which homeless children attended to school (First Place, 2007).
+              The First Place organization was established in 1989 by a small group of
+educators and social workers who understood that homeless children were
+not in school and decided to help them.
               </p>
               <p>
-              The First Place’s vision is setting out to provide the services designed to give a student and family to address the arrangement of educational, physical, emotional, and environmental issues surrounding their current conditions.
+              The First Place organization became one of four Washington State sites
+through which homeless children attended to school (First Place, 2007).
+              </p>
+              <p>
+              The First Place’s vision is set out to provide the services designed to give a
+student and family to address the arrangement of educational, physical,
+emotional, and environmental issues surrounding their current conditions.
               </p>
             </div>
           </div>
@@ -59,7 +67,13 @@ class DP extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Digital printing is the most exciting thing that has happened to the printing industry in 30 years. However, with the development of technology, digital printing is no longer the best technology that belongs to the future of printing. Its purpose is to provide users with quality products as well as uniqueness. Likewise, this document will give an overview of the digital printing in a way that appeals to young people.
+              Digital printing is the most exciting thing that has happened to the printing
+industry in 30 years. However, with the development of technology, digital
+printing is no longer the best technology that belongs to the future of printing.
+              </p>
+              <p>
+              This project will give an overview of the digital printing in a way that appeals
+to young people.
               </p>
             </div>
           </div>
@@ -73,7 +87,13 @@ class DP extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Communication enough necessary educational information to the reader. Images and information are easily to adapt. Encourage readers explore more on article.
+              Communication enough necessary educational information to the reader.
+              </p>
+              <p>
+              Images and information are easy to adapt.
+              </p>
+              <p>
+              Encourage readers explore more on article.
               </p>
             </div>
           </div>
@@ -87,27 +107,13 @@ class DP extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
+              Aged 6 to 16
+              </p>
+              <p>
               Students
               </p>
               <p>
-              Professional designers
-              </p>
-              <p>
               Instructors
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              SOLUTION
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Comprehend its unique to develop as well as convey the full information to the readers. By utilizing color scheme, page layout and typography, that effectively express the Digital Printing style to get the reader participate on the subject.
               </p>
             </div>
           </div>
@@ -121,7 +127,10 @@ class DP extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              A landscape booklet in 7.5 x 7 inches ( 15 x 7 inches spread)
+              Comprehend its unique to develop as well as convey the full message to
+the readers by utilizing color scheme, page layout and typography, that
+effectively express the digital printing style to get the reader participate
+on the subject.
               </p>
             </div>
           </div>
@@ -129,13 +138,28 @@ class DP extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              PROJECT TOOL
+              SOLUTION
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              InDesign, Photoshop
+              A landscape booklet in 7.5 x 7 inches ( 15 x 7 inches spread)
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              PROJECT TOOLS
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <p>
+              Typography, InDesign, Photoshop
               </p>
             </div>
           </div>

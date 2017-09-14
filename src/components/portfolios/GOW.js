@@ -67,7 +67,12 @@ class GOW extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The current Garden of Wisdow website has too many unnecessary features and lack a clear message. Its navigation bar confuses customers and slows down the shopping experience. The current website lacks a coherent feel and appears to be designed by half a dozen different people. The font and color choices do not have a consistency to convey a “family handmade” feeling.
+              The current Garden of Wisdow website has too many unnecessary features and lack a clear message. Its navigation bar confuses customers and slows down the shopping experience.
+              </p>
+               <p>
+              The current website lacks a coherent feel and appears to be designed by 
+half a dozen different people. The font and color choices do not have a 
+consistency to convey a “family handmade” feeling. 
               </p>
             </div>
           </div>
@@ -84,10 +89,10 @@ class GOW extends React.Component {
               Aged 20-55
               </p>
               <p>
-              Women and men with skin concerns but skews 85/15
+              Women and men with skin concerns but skews 85/15 
               </p>
               <p>
-              Middle classes
+              Middle class
               </p>
             </div>
           </div>
@@ -102,6 +107,7 @@ class GOW extends React.Component {
             <div className="portfolio-right-col">
               <p>
               The core user value is to make the website functional with a great design and to appeal to its most important audience which is women in their 20s. To analyze every page and bring things closer to GOW manager's sale goal.
+
               </p>
             </div>
           </div>
@@ -115,7 +121,8 @@ class GOW extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Develop and design a unique skin care website that would satisfy every customer who visits the page with just a few clicks instead of overwhelming.
+              Develop and design a unique skin care website that would satisfy every 
+customer who visits the page with just a few clicks instead of overwhelming.
               </p>
             </div>
           </div>
@@ -123,7 +130,7 @@ class GOW extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              PROJECT TOOL
+              PROJECT TOOLS
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
