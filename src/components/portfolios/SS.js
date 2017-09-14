@@ -42,13 +42,21 @@ class SS extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The Art Institute of Seattle (AIS) in Seattle, Washington is one of The Art Institutes, a system of more than 50 educational institutions located throughout North America, providing education in design, media arts, fashion and culinary arts. The Art Institutes system is a subsidiary of Education Management Corporation (EDMC), which is headquartered in Pittsburgh, Pennsylvania.
+              The Art Institute of Seattle (AIS) in Seattle, Washington is one of The Art
+Institutes, a system of more than 50 educational institutions located throughout
+North America, providing education in design, media arts, fashion and culinary
+arts. The Art Institutes system is a subsidiary of Education Management
+Corporation (EDMC), which is headquartered in Pittsburgh, Pennsylvania.
               </p>
               <p>
-              At AIS, programs are designed to provide graduates with the hands-on experience and practical knowledge needed to seek entry-level positions in the creative and applied arts.
+              At AIS, programs are designed to provide graduates with the hands-on
+experience and practical knowledge needed to seek entry-level positions in
+the creative and applied arts.
               </p>
               <p>
-              The annual stress relief workshop provides a good understanding of how stress negatively affects students and help AIS students to take back control of their life.
+              The annual stress relief workshop provides a good understanding of how
+stress negatively affects students and help AIS students to take back control
+of their life.
               </p>
             </div>
           </div>
@@ -173,7 +181,7 @@ class SS extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12">
             <div className="video-wrapper">
-              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eodCI3jpbyU?rel=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T0Mgsi4FQFg" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
         </div>
