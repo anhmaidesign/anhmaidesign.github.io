@@ -28,11 +28,18 @@ class SAM extends React.Component {
     return (
       <div className="portfolio">
         <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+          <div className="col-xs-12">
             <div className="portfolio-title">Seattle Art Museum</div>
             <div className="portfolio-subtitle">Wayfinding posters</div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12">
+            <img className="portfolio-img-page" src="files/background/sam.jpg"/>
+          </div>
+        </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -47,11 +54,7 @@ located in Seattle, Washington. SAM brings creative collections, powerful
 exhibitions and dynamic programs to provide unique educational resources
 to benefit the Seattle area and beyond.
               </p>
-              <p>
-              SAM’s vision is connecting art to life through art, SAM improves lives and
-engages diverse communities. Furthermore, helping people understand its
-unique power to inspire creative thinking, which can greatly affect our lives.
-              </p>
+              
             </div>
           </div>
         </div>

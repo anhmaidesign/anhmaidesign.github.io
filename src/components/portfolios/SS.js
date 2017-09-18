@@ -28,11 +28,18 @@ class SS extends React.Component {
     return (
       <div className="portfolio">
         <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+          <div className="col-xs-12">
             <div className="portfolio-title">THE ART INSTITUTE OF SEATTLE</div>
             <div className="portfolio-subtitle">MOTION GRAPHIC - STOP STRESS</div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12">
+            <img className="portfolio-img-page" src="files/background/ss.jpg"/>
+          </div>
+        </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -44,14 +51,7 @@ class SS extends React.Component {
               <p>
               The Art Institute of Seattle (AIS) in Seattle, Washington is one of The Art
 Institutes, a system of more than 50 educational institutions located throughout
-North America, providing education in design, media arts, fashion and culinary
-arts. The Art Institutes system is a subsidiary of Education Management
-Corporation (EDMC), which is headquartered in Pittsburgh, Pennsylvania.
-              </p>
-              <p>
-              At AIS, programs are designed to provide graduates with the hands-on
-experience and practical knowledge needed to seek entry-level positions in
-the creative and applied arts.
+North America.
               </p>
               <p>
               The annual stress relief workshop provides a good understanding of how

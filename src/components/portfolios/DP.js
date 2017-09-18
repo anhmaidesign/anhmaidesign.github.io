@@ -28,11 +28,18 @@ class DP extends React.Component {
     return (
       <div className="portfolio">
         <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+          <div className="col-xs-12">
             <div className="portfolio-title">FIRST PLACE SCHOOL</div>
             <div className="portfolio-subtitle">STORY OF DIGITAL PRINTING</div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12">
+            <img className="portfolio-img-page" src="files/background/dp.jpg"/>
+          </div>
+        </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -46,15 +53,7 @@ class DP extends React.Component {
 educators and social workers who understood that homeless children were
 not in school and decided to help them.
               </p>
-              <p>
-              The First Place organization became one of four Washington State sites
-through which homeless children attended to school (First Place, 2007).
-              </p>
-              <p>
-              The First Place’s vision is set out to provide the services designed to give a
-student and family to address the arrangement of educational, physical,
-emotional, and environmental issues surrounding their current conditions.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -67,8 +66,7 @@ emotional, and environmental issues surrounding their current conditions.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Digital printing is the most exciting thing that has happened to the printing
-industry in 30 years. However, with the development of technology, digital
+               With the development of technology, digital
 printing is no longer the best technology that belongs to the future of printing.
               </p>
               <p>

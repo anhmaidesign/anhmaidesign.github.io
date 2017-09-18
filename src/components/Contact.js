@@ -72,15 +72,6 @@ class Contact extends React.Component {
             <p><strong>Mobile:</strong> (206) 886-6546</p>
             <p><strong>Location:</strong> Seattle, WA</p>
             <div style={{display: 'inline-block', marginLeft: '-10px'}}>
-              <IconButton touch={true} href={"https://www.linkedin.com/in/anhhmai/"} style={styles.iconWrapperStyle}>
-                <FontIcon className="fa fa-linkedin" style={styles.iconStyles} />
-              </IconButton>
-              <IconButton touch={true} href={"https://www.facebook.com/anhmaidesign"} style={styles.iconWrapperStyle}>
-                <FontIcon className="fa fa-facebook" style={styles.iconStyles}/>
-              </IconButton>
-              <IconButton touch={true} href={"https://www.instagram.com/maihoaianhh/"} style={styles.iconWrapperStyle}>
-                <FontIcon className="fa fa-instagram" style={styles.iconStyles} />
-              </IconButton>
             </div>
           </div>
           <div id="contact-body-right">

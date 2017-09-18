@@ -39,11 +39,18 @@ class HP extends React.Component {
     return (
       <div className="portfolio">
         <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+          <div className="col-xs-12">
             <div className="portfolio-title">HOPPER</div>
             <div className="portfolio-subtitle">FLIGHT MOBILE APP PROPOSAL</div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12">
+            <img className="portfolio-img-page" src="files/background/hp.jpg"/>
+          </div>
+        </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -55,12 +62,7 @@ class HP extends React.Component {
               <p>
               Hopper's team is based in Montreal, QC, and Cambridge, MA. Hopper is a new kind of travel company that is reinventing the way people plan to travel and books flights by leveraging the power of mobile conversation and big data in the form of trillions of flight prices. Today, Hopper is one of the fastest growing travel apps ever, with over 10 million installs since our launch in 2015.
               </p>
-              <p>
-              Their mission is providing travelers with the information they need to get the best deals on flights. No spam. No ads. No popups. No time wasted. Just the confidence that you're booking smart and saving money.
-              </p>
-              <p>
-              Hopper flight app is a mobile application that uses big data to predict and analyze airfare. Hopper let you book flights direct from your phone and there are no hidden fees.
-              </p>
+              
             </div>
           </div>
         </div>
@@ -132,26 +134,9 @@ class HP extends React.Component {
             </div>
           </div>
         </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              PROJECT TOOL
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Storyboarding, Paper protyping, Wireframe, Adobe XD, Illustrator, InDesign
-              </p>
-            </div>
-          </div>
-        </div>
+        
 
-        <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
-            <div className="portfolio-subtitle">Project Narrative</div>
-          </div>
-        </div>
+        
 
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
@@ -213,45 +198,7 @@ class HP extends React.Component {
           </div>
         </div>
 
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              Client & Product
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p><b>Who is our client?</b></p>
-              <p>
-              Hopper is based in Montreal, QC, and Cambridge, MA. Hopper is a new kind of travel company that is reinventing the way people plan to travel and books flights by leveraging the power of mobile conversation and big data in the form of trillions of flight prices.
-              </p>
-              <p>
-              Today, Hopper is one of the fastest growing travel apps ever, with over 10 million installs since our launch in 2015.
-              </p>
-              <p><b>Why did we choose Hopper?</b></p>
-              <p>
-              Their existing mobile site app is good but it is missing some of the basic information that is should be given immediately.
-              </p>
-              <p>
-              A more user-friendly revision of their app will serve as a demonstration of Hopper’s excellent ticket options and care about their customers.
-              </p>
-              <p><b>What type of mobile experience?</b></p>
-              <p>
-              We decided to design around Android's capabilities and conventions to give users the best experience.
-              </p>
-              <p>
-              Our team decided to improve some features that will help their customers access the app anywhere and anytime.
-              </p>
-              <p>
-              Having this app re-design would not only allow customers search for the future flight, it also allows customers to keep track on every step they make without any confusion.
-              </p>
-              <p><b>Our Task and Goals</b></p>
-              <p>
-              Our goal is to design an app version including multiple features that will help either existing and potential customer who are not have much time to spend on flight shopping.
-              </p>
-            </div>
-          </div>
-        </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -268,44 +215,7 @@ class HP extends React.Component {
             </div>
           </div>
         </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              Proposed Mobile Approach
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-                Hopper app has plenty of potential to develop as
-well as improving interoperability with customers.
-Due to the customer feedback we collected, we
-realize there are many functions that need to be
-changed as well as a few that can be kept.
-              </p>
-              <p>
-              For instance, simplifying the “call to action” button
-and flight information would be a good idea to
-improve the app and removing the cluttered
-financial information makes the customer less
-confused.
-              </p>
-              <p>
-              We would like to simplify how new customers find
-information about the flights by adding different
-tabs, such as searching by price, departure time,
-destination time, and the number of stops a flight
-will have.
-              </p>
-              <p>
-              Since a successful user experience is our goal, we
-will focus on helping loyal customers look for flight
-information or review their information before
-obtaining the final results.
-              </p>
-            </div>
-          </div>
-        </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -318,52 +228,6 @@ obtaining the final results.
               <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/ca2.png"/>
               <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/ca3.png"/>
               <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/ca4.png"/>
-              <p><b>FEATURES TO ADOPT</b></p>
-              <ul>
-              <li>
-              <p><b>Icon Hierarchy:</b> To adapt from text to icons buttons will draw the
-user in with a cleaner and easier the look.</p>
-              </li>
-              <li>
-              <p><b>Multiflight result:</b> Incorporating tabs to make searching easier
-based on the user's need, such as by lowest price,
-time, and whether the flight is non-stop.</p>
-              </li>
-              <li>
-              <p><b>Review pages:</b> To have user fully understand what they are
-purchasing before buying to prevent future issues.</p>
-              </li>
-              <li>
-              <p><b>Highlight color:</b> Highlighting the color of tabs, or icon in use will
-make the user understand where they are in the
-app making usability easier</p>
-              </li>
-              <li>
-              <p><b>Call to action button:</b> Enhance the look of the button and interface to
-get the user to understand what the next step is
-going to be.</p>
-              </li>
-              <li>
-              <p><b>Simple navigation bar:</b> Cleaner navigation bar for the user to be aware of
-where they are in the app.</p>
-              </li>
-              </ul>
-
-              <p><b>FEATURES TO AVOID</b></p>
-              <ul>
-              <li>
-              <p><b>Long description:</b> Long descriptions in small areas cause confusion
-and lead to errors and frustration with the user.</p>
-              </li>
-              <li>
-              <p><b>Contrasting Background color:</b> The background needs to compliment the icons and
-features we will highlight.</p>
-              </li>
-              <li>
-              <p><b>Complex filters system: </b> Too much information compiled into a small area
-without proper padding will overwhelm the user.</p>
-              </li>
-              </ul>
             </div>
 
             <p><b>PAGE HIERARCHY</b></p>
@@ -490,13 +354,10 @@ without proper padding will overwhelm the user.</p>
                 <p>20, Female</p>
                 <p>Student</p>
                 <p>Portland, OR</p>
-                <p>Miastudies Asian and Middle Eastern Studies at
-Dartmouth College. Being a student, Mia doesn’t have a
+                <p>Mia doesn’t have a
 big budget but is looking forward to studying abroad.</p>
                 <p>Mia is looking for the cheapest flight to her current foreign
-study program in Hyderabad, India. While shopping around
-online and the best app, she came across Hopper and
-found the best and cheapest deal.</p>
+study program in Hyderabad, India.</p>
                 <p><b>Goals:</b></p>
                 <ul>
                   <li>Looking for the best deal for her student budget</li>
@@ -513,10 +374,7 @@ her Degree.</li>
                 <p>Software Engineer</p>
                 <p>Redmond, WA</p>
                 <p>Vu has been working in the software engineer industry for
-six years. As a key member of a team, Vu is responsible
-for attending the company conferences in various places
-and go on for a business trip to build a teamwork with
-his colleagues.</p>
+six years. </p>
                 <p>He usually looks online and buy his flight tickets through
 Hopper app for its affordable prices although the app
 somtimes is a bit complicated to navigate.</p>
@@ -542,7 +400,7 @@ is necessary.</p>
               
                 <p><b>Goals:</b></p>
                 <ul>
-                  <li>Looking for an app that helps fi nd the best plane
+                  <li>Looking for an app that helps find the best plane
 ticket deals.</li>
                   <li>Updated in and when tickets may go on sale, as well as
 when they rise.</li>
@@ -646,54 +504,23 @@ when they rise.</li>
                   </ol>
                 </div>
               </div>
+              
               <div className="row">
-                <div className="col-xs-12 col-sm-6">
-                  <p><b>Testing Scenario</b></p>
+                <div className="col-xs-12">
+                  <p><b>We asked fours users. Here are the results:</b></p>
                   <ul>
-                    <li><p>The resident of Seattle looking out of state for college to Chicago University.</p></li>
+                    <li><p>Two users suggested a button that leads to the next step.</p></li>
+                    <li><p>Two users didn't understand why their information wasn't entered.</p></li>
+                    <li><p>Three users were confused on which area they had clicked on.</p></li>
+                    <li><p>Four users were confused when the app didn't go anywhere after they had received confirmation for their order.</p></li>
                   </ul>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <p><b>Tasks #1</b></p>
-                  <p>You are a new customer who are searching for round trip flight from SEA to CHI from Sep 2 to Sep 15</p>
-                  <p><b>Testing Steps</b></p>
+                  <p><b>Changes:</b></p>
                   <ul>
-                    <li><p>Open the app and land on the landing page</p></li>
-                    <li><p>Please enter the departure and destination to Seattle and Chicago</p></li>
-                    <li><p>Select round trip option</p></li>
-                    <li><p>Pick departure date as September 25th and 15th for returning</p></li>
-                    <li><p>Selecting one traveler</p></li>
-                    <li><p>Press search for the ticket</p></li>
-                  </ul>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <p><b>Tasks #2</b></p>
-                  <p>Select the cheapest flight</p>
-                  <p><b>Testing Steps</b></p>
-                  <ul>
-                    <li><p>Looking for the cheapest ticket and search under price tab</p></li>
-                    <li><p>Choose 6am-12pm nonstop flight with United airline for $200</p></li>
-                  </ul>
-                  <p>Under trip summary:</p>
-                  <ul>
-                    <li><p>Enter number on bags checked in: None</p></li>
-                    <li><p>Click "Select traveler and payment" button</p></li>
-                  </ul>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <p><b>Tasks #3</b></p>
-                  <p>Choose the flight and review your trip, then adding your card to make a payment</p>
-                  <p><b>Testing Steps</b></p>
-                  <ul>
-                    <li><p>Select "Add new user" to create a new account under "Jane Cruz"</p></li>
-                    <li><p>Fill the sign up form</p></li>
-                    <li><p>Add new payment card</p></li>
-                    <li><p>Select review payment button</p></li>
-                    <li><p>Review and press submit payment button</p></li>
-                    <li><p>To finalize purchase press "yes" to confirm</p></li>
-                    <li><p>Logo and "payment confirmed" page will appear</p></li>
+                    <li><p>Added a "next" button</p></li>
+                    <li><p>The filled out information's icon will change to a different color.</p></li>
+                    <li><p>Made "hit boxes" bigger for clicking.</p></li>
+                    <li><p>On confirmation page, added a "home" button to guide them back to the beginning.</p></li>
+              
                   </ul>
                 </div>
               </div>

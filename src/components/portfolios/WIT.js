@@ -28,11 +28,18 @@ class WIT extends React.Component {
     return (
       <div className="portfolio">
         <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+          <div className="col-xs-12">
             <div className="portfolio-title">GIRLS WHO CODE</div>
             <div className="portfolio-subtitle">WOMEN IN TECH INFOGRAPHIC</div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12">
+            <img className="portfolio-img-page" src="files/background/wit.jpg"/>
+          </div>
+        </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -44,13 +51,9 @@ class WIT extends React.Component {
               <p>
               Girls Who Code (GWC) was founded by Reshma Saujani in 2012 who came up
 with the idea of creating the organization during her run for the United States
-Congress. It is a nonprofit organization which aims to support and increases
-the number of women in computer science. 
+Congress.
               </p>
-              <p>
-              Their mission is to run the summer programs which teach computing and
-programming skills to high school girls.
-              </p>
+              
               <p>
               The summer programs provide free seven weeks for current 10th - 11th grade
 girls to learn coding and get exposure to tech jobs.

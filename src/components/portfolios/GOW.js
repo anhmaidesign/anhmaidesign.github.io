@@ -39,11 +39,18 @@ class GOW extends React.Component {
     return (
       <div className="portfolio">
         <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
+          <div className="col-xs-12">
             <div className="portfolio-title">GARDEN OF WISDOM</div>
             <div className="portfolio-subtitle">WEB APPLICATION PROPOSAL</div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12">
+            <img className="portfolio-img-page" src="files/background/gow.jpg"/>
+          </div>
+        </div>
+
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -70,7 +77,7 @@ class GOW extends React.Component {
               The current Garden of Wisdow website has too many unnecessary features and lack a clear message. Its navigation bar confuses customers and slows down the shopping experience.
               </p>
                <p>
-              The current website lacks a coherent feel and appears to be designed by 
+              It lacks a coherent feel and appears to be designed by 
 half a dozen different people. The font and color choices do not have a 
 consistency to convey a “family handmade” feeling. 
               </p>
@@ -121,69 +128,23 @@ consistency to convey a “family handmade” feeling.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Develop and design a unique skin care website that would satisfy every 
-customer who visits the page with just a few clicks instead of overwhelming.
+              My site content will be based on the current Garden Of Wisdom (GWO) website. I will focus on the navigation bar and shopping features that will bring to customers more special information as well as guide customer to the page they want.
+
               </p>
             </div>
           </div>
         </div>
+        
+        
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              PROJECT TOOLS
+              Measure Success
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <p>
-              HTML, CSS, JavaScript, Bootstrap Framework, Paper protyping, Wireframe, Illustrator, InDesign
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-xs-12 col-sm-9 col-sm-offset-3">
-            <div className="portfolio-subtitle">Project Narrative</div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              Client & Product
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p><b>My Client</b></p>
-              <p>
-              Garden Of Wisdom (GOW) is a family business based in Prescott, Arizona. Their goal is to formulate and stock unique and effective skin care products to better assist customers and their unique skin types in finding a happy while sustaining a high level of skin health.
-              </p>
-              <p><b>Target Audiences</b></p>
-              <p>
-              The main target audience is women and perhaps men between the ages of 20 to 50 who are looking forward to having a healthy skin with affordable prices.
-              </p>
-              <p><b>My Task & Goal</b></p>
-              <p>
-              Understanding that GOW is just a family business, they do not have a big budget so the current website design confuses their customers and it does not look like they sell good quality products. In addition, if a customer wants to buy skin care to treat themselves, GOW is not a good choice for them because the user interface makes them feel uncomfortable and not welcoming. That is why this website needs to be fixed to gain more customers.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              Creative Brief
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p><b>Current Problems</b></p>
-              <p>
-              The current GOW site has too many unnecessary features and lack of a clear message. Poor navigation bar confuses customers and slows down the shopping experience.
-              </p>
-              <p><b>Solutions</b></p>
-              <p>My site content will be based on the current Garden Of Wisdom (GWO) website. I will focus on the navigation bar and shopping features that will bring to customers more special information as well as guide customer to the page they want.</p>
-              <p><b>Measure Success</b></p>
               <p>
               The success of this site will be measured based on following criteria:
               </p>
@@ -280,8 +241,8 @@ customer who visits the page with just a few clicks instead of overwhelming.
                 <p>30, Female</p>
                 <p>Teacher</p>
                 <p>Britain</p>
-                <p>Sarah is an English teacher who always stays in the office because of the nature of her work. She lives with her cat named Lila and in her free time, she usually spends the time to travel around the world to explore different cultures and cuisines.</p>
-                <p>She has been shopping several different skin care brands to find the best skin care routine for her dry skin. She loves GOW products because of its quality and prices. Also, she does not care much about product ingredients, but she would like to have a better shopping experience at GOW website.</p>
+                <p>Sarah is an English teacher who always stays in the office.</p>
+                <p>She loves GOW products because of its quality and prices but she would like to have a better shopping experience at GOW website.</p>
                 <p><b>Current Frustrations:</b></p>
                 <ul>
                   <li>The navigation bar is difficult to use when shopping</li>
@@ -301,8 +262,8 @@ customer who visits the page with just a few clicks instead of overwhelming.
                 <p>23, Male</p>
                 <p>Dancer</p>
                 <p>Redmond, WA</p>
-                <p>Alen has been working as a freelance dancer since he was in secondary school. He does not like working for others, so most of the time he does what he wants. He has a youtube channel where he posts his dancing tutorials and his travel diary.</p>
-                <p>He compares himself as the free bird. He has shopped at GOW several times in the past but he stopped it because he had he has many bad experience when shopping at GOW website.</p>
+                <p>Alen has been working as a freelance dancer since he was in secondary school.</p>
+                <p>He has shopped at GOW several times in the past but he stopped it because he had he has many bad experience when shopping at GOW website.</p>
                 <p><b>Current Frustrations:</b></p>
                 <ul>
                   <li>Information is fragmented and difficult to control</li>
@@ -323,8 +284,8 @@ customer who visits the page with just a few clicks instead of overwhelming.
                 <p>23, Female</p>
                 <p>Student</p>
                 <p>Vietnam</p>
-                <p>Tran is an international student who is studying at Seattle Central College. She loves cooking, hiking, dancing and traveling with her friends.</p>
-                <p>GOW is one of her favorite places to buy skin care products even though her shopping experience was not always good. She called herself as a hard person, always looking for the best effective and affordable products for her combination skin.</p>
+                <p>Tran is an international student who is studying at Seattle Central College.</p>
+                <p>GOW is one of her favorite places to buy skin care products even though her shopping experience was not always good.</p>
                 <p><b>Current Frustrations:</b></p>
                 <ul>
                   <li>Too many steps to navigate to the product page</li>
