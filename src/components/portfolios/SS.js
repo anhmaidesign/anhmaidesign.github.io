@@ -192,7 +192,10 @@ their problems.
         <div className="row portfolio-row">
           <div className="col-xs-12">
             <div className="video-wrapper">
-              <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T0Mgsi4FQFg" frameborder="0" allowfullscreen></iframe>
+              <iframe width="560" height="315"
+                      src="https://www.youtube.com/embed/T0Mgsi4FQFg?fs=1"
+                      frameBorder="0"
+                      allowFullScreen></iframe>
             </div>
           </div>
         </div>
