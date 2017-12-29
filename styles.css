@@ -45,7 +45,7 @@ nav ul li {
 
 nav ul li a {
   display: inline-block;
-  width: 25%;
+  width: 33%;
   text-decoration: none;
   cursor: pointer;
   line-height: 1em;
@@ -57,30 +57,30 @@ nav ul li a {
   margin-left: 0;
 }
 #nav-two:hover ~ hr {
-  margin-left: 25%;
+  margin-left: 33.33%;
 }
 #nav-three:hover ~ hr {
-  margin-left: 50%;
+  margin-left: 66.66%;
 }
-#nav-four:hover ~ hr {
-  margin-left: 75%;
-}
+// #nav-four:hover ~ hr {
+//   margin-left: 75%;
+// }
 #nav-hr.one {
   margin-left: 0;
 }
 #nav-hr.two {
-  margin-left: 25%;
+  margin-left: 33.33%;
 }
 #nav-hr.three {
-  margin-left: 50%;
+  margin-left: 66.66%;
 }
-#nav-hr.four {
-  margin-left: 75%;
-}
+// #nav-hr.four {
+//   margin-left: 75%;
+// }
 
 #nav-hr {
   height: .15rem;
-  width: 25%;
+  width: 33.33%;
   margin: 0;
   background: #692C4F;
   border: none;
