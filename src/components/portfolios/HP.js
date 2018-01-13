@@ -41,7 +41,7 @@ class HP extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">HOPPER</div>
-            <div className="portfolio-subtitle">FLIGHT MOBILE APP PROPOSAL</div>
+            <div className="portfolio-subtitle">FLIGHT MOBILE APP PROPOSAL (ACADEMIC PROJECT)</div>
           </div>
         </div>
 

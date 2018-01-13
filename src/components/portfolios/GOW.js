@@ -41,7 +41,7 @@ class GOW extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">GARDEN OF WISDOM</div>
-            <div className="portfolio-subtitle">WEB APPLICATION PROPOSAL</div>
+            <div className="portfolio-subtitle">WEB APPLICATION PROPOSAL (ACADEMIC PROJECT)</div>
           </div>
         </div>
 

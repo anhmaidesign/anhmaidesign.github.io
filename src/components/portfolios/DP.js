@@ -30,7 +30,7 @@ class DP extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">FIRST PLACE SCHOOL</div>
-            <div className="portfolio-subtitle">STORY OF DIGITAL PRINTING</div>
+            <div className="portfolio-subtitle">STORY OF DIGITAL PRINTING (ACADEMIC PROJECT)</div>
           </div>
         </div>
 

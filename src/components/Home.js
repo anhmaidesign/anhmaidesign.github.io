@@ -11,42 +11,42 @@ const tilesData = [
     id: '1',
     link: '/google-duo',
     title: 'Google Duo',
-    info: 'Introducing Duo'
+    info: 'Introducing Duo (Academic Project)'
   },
   {
     img: 'files/hp-cover.png',
     id: '2',
     link: '/hp',
     title: 'Hopper',
-    info: 'Flight Mobile App Proposal'
+    info: 'Flight Mobile App Proposal (Academic Project)'
   },
   {
     img: 'files/gow-cover.jpg',
     id: '3',
     link: '/gow',
     title: 'Garden of Wisdom',
-    info: 'Web Application Proposal'
+    info: 'Web Application Proposal (Academic Project)'
   },
   {
     img: 'files/wit-cover.png',
     id: '4',
     link: '/wit',
     title: 'Girls Who Code',
-    info: 'Women in Tech Infographic'
+    info: 'Women in Tech Infographic (Academic Project)'
   },
   {
     img: 'files/dp-cover.jpg',
     id: '5',
     link: '/dp',
     title: 'First Place School',
-    info: 'The Story of Digital Printing'
+    info: 'The Story of Digital Printing (Academic Project)'
   },
   {
     img: 'files/sam-cover.jpg',
     id: '6',
     link: '/sam',
     title: 'Seattle Art Museum',
-    info: 'SAM Wayfinding posters'
+    info: 'SAM Wayfinding posters (Academic Project)'
   }
 ];
 

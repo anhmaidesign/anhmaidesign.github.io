@@ -30,7 +30,7 @@ class SS extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">GOOGLE</div>
-            <div className="portfolio-subtitle">GOOGLE DUO - INTRODUCING DUO</div>
+            <div className="portfolio-subtitle">INTRODUCING DUO (ACADEMIC PROJECT)</div>
           </div>
         </div>
 

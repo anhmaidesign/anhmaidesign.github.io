@@ -30,7 +30,7 @@ class WIT extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">GIRLS WHO CODE</div>
-            <div className="portfolio-subtitle">WOMEN IN TECH INFOGRAPHIC</div>
+            <div className="portfolio-subtitle">WOMEN IN TECH INFOGRAPHIC (ACADEMIC PROJECT)</div>
           </div>
         </div>
 

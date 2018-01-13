@@ -30,7 +30,7 @@ class SAM extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">Seattle Art Museum</div>
-            <div className="portfolio-subtitle">Wayfinding posters</div>
+            <div className="portfolio-subtitle">Wayfinding posters (ACADEMIC PROJECT)</div>
           </div>
         </div>
 
