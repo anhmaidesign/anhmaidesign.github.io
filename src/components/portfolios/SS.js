@@ -29,14 +29,14 @@ class SS extends React.Component {
       <div className="portfolio">
         <div className="row">
           <div className="col-xs-12">
-            <div className="portfolio-title">THE ART INSTITUTE OF SEATTLE</div>
-            <div className="portfolio-subtitle">MOTION GRAPHIC - STOP STRESS</div>
+            <div className="portfolio-title">GOOGLE</div>
+            <div className="portfolio-subtitle">GOOGLE DUO - INTRODUCING DUO</div>
           </div>
         </div>
 
         <div className="row portfolio-row">
           <div className="col-xs-12">
-            <img className="portfolio-img-page" src="files/background/ss.jpg"/>
+            <img className="portfolio-img-page" title="Photo credit: https://wccftech.com/google-duo-integration-android/" src="files/gd/gg-background.png"/>
           </div>
         </div>
 
@@ -49,31 +49,13 @@ class SS extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The Art Institute of Seattle (AIS) in Seattle, Washington is one of The Art
-Institutes, a system of more than 50 educational institutions located throughout
-North America.
+              Google LLC is an American multinational technology company that specializes in Internet-related services and products. These include online advertising technologies, search, cloud computing, software, and hardware.
               </p>
               <p>
-              The annual stress relief workshop provides a good understanding of how
-stress negatively affects students and help AIS students to take back control
-of their life.
+              Google's mission is to organize the world's information and make it universally accessible and useful.
               </p>
-            </div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              BACKGROUND
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              AIS creates an annual stress relief workshop that help students connect
-and share their problems. The upcoming workshop is on Oct 4, 2017 and the
-“Stop Stress” motion graphic will be shown during the introduction section of
-the workshop.
+               <p>
+              Google Duo is the new, simple video calling app that brings you face-to-face with all the people that matter most.
               </p>
             </div>
           </div>
@@ -87,9 +69,7 @@ the workshop.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The “Stop Stress” motion graphic will focus on raising awareness about stress
-and help AIS students understand the care of the school to the students and
-help their life much more manageable and happy.
+              The purpose is simple: why use Skype or Viber when Android already has a native app that rocks?
               </p>
             </div>
           </div>
@@ -103,13 +83,13 @@ help their life much more manageable and happy.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              A motion graphic highlighting the problems
+              A motion graphic highlighting the features
               </p>
               <p>
-              Encouraging more AIS students participate in annual stress relief workshop 
+              Increasing the installs from 500 millions in Dec 2017 to 1.2 billions in Feb 2018. 
               </p>
               <p>
-              Content is straightforward to understand and enjoyable for viewers
+              Content is straightforward to understand and enjoyable for viewers.
               </p>
             </div>
           </div>
@@ -123,10 +103,13 @@ help their life much more manageable and happy.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              All students
+              Both Android and IOS users
               </p>
               <p>
-              Instructors
+              Aged 15-65
+              </p>
+              <p>
+              All occupation
               </p>
             </div>
           </div>
@@ -141,10 +124,7 @@ help their life much more manageable and happy.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Comprehend problems to develop as well as convey the full message to the
-viewers. Minimalism is the goal for this project. Furthermore, by using only
-lines, shapes, striking colors and emotions to encourge more students realize
-their problems.
+              Comprehend features to develop as well as convey the full message to the viewers. Minimalism is the goal for this project. Furthermore, by using only lines, shapes, striking colors and emotions to transmit information honestly and closest to the viewers.
               </p>
             </div>
           </div>
@@ -159,7 +139,7 @@ their problems.
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              A motion graphic about two minutes with both visuals and music.
+              A motion graphic about 30 seconds with both visuals and music.
               </p>
             </div>
           </div>
@@ -179,33 +159,141 @@ their problems.
             </div>
           </div>
         </div>
+
         <div className="row portfolio-row">
-          <div className="col-xs-12">
-            <img className="portfolio-img-page" src="files/ss-storyboard1.jpeg"/>
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              MIND MAPPING
+            </div>
           </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12">
-            <img className="portfolio-img-page" src="files/ss-storyboard2.jpeg"/>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12">
-            <div className="video-wrapper">
-              <iframe width="560" height="315"
-                      src="https://www.youtube.com/embed/T0Mgsi4FQFg?fs=1"
-                      frameBorder="0"
-                      allowFullScreen></iframe>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/mindmapping.jpeg"/>
             </div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              BEHIND THE DESIGN
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+                <div className="col-xs-12 col-sm-6">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/behindthedesign1.jpeg"/>
+                </div>
+                <div className="col-xs-12 col-sm-6">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px', minHeight: '612px'}} src="files/gd/behindthedesign2.jpeg"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/behindthedesign5.jpeg"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/behindthedesign4.jpeg"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/behindthedesign3.jpeg"/>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              STORY BOARD
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+                <div className="col-xs-12">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/storyboard.jpeg"/>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              CHARACTERS - OUTLINE
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+                <div className="col-xs-12">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/character_outline.png"/>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              CHARACTERS - DIGITAL SKETCHS
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+                <div className="col-xs-12">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/character_sketches.png"/>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              COMPONENTS
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/component1.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/component2.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/component3.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-12">
+                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/gd/component4.png"/>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              FINAL VIDEO 
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="col-xs-12">
+                <div className="video-wrapper">
+                  <iframe width="560" height="315"
+                          src="https://www.youtube.com/embed/MnsBP6JAAAw?fs=1"
+                          frameBorder="0"
+                          allowFullScreen></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Garden of Wisdom"
-              href={"/gow"}
+              label="Back"
               labelPosition="after"
-              primary={true}
+              disabled={true}
               icon={<Back />}
             />
           </div>
@@ -230,9 +318,9 @@ their problems.
         </div>
         <ShareButton
           url="http://anhmaidesign.com/ss"
-          title="The Art Institute of Seattle - Stop Stress Motion Graphic"
-          description="Anh Mai's Design Portfolio for The Art Institute of Seattle"
-          picture="http://anhmaidesign.com/files/ss-cover.jpg"/>
+          title="Google - Introducing Duo"
+          description="Anh Mai's Design Portfolio for Google"
+          picture="http://anhmaidesign.com/files/gg-cover.png"/>
       </div>
     )
   }

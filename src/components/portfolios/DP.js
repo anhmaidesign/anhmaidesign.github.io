@@ -213,8 +213,8 @@ on the subject.
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Wayfinding posters"
-              href={"/sam"}
+              label="WOMEN IN TECH INFOGRAPHIC"
+              href={"/wit"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -232,10 +232,10 @@ on the subject.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Women in Tech Infographic"
+              label="Wayfinding posters"
               labelPosition="before"
               primary={true}
-              href={"/wit"}
+              href={"/sam"}
               icon={<Forward />}
             />
           </div>

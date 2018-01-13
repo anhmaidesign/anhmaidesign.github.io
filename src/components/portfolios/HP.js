@@ -637,8 +637,8 @@ when they rise.</li>
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Stop Stress Motion Graphic"
-              href={"/ss"}
+              label="Introducing Duo"
+              href={"/google-duo"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -656,9 +656,10 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Up Next"
+              label="Garden of Wisdom"
               labelPosition="before"
-              disabled={true}
+              primary={true}
+              href={"/gow"}
               icon={<Forward />}
             />
           </div>

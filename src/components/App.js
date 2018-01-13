@@ -68,11 +68,11 @@ export default function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/blog" component={Blog} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/google-duo" component={SS} />
           <Route exact path="/sam" component={SAM} />
           <Route exact path="/dp" component={DP} />
           <Route exact path="/wit" component={WIT} />
           <Route exact path="/gow" component={GOW} />
-          <Route exact path="/ss" component={SS} />
           <Route exact path="/hp" component={HP} />
           
           <Route component={PageNotFound} />

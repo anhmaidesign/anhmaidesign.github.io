@@ -7,47 +7,47 @@ import Tile from './Tile';
 
 const tilesData = [
   {
-    img: 'files/sam-cover.jpg',
+    img: 'files/gg-cover.png',
     id: '1',
-    link: '/sam',
-    title: 'Seattle Art Museum',
-    info: 'SAM Wayfinding posters'
+    link: '/google-duo',
+    title: 'Google Duo',
+    info: 'Introducing Duo'
   },
   {
-    img: 'files/dp-cover.jpg',
+    img: 'files/hp-cover.png',
     id: '2',
-    link: '/dp',
-    title: 'First Place School',
-    info: 'The Story of Digital Printing'
-  },
-  {
-    img: 'files/wit-cover.png',
-    id: '3',
-    link: '/wit',
-    title: 'Girls Who Code',
-    info: 'Women in Tech Infographic'
+    link: '/hp',
+    title: 'Hopper',
+    info: 'Flight Mobile App Proposal'
   },
   {
     img: 'files/gow-cover.jpg',
-    id: '4',
+    id: '3',
     link: '/gow',
     title: 'Garden of Wisdom',
     info: 'Web Application Proposal'
   },
   {
-    img: 'files/ss-cover.jpg',
-    id: '5',
-    link: '/ss',
-    title: 'The Art Institute of Seattle',
-    info: 'Motion Graphic - Stop Stress'
+    img: 'files/wit-cover.png',
+    id: '4',
+    link: '/wit',
+    title: 'Girls Who Code',
+    info: 'Women in Tech Infographic'
   },
   {
-    img: 'files/hp-cover.png',
-    id: '6',
-    link: '/hp',
-    title: 'Hopper',
-    info: 'Flight Mobile App Proposal'
+    img: 'files/dp-cover.jpg',
+    id: '5',
+    link: '/dp',
+    title: 'First Place School',
+    info: 'The Story of Digital Printing'
   },
+  {
+    img: 'files/sam-cover.jpg',
+    id: '6',
+    link: '/sam',
+    title: 'Seattle Art Museum',
+    info: 'SAM Wayfinding posters'
+  }
 ];
 
 

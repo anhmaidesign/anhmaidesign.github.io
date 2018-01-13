@@ -175,9 +175,10 @@ collection pictograms.
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Back"
+              label="STORY OF DIGITAL PRINTING"
+              href={"/dp"}
               labelPosition="after"
-              disabled={true}
+              primary={true}
               icon={<Back />}
             />
           </div>
@@ -193,10 +194,9 @@ collection pictograms.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="The Story of Digital Printing"
+              label="Up Next"
               labelPosition="before"
-              primary={true}
-              href={"/dp"}
+              disabled={true}
               icon={<Forward />}
             />
           </div>

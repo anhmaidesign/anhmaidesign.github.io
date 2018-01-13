@@ -400,8 +400,8 @@ consistency to convey a “family handmade” feeling.
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Women in Tech Infographic"
-              href={"/wit"}
+              label="Hopper"
+              href={"/hp"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -419,9 +419,9 @@ consistency to convey a “family handmade” feeling.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Stop Stress Motion Graphic"
+              label="WOMEN IN TECH INFOGRAPHIC"
               labelPosition="before"
-              href={"/ss"}
+              href={"/wit"}
               icon={<Forward />}
             />
           </div>
