@@ -69,7 +69,7 @@ class SS extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The purpose is simple: why use Skype or Viber when Android already has a native app that rocks?
+              The purpose is simple: why use Skype or Viber when Android already has a native app that rocks? This motion graphic will focus on introducing the new video calling platform to both Android and IOS users. 
               </p>
             </div>
           </div>
@@ -303,13 +303,13 @@ class SS extends React.Component {
               labelPosition="after"
               primary={true}
               target="_blank"
-              href={"files/anhmai-stop-stress.pdf"}
+              href={"files/anhmai-google-duo.pdf"}
               icon={<PDF />}
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Flight Mobile App Proposal"
+              label="HOPPER"
               labelPosition="before"
               href={"/hp"}
               icon={<Forward />}
