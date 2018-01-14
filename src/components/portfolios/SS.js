@@ -109,7 +109,7 @@ class SS extends React.Component {
               Aged 15-65
               </p>
               <p>
-              All occupation
+              All occupations
               </p>
             </div>
           </div>
@@ -202,7 +202,7 @@ class SS extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              STORY BOARD
+              STORYBOARD
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
