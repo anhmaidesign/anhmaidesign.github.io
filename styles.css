@@ -328,6 +328,10 @@ nav ul li a {
   font-weight: 500;
   font-size: 1.3em;
 }
+.resume-title-x {
+  font-weight: 400;
+  font-size: 1.2em;
+}
 .resume-subsubtitle {
   font-style: italic;
 }

@@ -28,7 +28,7 @@ class Resume extends React.Component {
                   <p className="resume-subtitle">Bachelor of Fine Art (BFA), Graphic and Web Design</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>2016 - 2018</p>
+                  <p>Jan 2016 - Jun 2018</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -39,7 +39,7 @@ class Resume extends React.Component {
                   <p className="resume-subtitle">Associate of Art (AA), Communication</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>03/2014</p>
+                  <p>Jun 2012 - Mar 2014</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -50,7 +50,7 @@ class Resume extends React.Component {
                   <p className="resume-subtitle">Associate of Art (AA), Business Management</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>04/2012</p>
+                  <p>Oct 2010 - Apr 2012</p>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     UX/UI Design
                   </div>
-                  <p>User Flowchart, User Research & Usability, Typography, Interface Design, Visual Design, Information Architecture, Rapid Protyping, Wire-framing, Facilitate Service Design</p>
+                  <p>User Flowchart, User Research & Usability, Information Architecture, Visual Design,  Interaction Design, Prototyping, Wireframing, Invision, Marvel, Sketch App</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -77,15 +77,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Web Design
                   </div>
-                  <p>HTML & CSS, JavaScript, Bootstrap, Responsive Design, Mobile Design, Color Theory, Layout Design</p>
-                </div>
-              </div>
-              <div className="row portfolio-row">
-                <div className="col-xs-12 col-sm-12">
-                  <div className="resume-title">
-                    Motion Design
-                  </div>
-                  <p>Understanding Of Animation, Color theory, Typography</p>
+                  <p>HTML & CSS, Bootstrap, Web Site & Multimedia Design, Responsive Design, Mobile Design, Illustrator, Photoshop, Sublime Text, After Effects,Premiere Pro</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -93,20 +85,70 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Graphic Design
                   </div>
-                  <p>Layout Design, Poster Design, Branding, Color theory, Typography, Wayfinding Design</p>
-                </div>
-              </div>
-              <div className="row portfolio-row">
-                <div className="col-xs-12 col-sm-12">
-                  <div className="resume-title">
-                    Tools
-                  </div>
-                  <p>Sketch, Invision, Illustrator, Photoshop, Sublime Text, After Effects, Animate, InDesign, Premiere Pro</p>
+                  <p>Layout Design, Poster Design, Wayfinding Design, Typography, Branding,InDesign</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              EXPERIENCE
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="row portfolio-row">
+                <div className="col-xs-9 col-sm-9">
+                  <div className="resume-title">
+                    UX Design Intern
+                  </div>
+                  <div className="resume-title-x">
+                    Vibrant Palette Arts Center - Seattle, WA
+                  </div>
+                  <p className="resume-subtitle">Implement and Redesign the current website</p>
+                  <p className="resume-subtitle">Perform a set of responsive prototypes for desktop</p>
+                  <p className="resume-subtitle">Gather user feedback and identify existing design problems and user-interaction challenges</p>
+                </div>
+                <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
+                  <p>Apr 2018 - Present</p>
+                </div>
+              </div>
+              <div className="row portfolio-row">
+                <div className="col-xs-9 col-sm-9">
+                  <div className="resume-title">
+                    Associate Member Of Student Leadership
+                  </div>
+                  <div className="resume-title-x">
+                    Seattle Central College
+                  </div>
+                  <p className="resume-subtitle">Providing outstanding Student Service and ensuring all information is communicated to the student correctly.</p>
+                </div>
+                <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
+                  <p>Aug 2012 - Mar 2014</p>
+                </div>
+              </div>
+              <div className="row portfolio-row">
+                <div className="col-xs-9 col-sm-9">
+                  <div className="resume-title">
+                    Event Designer
+                  </div>
+                  <div className="resume-title-x">
+                    Martin College
+                  </div>
+                  <p className="resume-subtitle">Event planner of Masquerade’s party</p>
+                  <p className="resume-subtitle">Designing posters, flyers and event tickets.</p>
+                </div>
+                <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
+                  <p>Aug 2010 - Sep 2010</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 col-sm-offset-4" style={{textAlign: 'center'}}>
             <FlatButton
