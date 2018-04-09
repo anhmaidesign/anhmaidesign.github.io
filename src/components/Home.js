@@ -42,11 +42,11 @@ const tilesData = [
     info: 'The Story of Digital Printing (Academic Project)'
   },
   {
-    img: 'files/sam-cover.jpg',
+    img: 'files/octo-cover.png',
     id: '6',
-    link: '/sam',
-    title: 'Seattle Art Museum',
-    info: 'SAM Wayfinding posters (Academic Project)'
+    link: '/octo',
+    title: 'Octo Sushi',
+    info: 'Rebranding Case Study (Academic Project)'
   }
 ];
 

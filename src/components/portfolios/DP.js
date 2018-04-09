@@ -232,10 +232,10 @@ on the subject.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Wayfinding posters"
+              label="Octo Sushi"
               labelPosition="before"
               primary={true}
-              href={"/sam"}
+              href={"/octo"}
               icon={<Forward />}
             />
           </div>
