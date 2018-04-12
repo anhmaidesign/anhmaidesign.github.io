@@ -43,11 +43,20 @@ class HP extends React.Component {
             <div className="portfolio-title">HOPPER</div>
             <div className="portfolio-subtitle">FLIGHT MOBILE APP PROPOSAL (ACADEMIC PROJECT)</div>
           </div>
-        </div>
-
-        <div className="row portfolio-row">
           <div className="col-xs-12">
             <img className="portfolio-img-page" src="files/background/hp.jpg"/>
+          </div>
+          <div className="col-xs-12">
+            <div className="full-case-button">
+              <RaisedButton
+                label="See full case study"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"files/hp/anhmai-hopper-casestudy.pdf"}
+                icon={<LinkIcon />}
+              />
+            </div>
           </div>
         </div>
 
@@ -645,14 +654,7 @@ when they rise.</li>
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
-            <FlatButton
-              label="Download"
-              labelPosition="after"
-              primary={true}
-              target="_blank"
-              href={"files/hp/anhmai-hopper-casestudy.pdf"}
-              icon={<PDF />}
-            />
+
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton

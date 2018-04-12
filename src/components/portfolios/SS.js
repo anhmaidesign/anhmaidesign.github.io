@@ -6,6 +6,8 @@ import Back from 'material-ui/svg-icons/navigation/arrow-back';
 import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
 import FlatButton from 'material-ui/FlatButton';
 import ShareButton from '../ShareButton';
+import RaisedButton from 'material-ui/RaisedButton';
+import LinkIcon from 'material-ui/svg-icons/content/link';
 
 const styles = {
   mediumIcon: {
@@ -32,11 +34,20 @@ class SS extends React.Component {
             <div className="portfolio-title">GOOGLE</div>
             <div className="portfolio-subtitle">INTRODUCING DUO (ACADEMIC PROJECT)</div>
           </div>
-        </div>
-
-        <div className="row portfolio-row">
           <div className="col-xs-12">
             <img className="portfolio-img-page" title="Photo credit: https://wccftech.com/google-duo-integration-android/" src="files/gd/gg-background.png"/>
+          </div>
+          <div className="col-xs-12">
+            <div className="full-case-button">
+              <RaisedButton
+                label="See full case study"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"files/anhmai-google-duo.pdf"}
+                icon={<LinkIcon />}
+              />
+            </div>
           </div>
         </div>
 
@@ -298,14 +309,7 @@ class SS extends React.Component {
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
-            <FlatButton
-              label="Download"
-              labelPosition="after"
-              primary={true}
-              target="_blank"
-              href={"files/anhmai-google-duo.pdf"}
-              icon={<PDF />}
-            />
+          
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
