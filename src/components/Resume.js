@@ -119,7 +119,7 @@ class Resume extends React.Component {
               <div className="row portfolio-row">
                 <div className="col-xs-9 col-sm-9">
                   <div className="resume-title">
-                    Associate Member Of Student Leadership
+                    Associate Member Of Student Leadership - Seattle, WA
                   </div>
                   <div className="resume-title-x">
                     Seattle Central College
@@ -136,7 +136,7 @@ class Resume extends React.Component {
                     Event Designer
                   </div>
                   <div className="resume-title-x">
-                    Martin College
+                    Martin College - Ho Chi Minh, Vietnam
                   </div>
                   <p className="resume-subtitle">Event planner of Masquerade’s party</p>
                   <p className="resume-subtitle">Designing posters, flyers and event tickets.</p>
