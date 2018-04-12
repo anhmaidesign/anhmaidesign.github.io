@@ -49,11 +49,20 @@ class GOW extends React.Component {
           <div className="col-xs-12">
             <div className="full-case-button">
               <RaisedButton
+                style={{marginRight: '15px'}}
                 label="See full case study"
                 labelPosition="after"
                 primary={true}
                 target="_blank"
                 href={"/files/anhmai-garden-of-wisdom.pdf"}
+                icon={<LinkIcon />}
+              />
+              <RaisedButton
+                label="Link To Final Design"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"http://anhmai-garden-of-wisdom.bitballoon.com/"}
                 icon={<LinkIcon />}
               />
             </div>
@@ -390,18 +399,6 @@ consistency to convey a “family handmade” feeling.
               </div>
               <div className="col-xs-12 col-sm-6">
                 <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/8.png"/>
-              </div>
-              <div className="col-xs-12">
-                <div style={{textAlign: 'center', marginTop: '50px', clear: 'both'}}>
-                  <RaisedButton
-                    label="Link To Final Design"
-                    labelPosition="after"
-                    primary={true}
-                    target="_blank"
-                    href={"http://anhmai-garden-of-wisdom.bitballoon.com/"}
-                    icon={<LinkIcon />}
-                  />
-                </div>
               </div>
             </div>
           </div>

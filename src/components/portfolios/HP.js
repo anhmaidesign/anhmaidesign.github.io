@@ -49,11 +49,20 @@ class HP extends React.Component {
           <div className="col-xs-12">
             <div className="full-case-button">
               <RaisedButton
+                style={{margin: '15px'}}
                 label="See full case study"
                 labelPosition="after"
                 primary={true}
                 target="_blank"
                 href={"files/hp/anhmai-hopper-casestudy.pdf"}
+                icon={<LinkIcon />}
+              />
+              <RaisedButton
+                label="Link To Adobe XD Prototype"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"https://xd.adobe.com/view/949de50a-4b9a-4edf-a16a-8908ee0990d9/"}
                 icon={<LinkIcon />}
               />
             </div>
@@ -623,20 +632,6 @@ when they rise.</li>
                 </div>
                 <div className="col-xs-12 col-sm-4">
                   <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn18.png"/>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12">
-                  <div style={{textAlign: 'center', marginTop: '50px', clear: 'both'}}>
-                    <RaisedButton
-                      label="Link To Adobe XD Prototype"
-                      labelPosition="after"
-                      primary={true}
-                      target="_blank"
-                      href={"https://xd.adobe.com/view/949de50a-4b9a-4edf-a16a-8908ee0990d9/"}
-                      icon={<LinkIcon />}
-                    />
-                  </div>
                 </div>
               </div>
             </div>
