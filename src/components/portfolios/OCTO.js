@@ -5,6 +5,8 @@ import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
 import Back from 'material-ui/svg-icons/navigation/arrow-back';
 import Forward from 'material-ui/svg-icons/navigation/arrow-forward';
 import FlatButton from 'material-ui/FlatButton';
+import RaisedButton from 'material-ui/RaisedButton';
+import LinkIcon from 'material-ui/svg-icons/content/link';
 import ShareButton from '../ShareButton';
 import $ from 'jquery';
 
@@ -33,12 +35,21 @@ class OCTO extends React.Component {
             <div className="portfolio-title">Octo Sushi</div>
             <div className="portfolio-subtitle">Rebrand Case Study (ACADEMIC PROJECT)</div>
           </div>
-        </div>
-
-        <div className="row portfolio-row">
           <div className="col-xs-12">
             <div className="iframe-container">
               <iframe id="octo-iframe" src="https://marvelapp.com/338hd28?emb=1" width="100%" height="500px" allowTransparency="true" frameBorder="0"/>
+            </div>
+          </div>
+          <div className="col-xs-12">
+            <div className="full-case-button">
+              <RaisedButton
+                label="See full case study"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"/files/anhmai-octo-sushi-case-study.pdf"}
+                icon={<LinkIcon />}
+              />
             </div>
           </div>
         </div>
@@ -52,7 +63,7 @@ class OCTO extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Octo Sushi opened by a transplant who spent a decade sling- ing Japanese cuisine in the South Texas metro, this raw-fishery boasts two separate dining areas: a small linoleum-floored space up-front (in the old Crave space), and in-back a dizz- ing-ly-high-ceilinged/brick
+              Octo Sushi opened by a transplant who spent a decade sling-ing Japanese cuisine in the South Texas metro; this raw-fishery boasts two separate dining areas: a small linoleum-floored space up-front (in the old Crave space), and in-back a dizzying-ly-high-ceilinged/brick.
               </p>
             </div>
           </div>
@@ -66,7 +77,7 @@ class OCTO extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Rebrand exsiting company. Including Website, color, menu, and logo. 
+              Rebrand existing company. Including website, color, menu, and logo.
               </p>
             </div>
           </div>
@@ -80,7 +91,7 @@ class OCTO extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Succesfully portray what Octo Sushi is all about by providing beautiful, clean, design.
+              Successfully represent what Octo Sushi is all about by providing a beautiful and clean design.
               </p>
             </div>
           </div>
@@ -94,7 +105,7 @@ class OCTO extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Early 20s to late 30s. Octo Sushi aims to market to the creative, passoniate individual who is willing to have fun and take a chance with their sushi experi- ence.
+              Early 20s to late 30s. Octo Sushi aims to market to the creative, passionate individual who is willing to have fun and take a chance with their sushi experience.
               </p>
             </div>
           </div>
@@ -102,13 +113,13 @@ class OCTO extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              TOne
+              Tone
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              The brand needs to refelct the passion and culture of Octo Sushi, meaning the colors and design will be fun, modern, and innovative.
+              The brand needs to reflect the passion and culture of Octo Sushi, meaning the colors and design will be fun, modern, and innovative.
               </p>
             </div>
           </div>
@@ -171,7 +182,6 @@ class OCTO extends React.Component {
                     <li><p>LOGO DESIGN</p></li>
                     <li><p>PAPER SKETCHES</p></li>
                     <li><p>STYLE GUIDE</p></li>
-                
                   </ul>
                 </div>
               </div>
@@ -201,7 +211,7 @@ class OCTO extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <h4>FREMONT BOWL - Located on Fremount Ave, N. Seattle $$, Casual</h4>
+              <h4>FREMONT BOWL - Located on Fremont Ave, N. Seattle $$, Casual</h4>
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
                   <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Fremont1.png"/>

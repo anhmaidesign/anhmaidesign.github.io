@@ -43,11 +43,20 @@ class GOW extends React.Component {
             <div className="portfolio-title">GARDEN OF WISDOM</div>
             <div className="portfolio-subtitle">WEB APPLICATION PROPOSAL (ACADEMIC PROJECT)</div>
           </div>
-        </div>
-
-        <div className="row portfolio-row">
           <div className="col-xs-12">
             <img className="portfolio-img-page" src="files/background/gow.jpg"/>
+          </div>
+          <div className="col-xs-12">
+            <div className="full-case-button">
+              <RaisedButton
+                label="See full case study"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"/files/anhmai-garden-of-wisdom.pdf"}
+                icon={<LinkIcon />}
+              />
+            </div>
           </div>
         </div>
 
@@ -408,14 +417,6 @@ consistency to convey a “family handmade” feeling.
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
-            <FlatButton
-              label="Download"
-              labelPosition="after"
-              primary={true}
-              target="_blank"
-              href={"files/anhmai-garden-of-wisdom.pdf"}
-              icon={<PDF />}
-            />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
