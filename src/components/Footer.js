@@ -15,11 +15,11 @@ const Footer = () => (
       <IconButton touch={true} style={iconStyles} target="_blank" href={"https://www.linkedin.com/in/anhhmai/"}>
         <FontIcon className="fa fa-linkedin"/>
       </IconButton>
-      <IconButton touch={true} style={iconStyles} target="_blank" href={"https://www.instagram.com/maihoaianhh/"}>
-        <FontIcon className="fa fa-instagram"/>
+      <IconButton touch={true} style={iconStyles} target="_blank" href={"https://www.behance.net/anhmaidesign/"}>
+        <FontIcon className="fa fa-behance"/>
       </IconButton>
     </div>
-    <p id="footer-text">Web design and content &copy; 2017 Anh Mai</p>
+    <p id="footer-text">Web design and content &copy; 2018 Anh Mai</p>
   </footer>
 );
 
