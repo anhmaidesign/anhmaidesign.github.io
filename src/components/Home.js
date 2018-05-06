@@ -14,11 +14,11 @@ const tilesData = [
     info: 'Introducing Duo (Academic Project)'
   },
   {
-    img: 'files/hp-cover.png',
+    img: 'files/cl-cover.png',
     id: '2',
-    link: '/hp',
-    title: 'Hopper',
-    info: 'Flight Mobile App Proposal (Academic Project)'
+    link: '/cl',
+    title: 'Craigslist',
+    info: 'Mobile App Proposal (In-Progress Academic Project)'
   },
   {
     img: 'files/gow-cover.jpg',

@@ -14,6 +14,7 @@ import WIT from './portfolios/WIT';
 import GOW from './portfolios/GOW';
 import SS from './portfolios/SS';
 import HP from './portfolios/HP';
+import CL from './portfolios/CL';
 
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -74,7 +75,7 @@ export default function App() {
           <Route exact path="/wit" component={WIT} />
           <Route exact path="/gow" component={GOW} />
           <Route exact path="/hp" component={HP} />
-          
+          <Route exact path="/cl" component={CL} />
           <Route component={PageNotFound} />
         </Switch>
         <div className="row">

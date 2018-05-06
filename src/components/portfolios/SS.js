@@ -313,9 +313,9 @@ class SS extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="HOPPER"
+              label="CRAIGSLIST"
               labelPosition="before"
-              href={"/hp"}
+              href={"/cl"}
               icon={<Forward />}
             />
           </div>

@@ -406,8 +406,8 @@ consistency to convey a “family handmade” feeling.
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Hopper"
-              href={"/hp"}
+              label="CRAIGSLIST"
+              href={"/cl"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
