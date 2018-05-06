@@ -107,7 +107,7 @@ class CL extends React.Component {
                 There are several 3rd parties that officially licensed by Craigslist. When using their app, a user will be asked to accept Craigslist's term and conditions to be able to use the app.
               </p>
               <p>
-                However, acceptance means that their information will be shared with a 3rd party, which make user concern about security. That’s why Craiglist decides to create an official app for its users. It emphasizes that personal information of users is always a top priority.
+                However, acceptance means that their information will be shared with a 3rd party, which make user concern about security. That’s why Craigslist decides to create an official app for its users. It emphasizes that personal information of users is always a top priority.
               </p>
               <h3>Target Audiences</h3>
               <ul>
@@ -159,7 +159,7 @@ class CL extends React.Component {
                       <b>AUDIENCE DEMOGRAPHICS</b>
                     </TableRowColumn>
                     <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/cl/cl-audiences.png"/>
+                      <img className="portfolio-img-page" style={ {margin: '20px'}} src="files/cl/cl-audiences.png"/>
                     </TableRowColumn>
                   </TableRow>
 
