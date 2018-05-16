@@ -8,6 +8,7 @@ import LinkIcon from 'material-ui/svg-icons/content/link';
 import FlatButton from 'material-ui/FlatButton';
 import ShareButton from '../ShareButton';
 import RaisedButton from 'material-ui/RaisedButton';
+import ModalImage from 'react-modal-image'
 
 import {
   Table,
@@ -44,7 +45,7 @@ class CL extends React.Component {
             <div className="portfolio-subtitle">Mobile App Version (IN-PROGRESS ACADEMIC PROJECT)</div>
           </div>
           <div className="col-xs-12">
-            <img className="portfolio-img-page" src="files/background/cl.png"/>
+            <ModalImage className="portfolio-img-page" small="files/background/cl.png" large="files/background/cl.png"/>
           </div>
           <div className="col-xs-12">
             <div className="full-case-button">
@@ -159,7 +160,7 @@ class CL extends React.Component {
                       <b>AUDIENCE DEMOGRAPHICS</b>
                     </TableRowColumn>
                     <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <img className="portfolio-img-page" style={ {margin: '20px'}} src="files/cl/cl-audiences.png"/>
+                      <ModalImage className="portfolio-img-page" style={ {margin: '20px'}} small="files/cl/cl-audiences.png" large="files/cl/cl-audiences.png"/>
                     </TableRowColumn>
                   </TableRow>
 
@@ -280,9 +281,9 @@ class CL extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/cl/cl-cs-1.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/cl/cl-cs-2.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/cl/cl-cs-3.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-cs-1.png" large="files/cl/cl-cs-1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-cs-2.png" large="files/cl/cl-cs-2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-cs-3.png" large="files/cl/cl-cs-3.png"/>
             </div>
           </div>
         </div>
@@ -298,7 +299,7 @@ class CL extends React.Component {
               <p>
                 OfferUp is one of the biggest mobile marketplace for local buyers and sellers. Almost all of its functions support the buy and sale; and exchange of information between users.
               </p>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/cl/cl-competitor1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor1.png" large="files/cl/cl-competitor1.png"/>
               <h3>Platform</h3>
               <ul>
                 <li>iOS</li>
@@ -334,7 +335,7 @@ class CL extends React.Component {
               <p>
                 CPlus is an officially licensed Craigslist app for both Windows Phone and iPhone. CPlus offers huge extra features that make browsing and searching on Craigslist very smoothly.
               </p>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/cl/cl-competitor2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor2.png" large="files/cl/cl-competitor2.png"/>
               <h3>Platform</h3>
               <ul>
                 <li>iOS</li>
@@ -373,7 +374,7 @@ class CL extends React.Component {
               <p>
               Qwilo is officially licensed craigslist app. It carries everything you love about Craigslist and places it all together in one easy to use. It is a feature-wise, beautiful and reliable Craigslist mobile app.
               </p>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/cl/cl-competitor3.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor3.png" large="files/cl/cl-competitor3.png"/>
               <h3>Platform</h3>
               <ul>
                 <li>iOS</li>
@@ -409,7 +410,7 @@ class CL extends React.Component {
               <p>
               CSmart allows users have the full capability as if they were on a computer. The quickest way to browse and search craigslist with excellent feature wise though.
               </p>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/cl/cl-competitor4.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor4.png" large="files/cl/cl-competitor4.png" />
               <h3>Platform</h3>
               <ul>
                 <li>iOS</li>
