@@ -16,6 +16,7 @@ class Tile extends React.Component {
         <img src={this.props.data.img}/>
         <div className="details">
           <span className="title">{this.props.data.title}</span>
+          <span className="type">{this.props.data.type}</span>
           <span className="info">{this.props.data.info}</span>
         </div>
       </div>
