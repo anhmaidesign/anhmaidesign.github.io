@@ -8,6 +8,7 @@ import LinkIcon from 'material-ui/svg-icons/content/link';
 import FlatButton from 'material-ui/FlatButton';
 import ShareButton from '../ShareButton';
 import RaisedButton from 'material-ui/RaisedButton';
+import ModalImage from 'react-modal-image'
 
 import {
   Table,
@@ -44,7 +45,11 @@ class HP extends React.Component {
             <div className="portfolio-subtitle">FLIGHT MOBILE APP PROPOSAL (ACADEMIC PROJECT)</div>
           </div>
           <div className="col-xs-12">
-            <img className="portfolio-img-page" src="files/background/hp.jpg"/>
+          <ModalImage 
+              className="portfolio-img-page"
+              small="files/background/hp.jpg"
+              large="files/background/hp.jpg"
+            />
           </div>
           <div className="col-xs-12">
             <div className="full-case-button">
@@ -228,8 +233,8 @@ class HP extends React.Component {
               <p>
                 This mobile app will focus on purchasing flight by entering customer information. Included in the first page, the customer will enter their departure and destination, round or one-way trip, date and time of flight, and number of travelers. The second page will contain tabs to aid in the search of the flight by, price, departure times, arrival times, and the number of stops.
               </p>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/cs1.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/cs2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/cs1.png" large="files/hp/cs1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/cs2.png" large="files/hp/cs2.png"/>
             </div>
           </div>
         </div>
@@ -242,10 +247,10 @@ class HP extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/ca1.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/ca2.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/ca3.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/ca4.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/ca1.png" small="files/hp/ca1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/ca2.png" small="files/hp/ca2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/ca3.png" small="files/hp/ca3.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/ca4.png" small="files/hp/ca4.png"/>
             </div>
 
             <p><b>PAGE HIERARCHY</b></p>
@@ -435,7 +440,7 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/us1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/us1.png" large="files/hp/us1.png"/>
             </div>
           </div>
         </div>
@@ -447,7 +452,7 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/hp-flow-chart1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/hp-flow-chart1.png" large="files/hp/hp-flow-chart1.png"/>
             </div>
           </div>
         </div>
@@ -459,10 +464,10 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/sketches/home-04.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/sketches/flight.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/sketches/flight2.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/sketches/payment-04.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/sketches/home-04.png" large="files/hp/sketches/home-04.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/sketches/flight.png" large="files/hp/sketches/flight.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/sketches/flight2.png" large="files/hp/sketches/flight2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/sketches/payment-04.png" large="files/hp/sketches/payment-04.png"/>
             </div>
           </div>
         </div>
@@ -474,11 +479,11 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/wireframes/home.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/wireframes/home.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/wireframes/flight.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/wireframes/flight2.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/hp/wireframes/payment.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/home.png" large="files/hp/wireframes/home.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/home.png" large="files/hp/wireframes/home.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/flight.png" large="files/hp/wireframes/flight.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/flight2.png" large="files/hp/wireframes/flight2.png" />
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/payment.png" large="files/hp/wireframes/payment.png"/>
             </div>
           </div>
         </div>
@@ -491,7 +496,7 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/hp-flow-chart2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/hp-flow-chart2.png" large="files/hp/hp-flow-chart2.png"/>
             </div>
           </div>
         </div>
@@ -554,8 +559,8 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/sg1.png"/>
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/sg2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/sg1.png" large="files/hp/sg1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/sg2.png" large="files/hp/sg2.png"/>
             </div>
           </div>
         </div>
@@ -570,68 +575,68 @@ when they rise.</li>
             <div className="portfolio-right-col">
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn1.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn1.png" large="files/hp/final/fn1.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn2.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn2.png" large="files/hp/final/fn2.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn3.png"/>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn4.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn5.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn6.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn3.png" large="files/hp/final/fn3.png"/>
                 </div>
               </div>
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn7.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn4.png" large="files/hp/final/fn4.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn8.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn5.png" large="files/hp/final/fn5.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn9.png"/>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn10.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn11.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn12.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn6.png" large="files/hp/final/fn6.png"/>
                 </div>
               </div>
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn13.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn7.png" large="files/hp/final/fn7.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn14.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn8.png" large="files/hp/final/fn8.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn15.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn9.png" large="files/hp/final/fn9.png"/>
                 </div>
               </div>
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn16.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn10.png" large="files/hp/final/fn10.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn17.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn11.png" large="files/hp/final/fn11.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/hp/final/fn18.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn12.png" large="files/hp/final/fn12.png"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn13.png" large="files/hp/final/fn13.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn14.png" large="files/hp/final/fn14.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn15.png" large="files/hp/final/fn15.png"/>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn16.png" large="files/hp/final/fn16.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn17.png" large="files/hp/final/fn17.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-4">
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/hp/final/fn18.png" large="files/hp/final/fn18.png"/>
                 </div>
               </div>
             </div>

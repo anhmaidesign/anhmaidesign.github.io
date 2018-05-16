@@ -3479,6 +3479,10 @@ react-interactive@^0.6.5:
     object-assign "^4.1.1"
     prop-types "^15.5.8"
 
+react-modal-image@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/react-modal-image/-/react-modal-image-2.1.4.tgz#c93c57047d964dd35b1d2f86c0d4f7112aeaa122"
+
 react-overlays@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/react-overlays/-/react-overlays-0.7.0.tgz#531898ff566c7e5c7226ead2863b8cf9fbb5a981"
