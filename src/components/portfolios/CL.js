@@ -49,20 +49,10 @@ class CL extends React.Component {
           </div>
           <div className="col-xs-12">
             <div className="full-case-button">
-              <RaisedButton
-                style={{margin: '15px'}}
-                label="See in-progress case study"
-                labelPosition="after"
-                primary={true}
-                target="_blank"
-                href={"files/anhmai-craigslist-app.pdf"}
-                icon={<LinkIcon />}
-              />
-              <p style={{fontSize: '1.8em'}}>(full case study is coming soon...)</p>
+              
             </div>
           </div>
         </div>
-
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -478,7 +468,14 @@ class CL extends React.Component {
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
-
+              <RaisedButton
+                label="See in-progress case study"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"files/anhmai-craigslist-app.pdf"}
+                icon={<LinkIcon />}
+              />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton

@@ -9,6 +9,7 @@ import RaisedButton from 'material-ui/RaisedButton';
 import LinkIcon from 'material-ui/svg-icons/content/link';
 import ShareButton from '../ShareButton';
 import $ from 'jquery';
+import ModalImage from 'react-modal-image';
 
 const styles = {
   mediumIcon: {
@@ -42,14 +43,7 @@ class OCTO extends React.Component {
           </div>
           <div className="col-xs-12">
             <div className="full-case-button">
-              <RaisedButton
-                label="See full case study"
-                labelPosition="after"
-                primary={true}
-                target="_blank"
-                href={"/files/anhmai-octo-sushi-case-study.pdf"}
-                icon={<LinkIcon />}
-              />
+              
             </div>
           </div>
         </div>
@@ -198,7 +192,7 @@ class OCTO extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo-moodboard.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo-moodboard.png" large="files/octo-moodboard.png"/>
             </div>
           </div>
         </div>
@@ -214,37 +208,37 @@ class OCTO extends React.Component {
               <h4>FREMONT BOWL - Located on Fremont Ave, N. Seattle $$, Casual</h4>
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Fremont1.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Fremont1.png" large="files/octo_competitors/Fremont1.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Fremont2.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Fremont2.png" large="files/octo_competitors/Fremont2.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Fremont3.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Fremont3.png" large="files/octo_competitors/Fremont3.png"/>
                 </div>
               </div>
               <h4>TAMURA - Located Eastlake Ave, Seattle $$$, Upscale</h4>
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Tamura1.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Tamura1.png" large="files/octo_competitors/Tamura1.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Tamura2.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Tamura2.png" large="files/octo_competitors/Tamura2.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Tamura3.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Tamura3.png" large="files/octo_competitors/Tamura3.png"/>
                 </div>
               </div>
               <h4>WASABI - Located on 2nd Ave, Seattle $$, Modern</h4>
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Wasabi1.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Wasabi1.png" large="files/octo_competitors/Wasabi1.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Wasabi2.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Wasabi2.png" large="files/octo_competitors/Wasabi2.png"/>
                 </div>
                 <div className="col-xs-12 col-sm-4">
-                  <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/octo_competitors/Wasabi3.png"/>
+                  <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/octo_competitors/Wasabi3.png" large="files/octo_competitors/Wasabi3.png"/>
                 </div>
               </div>
             </div>
@@ -262,6 +256,14 @@ class OCTO extends React.Component {
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
+          <RaisedButton
+                label="See full case study"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"/files/anhmai-octo-sushi-case-study.pdf"}
+                icon={<LinkIcon />}
+              />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
