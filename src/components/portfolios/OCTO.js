@@ -254,8 +254,8 @@ class OCTO extends React.Component {
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="STORY OF DIGITAL PRINTING"
-              href={"/dp"}
+              label="HOPPER"
+              href={"/hp"}
               labelPosition="after"
               primary={true}
               icon={<Back />}

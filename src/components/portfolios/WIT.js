@@ -224,9 +224,9 @@ typography and a well-structured layout.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="The Story Of Digital Printing"
+              label="HOPPER"
               labelPosition="before"
-              href={"/dp"}
+              href={"/hp"}
               icon={<Forward />}
             />
           </div>

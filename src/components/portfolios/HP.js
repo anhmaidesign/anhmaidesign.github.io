@@ -641,8 +641,8 @@ when they rise.</li>
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Introducing Duo"
-              href={"/google-duo"}
+              label="WOMEN IN TECH INFOGRAPHIC"
+              href={"/wit"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -653,10 +653,10 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Garden of Wisdom"
+              label="Octo Sushi"
               labelPosition="before"
               primary={true}
-              href={"/gow"}
+              href={"/octo"}
               icon={<Forward />}
             />
           </div>

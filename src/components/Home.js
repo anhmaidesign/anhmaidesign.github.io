@@ -35,11 +35,11 @@ const tilesData = [
     info: 'Women in Tech Infographic (Academic Project)'
   },
   {
-    img: 'files/dp-cover.jpg',
+    img: 'files/hp-cover.png',
     id: '5',
-    link: '/dp',
-    title: 'First Place School',
-    info: 'The Story of Digital Printing (Academic Project)'
+    link: '/hp',
+    title: 'Hopper',
+    info: 'Mobile App Redesign (Academic Project)'
   },
   {
     img: 'files/octo-cover.png',
