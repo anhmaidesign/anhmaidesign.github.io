@@ -415,10 +415,10 @@ class LH extends React.Component {
           </div>
         </div>
         <ShareButton
-          url="http://anhmaidesign.com/cl"
+          url="http://anhmaidesign.com/lh"
           title="Craigslist - Mobile App Proposal"
-          description="Anh Mai's Design Portfolio for Craigslist"
-          picture="http://anhmaidesign.com/files/cl-cover.png"/>
+          description="Anh Mai's Design Portfolio for LimeHelmet"
+          picture="http://anhmaidesign.com/files/lh-cover.png"/>
       </div>
     )
   }
