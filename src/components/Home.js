@@ -7,53 +7,53 @@ import Tile from './Tile';
 
 const tilesData = [
   {
-    img: 'files/gg-cover.png',
-    id: '1',
-    link: '/google-duo',
-    title: 'Google Duo',
-    type: 'Motion Graphic',
-    info: 'Introducing Duo (Academic Project)'
-  },
-  {
     img: 'files/cl-cover.png',
-    id: '2',
+    id: '1',
     link: '/cl',
     title: 'Craigslist',
-    type: 'Mobile Design',
+    type: 'Mobile Design - iOS',
     info: 'Mobile App Proposal (Academic Project)'
   },
   {
-    img: 'files/gow-cover.jpg',
+    img: 'files/hp-cover.png',
+    id: '2',
+    link: '/hp',
+    title: 'Hopper',
+    type: 'Mobile Design - Android',
+    info: 'Mobile App Redesign (Academic Project)'
+  },
+  {
+    img: 'files/lh-cover.png',
     id: '3',
+    link: '/lh',
+    title: 'LimeHelmet',
+    type: 'Interface Design',
+    info: 'Introducing face detection API technology (Academic Project)'
+  },
+  {
+    img: 'files/gow-cover.jpg',
+    id: '4',
     link: '/gow',
     title: 'Garden of Wisdom',
     type: 'Web Design',
     info: 'Web Application Proposal (Academic Project)'
   },
   {
-    img: 'files/wit-cover.png',
-    id: '4',
-    link: '/wit',
-    title: 'Girls Who Code',
-    type: 'Infographic',
-    info: 'Women in Tech Infographic (Academic Project)'
-  },
-  {
-    img: 'files/hp-cover.png',
-    id: '5',
-    link: '/hp',
-    title: 'Hopper',
-    type: 'Mobile Design',
-    info: 'Mobile App Redesign (Academic Project)'
-  },
-  {
     img: 'files/octo-cover.png',
-    id: '6',
+    id: '5',
     link: '/octo',
     title: 'Octo Sushi',
     type: 'Graphic and Web Design',
     info: 'Rebranding Case Study (Academic Project)'
-  }
+  },
+  {
+    img: 'files/gg-cover.png',
+    id: '6',
+    link: '/google-duo',
+    title: 'Google Duo',
+    type: 'Motion Graphic',
+    info: 'Introducing Duo (Academic Project)'
+  },
 ];
 
 

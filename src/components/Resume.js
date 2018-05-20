@@ -69,7 +69,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     UX/UI Design
                   </div>
-                  <p>User Flowchart, User Research & Usability, Information Architecture, Visual Design,  Interaction Design, Prototyping, Wireframing, Invision, Marvel, Sketch App</p>
+                  <p>User Flowchart, User Research & Usability, Information Architecture, Visual Design, Interaction Design, Prototyping, Wireframing, Invision, Marvel, Adobe XD, SketchApp</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -77,7 +77,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Web Design
                   </div>
-                  <p>HTML & CSS, Bootstrap, Web Site & Multimedia Design, Responsive Design, Mobile Design, Illustrator, Photoshop, Sublime Text, After Effects,Premiere Pro</p>
+                  <p>HTML & CSS, Wordpress, Bootstrap, Web & Multimedia Design, Responsive Design, Mobile Design, Illustrator, Photoshop, Sublime Text, After Effects,Premiere Pro</p>
                 </div>
               </div>
               <div className="row portfolio-row">

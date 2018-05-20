@@ -248,8 +248,8 @@ class OCTO extends React.Component {
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="HOPPER"
-              href={"/hp"}
+              label="Garden Of Wisdom"
+              href={"/gow"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -267,9 +267,10 @@ class OCTO extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Up Next"
+              label="Introducing Google Duo"
               labelPosition="before"
-              disabled={true}
+              primary={true}
+              href={"/google-duo"}
               icon={<Forward />}
             />
           </div>

@@ -460,10 +460,9 @@ class CL extends React.Component {
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Introducing Duo"
-              href={"/google-duo"}
+              label="Back"
               labelPosition="after"
-              primary={true}
+              disabled={true}
               icon={<Back />}
             />
           </div>
@@ -479,10 +478,10 @@ class CL extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Garden of Wisdom"
+              label="Hopper"
               labelPosition="before"
               primary={true}
-              href={"/gow"}
+              href={"/hp"}
               icon={<Forward />}
             />
           </div>

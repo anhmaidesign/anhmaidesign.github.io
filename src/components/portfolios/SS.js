@@ -295,9 +295,10 @@ class SS extends React.Component {
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Back"
+              label="Octo Sushi"
+              href={"/octo"}
               labelPosition="after"
-              disabled={true}
+              primary={true}
               icon={<Back />}
             />
           </div>
@@ -313,9 +314,9 @@ class SS extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="CRAIGSLIST"
+              label="Up Next"
               labelPosition="before"
-              href={"/cl"}
+              disabled={true}
               icon={<Forward />}
             />
           </div>

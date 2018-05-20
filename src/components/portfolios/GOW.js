@@ -390,8 +390,8 @@ consistency to convey a “family handmade” feeling.
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="CRAIGSLIST"
-              href={"/cl"}
+              label="LimeHelmet"
+              href={"/lh"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -419,9 +419,9 @@ consistency to convey a “family handmade” feeling.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="WOMEN IN TECH INFOGRAPHIC"
+              label="Octo Sushi"
               labelPosition="before"
-              href={"/wit"}
+              href={"/octo"}
               icon={<Forward />}
             />
           </div>

@@ -10,7 +10,7 @@ import Footer from './Footer';
 
 import OCTO from './portfolios/OCTO';
 import DP from './portfolios/DP';
-import WIT from './portfolios/WIT';
+import LH from './portfolios/LH';
 import GOW from './portfolios/GOW';
 import SS from './portfolios/SS';
 import HP from './portfolios/HP';
@@ -72,7 +72,7 @@ export default function App() {
           <Route exact path="/google-duo" component={SS} />
           <Route exact path="/octo" component={OCTO} />
           <Route exact path="/dp" component={DP} />
-          <Route exact path="/wit" component={WIT} />
+          <Route exact path="/lh" component={LH} />
           <Route exact path="/gow" component={GOW} />
           <Route exact path="/hp" component={HP} />
           <Route exact path="/cl" component={CL} />

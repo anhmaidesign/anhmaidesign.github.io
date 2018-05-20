@@ -630,8 +630,8 @@ when they rise.</li>
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="WOMEN IN TECH INFOGRAPHIC"
-              href={"/wit"}
+              label="CRAIGSLIST"
+              href={"/cl"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -640,7 +640,7 @@ when they rise.</li>
           <div className="col-xs-12 col-sm-4 portfolio-download">
             <RaisedButton
                 style={{margin: '5px'}}
-                label="See full case study"
+                label="See full design case study"
                 labelPosition="after"
                 primary={true}
                 target="_blank"
@@ -659,10 +659,10 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Octo Sushi"
+              label="LimeHelmet"
               labelPosition="before"
               primary={true}
-              href={"/octo"}
+              href={"/lh"}
               icon={<Forward />}
             />
           </div>
