@@ -387,7 +387,7 @@ class LH extends React.Component {
           <div className="col-xs-12 col-sm-4 portfolio-download">
               <RaisedButton
                 style={{margin: '5px'}}
-                label="See in-progress case study"
+                label="See full design case study"
                 labelPosition="after"
                 primary={true}
                 target="_blank"
