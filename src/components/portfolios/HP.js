@@ -8,7 +8,7 @@ import LinkIcon from 'material-ui/svg-icons/content/link';
 import FlatButton from 'material-ui/FlatButton';
 import ShareButton from '../ShareButton';
 import RaisedButton from 'material-ui/RaisedButton';
-import ModalImage from 'react-modal-image'
+import ModalImage from 'react-modal-image';
 
 import {
   Table,
@@ -53,23 +53,7 @@ class HP extends React.Component {
           </div>
           <div className="col-xs-12">
             <div className="full-case-button">
-              <RaisedButton
-                style={{margin: '15px'}}
-                label="See full case study"
-                labelPosition="after"
-                primary={true}
-                target="_blank"
-                href={"files/hp/anhmai-hopper-casestudy.pdf"}
-                icon={<LinkIcon />}
-              />
-              <RaisedButton
-                label="Link To Adobe XD Prototype"
-                labelPosition="after"
-                primary={true}
-                target="_blank"
-                href={"https://xd.adobe.com/view/949de50a-4b9a-4edf-a16a-8908ee0990d9/"}
-                icon={<LinkIcon />}
-              />
+              
             </div>
           </div>
         </div>
@@ -654,7 +638,24 @@ when they rise.</li>
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
-
+            <RaisedButton
+                style={{margin: '5px'}}
+                label="See full case study"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"files/hp/anhmai-hopper-casestudy.pdf"}
+                icon={<LinkIcon />}
+              />
+              <RaisedButton
+                style={{margin: '5px'}}
+                label="Link To Adobe XD Prototype"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"https://xd.adobe.com/view/949de50a-4b9a-4edf-a16a-8908ee0990d9/"}
+                icon={<LinkIcon />}
+              />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton

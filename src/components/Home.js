@@ -11,6 +11,7 @@ const tilesData = [
     id: '1',
     link: '/google-duo',
     title: 'Google Duo',
+    type: 'Motion Graphic',
     info: 'Introducing Duo (Academic Project)'
   },
   {
@@ -18,13 +19,15 @@ const tilesData = [
     id: '2',
     link: '/cl',
     title: 'Craigslist',
-    info: 'Mobile App Proposal (In-Progress Academic Project)'
+    type: 'Mobile Design',
+    info: 'Mobile App Proposal (Academic Project)'
   },
   {
     img: 'files/gow-cover.jpg',
     id: '3',
     link: '/gow',
     title: 'Garden of Wisdom',
+    type: 'Web Design',
     info: 'Web Application Proposal (Academic Project)'
   },
   {
@@ -32,6 +35,7 @@ const tilesData = [
     id: '4',
     link: '/wit',
     title: 'Girls Who Code',
+    type: 'Infographic',
     info: 'Women in Tech Infographic (Academic Project)'
   },
   {
@@ -39,6 +43,7 @@ const tilesData = [
     id: '5',
     link: '/hp',
     title: 'Hopper',
+    type: 'Mobile Design',
     info: 'Mobile App Redesign (Academic Project)'
   },
   {
@@ -46,6 +51,7 @@ const tilesData = [
     id: '6',
     link: '/octo',
     title: 'Octo Sushi',
+    type: 'Graphic and Web Design',
     info: 'Rebranding Case Study (Academic Project)'
   }
 ];

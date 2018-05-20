@@ -39,14 +39,7 @@ class WIT extends React.Component {
           </div>
           <div className="col-xs-12">
             <div className="full-case-button">
-              <RaisedButton
-                label="See full case study"
-                labelPosition="after"
-                primary={true}
-                target="_blank"
-                href={"files/anhmai_womenintech_infographic.pdf"}
-                icon={<LinkIcon />}
-              />
+              
             </div>
           </div>
         </div>
@@ -221,6 +214,14 @@ typography and a well-structured layout.
             />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
+          <RaisedButton
+                label="See full case study"
+                labelPosition="after"
+                primary={true}
+                target="_blank"
+                href={"files/anhmai_womenintech_infographic.pdf"}
+                icon={<LinkIcon />}
+              />
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
