@@ -42,7 +42,7 @@ class LH extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">LimeHelmet</div>
-            <div className="portfolio-subtitle">Introducing face detection API technology (IN-PROGRESS ACADEMIC PROJECT)</div>
+            <div className="portfolio-subtitle">Introducing face detection API technology (ACADEMIC PROJECT)</div>
           </div>
           <div className="col-xs-12">
             <ModalImage className="portfolio-img-page" small="files/background/lh.png" large="files/background/lh.png"/>
