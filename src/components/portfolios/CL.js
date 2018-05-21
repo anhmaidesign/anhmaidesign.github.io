@@ -63,11 +63,9 @@ class CL extends React.Component {
             <div className="portfolio-right-col">
               <h3>Client</h3>
               <p>
-                Craig Newmark (e.g., Craig) launched a free platform for classified ads in San Francisco Bay Area called Craigslist. It started expanding to other U.S. cities in 2000, and now covers 70 countries. Craigslist became a web-based service in 1996 and expanded into different classified categories like jobs, housing, for sale, etc.
+                Craig Newmark (e.g., Craig) launched a free platform for classified ads in San Francisco Bay Area called Craigslist. Craigslist became a web-based service in 1996 and expanded into different classified categories.
               </p>
-              <p>
-                Craigslist is undoubtedly website that many people are loved by its quality, and hated by its outdated designs. It is understandable for its design because Craigslist’s minimalist strategy means its users are the ones who make the decisions, on their time, with no distractions. Today, it serves over nine billion page views per month in 450 cities across 70 countries.
-              </p>
+             
               <h3>Objective</h3>
               <p>
                 The app is created to help the current Craigslist users, particularly busy users who want to save more time spend on finding classified ads. The app also intends to improve the security of customer information.
@@ -87,12 +85,7 @@ class CL extends React.Component {
               <p>
                 Craigslist is an app created for the need of the current desktop users. It is designed to help local users find what they need instead of being required to have a computer anytime. The goal is to create a mobile app that eases to use for everyone without any confusion.
               </p>
-              <p>
-                The app will first ask users to select their current location. These data will then be gathered and used to find the local classified ads that match the target user. Users can also search multiple cities at a time from their mobile.
-              </p>
-              <p>
-                Also, users can customize their profile by saving their favorite ads and postings. The results list will be shown in order of the ones which recent post. Users could then browse through and find ones that they like the most, then send a request to know more information about the post.
-              </p>
+              
               <h3>Problems</h3>
               <p>
                 There are several 3rd parties that officially licensed by Craigslist. When using their app, a user will be asked to accept Craigslist's term and conditions to be able to use the app.
@@ -102,7 +95,7 @@ class CL extends React.Component {
               </p>
               <h3>Target Audiences</h3>
               <ul>
-                <li>Both Genders</li>
+                <li>All Genders</li>
                 <li>College Students</li>
                 <li>Live in US</li>
                 <li>Average Incomes</li>
@@ -286,9 +279,7 @@ class CL extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <h1>OfferUp</h1>
-              <p>
-                OfferUp is one of the biggest mobile marketplace for local buyers and sellers. Almost all of its functions support the buy and sale; and exchange of information between users.
-              </p>
+              
               <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor1.png" large="files/cl/cl-competitor1.png"/>
               <h3>Platform</h3>
               <ul>
@@ -322,9 +313,7 @@ class CL extends React.Component {
               </ul>
 
               <h1>Cplus</h1>
-              <p>
-                CPlus is an officially licensed Craigslist app for both Windows Phone and iPhone. CPlus offers huge extra features that make browsing and searching on Craigslist very smoothly.
-              </p>
+              
               <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor2.png" large="files/cl/cl-competitor2.png"/>
               <h3>Platform</h3>
               <ul>
@@ -361,9 +350,7 @@ class CL extends React.Component {
               </ul>
 
               <h1>Qwilo</h1>
-              <p>
-              Qwilo is officially licensed craigslist app. It carries everything you love about Craigslist and places it all together in one easy to use. It is a feature-wise, beautiful and reliable Craigslist mobile app.
-              </p>
+              
               <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor3.png" large="files/cl/cl-competitor3.png"/>
               <h3>Platform</h3>
               <ul>
@@ -397,9 +384,7 @@ class CL extends React.Component {
               </ul>
 
               <h1>CSmart</h1>
-              <p>
-              CSmart allows users have the full capability as if they were on a computer. The quickest way to browse and search craigslist with excellent feature wise though.
-              </p>
+              
               <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor4.png" large="files/cl/cl-competitor4.png" />
               <h3>Platform</h3>
               <ul>
@@ -431,9 +416,7 @@ class CL extends React.Component {
                 <li>Sometimes the previous search information does not remove.</li>
               </ul>
               
-              <h2>Decision</h2>
-              <p>Qwilo and Cplus apps share many common features. Qwilo is a modernly designed app focused more on aesthetics while Cplus is a traditionally built app and design based on the grid system. OfferUp can be considered as an innovation in design because its information communicated more efficiently and straightforwardly. Csmart is the less favorite one, possibly because of its outdated design.</p>
-              <p>After analysing the strengths and weaknesses of the competitors, official Craigslist mobile app should incorporate positive features while avoiding negative features from its competitors. It should focus on the quality of information and find the best solutions to help a user find what the need for just minutes. Visual aspects should also be concentrated on the layout, color scheme, and visual hierarchy to make it right for both aesthetic and usability aspects.</p>
+              
               <h2>Adopt</h2>
               <ul>
                 <li>Visual hierarchy</li>

@@ -55,12 +55,7 @@ class SS extends React.Component {
               <p>
               Google LLC is an American multinational technology company that specializes in Internet-related services and products. These include online advertising technologies, search, cloud computing, software, and hardware.
               </p>
-              <p>
-              Google's mission is to organize the world's information and make it universally accessible and useful.
-              </p>
-               <p>
-              Google Duo is the new, simple video calling app that brings you face-to-face with all the people that matter most.
-              </p>
+             
             </div>
           </div>
         </div>

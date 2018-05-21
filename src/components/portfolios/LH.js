@@ -400,7 +400,7 @@ class LH extends React.Component {
                 labelPosition="after"
                 primary={true}
                 target="_blank"
-                href={"https://xd.adobe.com/view/02844ae1-04cb-44c9-58ab-d1b7552397e2-74b5/"}
+                href={"https://xd.adobe.com/view/713055ed-074a-4431-7173-a3ba4983ce83-0701/"}
                 icon={<LinkIcon />}
               />
           </div>

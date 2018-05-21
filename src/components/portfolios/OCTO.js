@@ -37,9 +37,7 @@ class OCTO extends React.Component {
             <div className="portfolio-subtitle">Rebrand Case Study (ACADEMIC PROJECT)</div>
           </div>
           <div className="col-xs-12">
-            <div className="iframe-container">
-              <iframe id="octo-iframe" src="https://marvelapp.com/338hd28?emb=1" width="100%" height="500px" allowTransparency="true" frameBorder="0"/>
-            </div>
+            <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/background/octo.png" large="files/background/octo.png"/>
           </div>
           <div className="col-xs-12">
             <div className="full-case-button">
@@ -62,20 +60,7 @@ class OCTO extends React.Component {
             </div>
           </div>
         </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              Project
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Rebrand existing company. Including website, color, menu, and logo.
-              </p>
-            </div>
-          </div>
-        </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -118,25 +103,12 @@ class OCTO extends React.Component {
             </div>
           </div>
         </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              PROJECT TOOLS
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Sketches, MarvelApp
-              </p>
-            </div>
-          </div>
-        </div>
+        
         
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              Hopping Team Tasks
+              Octo Team Tasks
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
@@ -244,7 +216,227 @@ class OCTO extends React.Component {
             </div>
           </div>
         </div>
+         <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              USER PERSONA
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/octo/p1.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Forest Arikson, 27</h3>
+                  <p>Forest is looking for a nice, local, affordable, and the hip joint where he can meet up with his friends for a quick bite. Forest cares a lot about experiences and enjoys aesthetically appealing locations that are fresh, inviting, and open and food that is delicious and quickly made.</p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/octo/p2.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Breah Jonas, 24</h3>
+                  <p>Breah loves sushi. It is all about the journey, little moments that bring up over time creating happy memories. Breah is looking for a sushi place that still has excellent service and delicious food that doesn’t break the bank.</p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/octo/p3.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Mia Patel, 34</h3>
+                  <p>Mia has been eating sushi since she was a little girl and really appreciates restaurants that can provide authenticity of home both visually and in taste. Mia loves Octo because not only do they respect traditional Japanese’s culture but they are also fresh and trendy.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              logo Sketches
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/s1.png" large="files/octo/s1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/s2.png" large="files/octo/s2.png"/>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Vector Process Sketches
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/v1.png" large="files/octo/v1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/v2.png" large="files/octo/v2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/v3.png" large="files/octo/v3.png"/>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Style guide - logo design
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/sg2.png" large="files/octo/sg2.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              final logo design
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/logo.png" large="files/octo/logo.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              website sketches
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/ws1.png" large="files/octo/ws1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/ws2.png" large="files/octo/ws2.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Wireframes
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/w1.png" large="files/octo/w1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/w2.png" large="files/octo/w2.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              USABILITY TESTING
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="row">
+                <div className="col-xs-12">
+                  <p><b>Overview</b></p>
+                  <p>For the usability testing, we invited six classmates to do the lo-fi
+prototypes. Six participants were asked to perform two simple tasks
+for the test:</p>
+                  <ul>
+                    <li><p>You want to find out what includes in the dinner menu and find
+the way to order it through UberEat.</p></li>
+                    <li><p>You want to contact the restaurant to ask for special deals and
+their store location.</p></li>
+                    
+                  </ul>
+                </div>
+              </div>
+              
+              <div className="row">
+                <div className="col-xs-12">
+                  <p><b>During the test</b></p>
+                  <p>Participants were guided to navigate around the screens by finger
+tabs. We provided them with one sketch screen each time, and no
+help was given when the participants were doing the tasks.</p>
+<p>During the tasks, we encouraged them to openly address their
+thoughts and detailed explanations why they are having difficulty
+navigating the screens. In the meantime, we tracked and marked
+participants’ expression as well as their actions while performing
+the test.</p>
+                  
+                  <p><b>Testing results</b></p>
+                  <p>Based on our tests, participants went through most of the screens smoothly. Here are a
+few results we got from the test:</p>
+                  <ul>
+                    <li><p>One of the participants was looking for UberEat on the delivery section and was
+confused between “delivery only” and “pick up only” categories. Since they both
+the same thing, test takers suggested adding “delivery only” and “pickup only”
+together. It would be better to have all delivery options on one page and will
+increase the user experience.</p></li>
+                    <li><p>One of the participants recommended moving the logo from the top left to the
+center to get more cohesion. By following the rule of visual hierarchy, the logo
+should be bigger than the navigation bar</p></li>
+                    
+              
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Style guide - web design
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/sg1.png" large="files/octo/sg1.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              final design
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/f1.png" large="files/octo/f1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/f2.png" large="files/octo/f2.png"/>
+              
+            </div>
+          </div>
+        </div>
         
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Interactive prototype
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="iframe-container">
+                <iframe id="octo-iframe" src="https://marvelapp.com/338hd28?emb=1" width="100%" height="500px" allowTransparency="true" frameBorder="0"/>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
@@ -273,8 +465,10 @@ class OCTO extends React.Component {
               href={"/google-duo"}
               icon={<Forward />}
             />
+            
           </div>
         </div>
+
         <ShareButton
           url="http://anhmaidesign.com/octo"
           title="Octo Sushi - Rebranding Case Study"

@@ -113,20 +113,7 @@ class HP extends React.Component {
             </div>
           </div>
         </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              PROJECT CONCEPT
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Our goal is to design an app version including multiple features that will help either existing and potential customers who do not have much time to spend on flight shopping.
-              </p>
-            </div>
-          </div>
-        </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -214,9 +201,7 @@ class HP extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <p>
-                This mobile app will focus on purchasing flight by entering customer information. Included in the first page, the customer will enter their departure and destination, round or one-way trip, date and time of flight, and number of travelers. The second page will contain tabs to aid in the search of the flight by, price, departure times, arrival times, and the number of stops.
-              </p>
+              
               <ModalImage className="portfolio-img-page" small="files/hp/cs1.png" large="files/hp/cs1.png"/>
               <ModalImage className="portfolio-img-page" small="files/hp/cs2.png" large="files/hp/cs2.png"/>
             </div>
@@ -361,8 +346,7 @@ class HP extends React.Component {
                 <p>20, Female</p>
                 <p>Student</p>
                 <p>Portland, OR</p>
-                <p>Mia doesn’t have a
-big budget but is looking forward to studying abroad.</p>
+                
                 <p>Mia is looking for the cheapest flight to her current foreign
 study program in Hyderabad, India.</p>
                 <p><b>Goals:</b></p>
@@ -380,8 +364,7 @@ her Degree.</li>
                 <p>26, Male</p>
                 <p>Software Engineer</p>
                 <p>Redmond, WA</p>
-                <p>Vu has been working in the software engineer industry for
-six years. </p>
+                
                 <p>He usually looks online and buy his flight tickets through
 Hopper app for its affordable prices although the app
 somtimes is a bit complicated to navigate.</p>

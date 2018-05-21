@@ -20,7 +20,7 @@ const tilesData = [
     link: '/hp',
     title: 'Hopper',
     type: 'Mobile Design - Android',
-    info: 'Mobile App Redesign (Academic Project)'
+    info: 'Mobile App Proposal (Academic Project)'
   },
   {
     img: 'files/lh-cover.png',
@@ -28,7 +28,7 @@ const tilesData = [
     link: '/lh',
     title: 'LimeHelmet',
     type: 'Interface Design',
-    info: 'Introducing face detection API technology (Academic Project)'
+    info: 'Introducing Face Detection Technology (Academic Project)'
   },
   {
     img: 'files/gow-cover.jpg',
@@ -36,7 +36,7 @@ const tilesData = [
     link: '/gow',
     title: 'Garden of Wisdom',
     type: 'Web Design',
-    info: 'Web Application Proposal (Academic Project)'
+    info: 'Web Design Proposal (Academic Project)'
   },
   {
     img: 'files/octo-cover.png',
@@ -44,7 +44,7 @@ const tilesData = [
     link: '/octo',
     title: 'Octo Sushi',
     type: 'Graphic and Web Design',
-    info: 'Rebranding Case Study (Academic Project)'
+    info: 'Rebranding (Academic Project)'
   },
   {
     img: 'files/gg-cover.png',
