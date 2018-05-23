@@ -183,6 +183,7 @@ nav ul li a {
   #contact-body-left {
     display: inline-block;
     max-width: 50%;
+    min-width: 50%;
   }
 
 }

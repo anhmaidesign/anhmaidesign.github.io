@@ -364,28 +364,15 @@ their store location.</p></li>
               
               <div className="row">
                 <div className="col-xs-12">
-                  <p><b>During the test</b></p>
-                  <p>Participants were guided to navigate around the screens by finger
-tabs. We provided them with one sketch screen each time, and no
-help was given when the participants were doing the tasks.</p>
-<p>During the tasks, we encouraged them to openly address their
-thoughts and detailed explanations why they are having difficulty
-navigating the screens. In the meantime, we tracked and marked
-participants’ expression as well as their actions while performing
-the test.</p>
+                  
                   
                   <p><b>Testing results</b></p>
-                  <p>Based on our tests, participants went through most of the screens smoothly. Here are a
-few results we got from the test:</p>
+                  
                   <ul>
                     <li><p>One of the participants was looking for UberEat on the delivery section and was
-confused between “delivery only” and “pick up only” categories. Since they both
-the same thing, test takers suggested adding “delivery only” and “pickup only”
-together. It would be better to have all delivery options on one page and will
-increase the user experience.</p></li>
+confused between “delivery only” and “pick up only” categories. </p></li>
                     <li><p>One of the participants recommended moving the logo from the top left to the
-center to get more cohesion. By following the rule of visual hierarchy, the logo
-should be bigger than the navigation bar</p></li>
+center to get more cohesion. </p></li>
                     
               
                   </ul>

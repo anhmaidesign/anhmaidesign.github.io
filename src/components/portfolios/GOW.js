@@ -86,41 +86,8 @@ consistency to convey a “family handmade” feeling.
             </div>
           </div>
         </div>        
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              TARGET AUDIENCE
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Aged 20-55
-              </p>
-              <p>
-              Women and men with skin concerns but skews 85/15 
-              </p>
-              <p>
-              Middle class
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              PROJECT CONCEPT
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              The core user value is to make the website functional with a great design and to appeal to its most important audience which is women in their 20s. To analyze every page and bring things closer to GOW manager's sale goal.
-
-              </p>
-            </div>
-          </div>
-        </div>
+      
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -136,32 +103,7 @@ consistency to convey a “family handmade” feeling.
             </div>
           </div>
         </div>
-        
-        
-        
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              Measure Success
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              The success of this site will be measured based on following criteria:
-              </p>
-              <p>
-              <b>Profit:</b> The difference between the cost spent to re-design the site and the revenue after finishing
-              </p>
-              <p>
-              <b>Timing:</b> By enter to the site, users will have their products right away without wasting time.
-              </p>
-              <p>
-              <b>Quality:</b> After throughout testing and quality assurance, I will evaluate whether the main target was achieved in following terms: Is the new site difficult to use? Are they satisfy with the site?
-              </p>
-            </div>
-          </div>
-        </div>
+     
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -200,28 +142,18 @@ consistency to convey a “family handmade” feeling.
                   </TableRow>
                   <TableRow striped={false}>
                     <TableRowColumn style={{whiteSpace: 'initial'}}><b>Strength</b></TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>Familly business so they mainly focus on quality with affordable prices</TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>Big company so they have more brand options with the best customer services</TableRowColumn>
+                    <TableRowColumn style={{whiteSpace: 'initial'}}>affordable prices</TableRowColumn>
+                    <TableRowColumn style={{whiteSpace: 'initial'}}> good customer services</TableRowColumn>
                     <TableRowColumn style={{whiteSpace: 'initial'}}>Top oil brand</TableRowColumn>
                   </TableRow>
                   <TableRow striped={false}>
                     <TableRowColumn style={{whiteSpace: 'initial'}}><b>Weakness</b></TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>No stores, online shopping only with a few choice of products</TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>High prices with many brands lead to difficulty selection</TableRowColumn>
+                    <TableRowColumn style={{whiteSpace: 'initial'}}>Limited products</TableRowColumn>
+                    <TableRowColumn style={{whiteSpace: 'initial'}}>High prices</TableRowColumn>
                     <TableRowColumn style={{whiteSpace: 'initial'}}>Only available in Australia</TableRowColumn>
                   </TableRow>
-                  <TableRow striped={false}>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}><b>Apperance</b></TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>Simple packaging with no brand identity</TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>Colorful looking</TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>Only black and white</TableRowColumn>
-                  </TableRow>
-                  <TableRow striped={false}>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}><b>Advertising</b></TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>No marketing plan</TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>Social media advertsing with email subscribes</TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>Email subscribes</TableRowColumn>
-                  </TableRow>
+                  
+                  
                 </TableBody>
               </Table>
             </div>
@@ -239,11 +171,8 @@ consistency to convey a “family handmade” feeling.
                 <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/people/sarah.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-8">
-                <h3>Sarah Greet</h3>
-                <p>30, Female</p>
-                <p>Teacher</p>
-                <p>Britain</p>
-                <p>Sarah is an English teacher who always stays in the office.</p>
+                <h3>Sarah Greet, 30</h3>
+                
                 <p>She loves GOW products because of its quality and prices but she would like to have a better shopping experience at GOW website.</p>
                 <p><b>Current Frustrations:</b></p>
                 <ul>
@@ -260,11 +189,8 @@ consistency to convey a “family handmade” feeling.
                 <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/people/alen.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-8">
-                <h3>Alen Smith</h3>
-                <p>23, Male</p>
-                <p>Dancer</p>
-                <p>Redmond, WA</p>
-                <p>Alen has been working as a freelance dancer since he was in secondary school.</p>
+                <h3>Alen Smith, 23</h3>
+                
                 <p>He has shopped at GOW several times in the past but he stopped it because he had he has many bad experience when shopping at GOW website.</p>
                 <p><b>Current Frustrations:</b></p>
                 <ul>
@@ -275,30 +201,27 @@ consistency to convey a “family handmade” feeling.
                 <ul>
                   <li>A nice and clean website layout helps to find product easier</li>
                   <li>More functions to support purchase</li>
-                  <li>More featured products</li>
+                  
                 </ul>
               </div>
               <div className="col-xs-12 col-sm-4">
                 <img className="portfolio-img-page" style={ {marginTop: '20px'}} src="files/people/tran.jpg"/>
               </div>
               <div className="col-xs-12 col-sm-8">
-                <h3>Tran Pham</h3>
-                <p>23, Female</p>
-                <p>Student</p>
-                <p>Vietnam</p>
-                <p>Tran is an international student who is studying at Seattle Central College.</p>
+                <h3>Amelia Parker, 23</h3>
+                
                 <p>GOW is one of her favorite places to buy skin care products even though her shopping experience was not always good.</p>
                 <p><b>Current Frustrations:</b></p>
                 <ul>
                   <li>Too many steps to navigate to the product page</li>
-                  <li>Lack of promotion information</li>
+                
                   <li>Poor navigation barand details are not streamlined</li>
                 </ul>
                 <p><b>User Needs:</b></p>
                 <ul>
                   <li>More product images with prices</li>
                   <li>Less crowded navigation bar</li>
-                  <li>Shipping options more stand out</li>
+                  
                 </ul>
               </div>
             </div>
@@ -337,18 +260,7 @@ consistency to convey a “family handmade” feeling.
               <div className="col-xs-12 col-sm-6">
                 <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch4.jpg"/>
               </div>
-              <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch5.jpg"/>
-              </div>
-              <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch6.jpg"/>
-              </div>
-              <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch7.jpg"/>
-              </div>
-              <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_sketches/Sketch8.jpg"/>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -372,18 +284,7 @@ consistency to convey a “family handmade” feeling.
               <div className="col-xs-12 col-sm-6">
                 <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/4.png"/>
               </div>
-              <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/5.png"/>
-              </div>
-              <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/6.png"/>
-              </div>
-              <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/7.png"/>
-              </div>
-              <div className="col-xs-12 col-sm-6">
-                <img className="portfolio-img-page" style={ {marginTop: '15px'}} src="files/gow_wireframe/8.png"/>
-              </div>
+              
             </div>
           </div>
         </div>

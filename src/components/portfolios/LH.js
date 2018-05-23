@@ -72,13 +72,7 @@ class LH extends React.Component {
               <p>
                 Develop the kiosk that is simple and easy to use. LimeHelmet will provide a rental helmet kiosk for LimeBike users. An automated vending machine that will dispense helmets for a small fee will also apart of the project.
               </p>
-              <h3>Target Audiences</h3>
-              <ul>
-                <li>LimeBiker users</li>
-                <li>Cyclists aged 18-45</li>
-                <li>Urban areas</li>
-                <li>Health concerned</li>
-              </ul>
+             
             </div>
           </div>
         </div>
@@ -90,108 +84,49 @@ class LH extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <div className="row">
-                <h1>HelmetHub</h1>
-                <div className="col-xs-12 col-sm-6">
-                  <h3>Features</h3>
-                  <ul>
-                    <li>City Maps</li>
-                    <li>User manual</li>
-                    <li>Payment instruction</li>
-                    <li>Solar power</li>
-                    <li>Real-time analytics</li>
-                    <li>Each machine can hold 36 helmets</li>
-                    <li>Touch screen system to help deploy the safety gear</li>
-                    <li>Sent to the company’s headquarters to be cleaned and sanitized before the next customer</li>
-                  </ul>
-                </div>
-                <div className="col-xs-12 col-sm-6">
-                  <ModalImage className="portfolio-img-page" small="files/lime-helmet/hh1.jpg" large="files/lime-helmet/hh1.jpg"/>
-                </div>
-                <div className="col-xs-12 col-sm-6">
-                  <h3>Design</h3>
-                  <ul>
-                    <li>Simple color scheme</li>
-                    <li>Effective use of illustrators</li>
-                    <li>Large screen display</li>
-                    <li>Helmet tray display</li>
-                  </ul>
-                </div>
-                <div className="col-xs-12 col-sm-6">
-                  <ModalImage className="portfolio-img-page" small="files/lime-helmet/hh.png" large="files/lime-helmet/hh.png"/>
-                </div>
-              </div>
+              <h1>HelmetHub</h1>
+              
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/lime-helmet/hh1.jpg" large="files/lime-helmet/hh1.jpg"/>
 
-              <div className="row">
-                <h1>MelBourneBikeShare</h1>
-                <div className="col-xs-12 col-sm-6">
-                  <h3>Features</h3>
-                  <ul>
-                    <li>Refrigerator Display</li>
-                    <li>User manual</li>
-                    <li>Payment instruction</li>
-                    <li>Each machine can hold 30 helmets</li>
-                    <li>Returned at 7-Eleven stores for cleaning, disinfection and lining replacement</li>
-                  </ul>
-                  <h3>Design</h3>
-                  <ul>
-                    <li>Bright color scheme</li>
-                    <li>Transparent machine design</li>
+              
+              <h3>Features</h3>
+              <ul>
+                <li>Real-time analytics</li>
+              
+                <li>Touch screen system to help deploy the safety gear</li>
+                
+              </ul>
+              <h3>Design</h3>
+              <ul>
+                <li>Simple color scheme</li>
+                  
                     <li>Large screen display</li>
-                  </ul>
-                </div>
-                <div className="col-xs-12 col-sm-6">
-                  <ModalImage className="portfolio-img-page" small="files/lime-helmet/Mel1.jpg" large="files/lime-helmet/Mel1.jpg"/>
-                </div>
-              </div>
-            </div>
+                
+              </ul>
+              
 
-          </div>
-        </div>
-        
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              Features
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <div className="row">
-                <div className="col-xs-12 col-sm-6">
-                  <h3>Instruction</h3>
-                  <ul>
-                    <li>Provide clear step by step instructions for users.</li>
-                    <li>LimBike user required (There will be an option to signup for LimeBike account)</li>
-                  </ul>
-                  <h3>Measure your size</h3>
-                  <ul>
-                    <li>Camera Scanning</li>
-                    <li>Visual direction instructons</li>
-                    <li>Option to Re-do</li>
-                    <li>iving the best size</li>
-                  </ul>
-                </div>
-                <div className="col-xs-12 col-sm-6">
-                  <h3>Rental Review</h3>
-                  <ul>
-                    <li>Information about the size, the rental period</li>
-                  </ul>
-                  <h3>Payment</h3>
-                  <ul>
-                    <li>Payment process before ready to go</li>
-                  </ul>
-                  <h3>Confirmation Page</h3>
-                  <ul>
-                    <li>Confirmation rental</li>
-                    <li>LimeHelmet location search</li>
-                  </ul>
-                </div>
-              </div>
+              <h1>MelBourneBikeShares</h1>
+              
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/lime-helmet/Mel1.jpg" large="files/lime-helmet/Mel1.jpg"/>
+              
+              <h3>Features</h3>
+              <ul>
+                <li>User manual</li>
+                <li>Payment instruction</li>
+                
+              </ul>
+              <h3>Design</h3>
+              <ul>
+                <li>Bright color scheme</li>
+                    
+                <li>Large screen display</li>
+                
+              </ul>
+           
             </div>
           </div>
         </div>
-
+    
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -254,8 +189,7 @@ class LH extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/sk1.png" large="files/lime-helmet/sk1.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/sk2.png" large="files/lime-helmet/sk2.png"/>
+              
               <ModalImage className="portfolio-img-page" small="files/lime-helmet/sk3.png" large="files/lime-helmet/sk3.png"/>
             </div>
           </div>
@@ -269,11 +203,9 @@ class LH extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/wf1.png" large="files/lime-helmet/wf1.png"/>
+              
               <ModalImage className="portfolio-img-page" small="files/lime-helmet/wf2.png" large="files/lime-helmet/wf2.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/wf3.png" large="files/lime-helmet/wf3.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/wf4.png" large="files/lime-helmet/wf4.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/wf5.png" large="files/lime-helmet/wf5.png"/>
+              
             </div>
           </div>
         </div>
@@ -287,25 +219,8 @@ class LH extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <div className="row">
-                <div className="col-xs-12 col-sm-6">
-                  <h3>The usability test mainly focused on the following perspectives:</h3>
-                  <ul>
-                    <li>Overall user flow</li>
-                    <li>The interaction between users and functions</li>
-                    <li>Time-consuming ( How long does it take users to figure out)</li>
-                    <li>Effectiveness of navigation</li>
-                    <li>Overall design criteria (icons, text, layout..)</li>
-                  </ul>
-                </div>
-                <div className="col-xs-12 col-sm-6">
-                  <h3>Participant Qualifications</h3>
-                  <ul>
-                    <li>Aged 18-35</li>
-                    <li>Safety preferred</li>
-                    <li>Existing LimeBike users for updating testing and new potential users.</li>
-                    <li>Biking more than two times per week</li>
-                  </ul>
-                </div>
+                
+                
                 <div className="col-xs-12">
                   <h3>Tasks</h3>
                   <ul>
@@ -321,16 +236,13 @@ class LH extends React.Component {
                     <li>All of them suggested removing the ”measure your hat size” section since LimeHelmet already gives a measurement.</li>
                     <li>The colors are very consistent and associated with LimeBike brand</li>
                     <li>The user flow was smooth and simple</li>
-                    <li>The navigation arrows should be bigger for users to see and interact with the big screen like the kiosk.</li>
-                    <li>One user suggested having “Pay as you go” added into rental time to give them more flexibility.</li>
-                    <li>Four users were concerned about the payment process, they asked for more options to choose from.</li>
+                    
                   </ul>
                   <h3>Changes</h3>
                   <ul>
                     <li>Add some missing features as suggested by the usability test.</li>
-                    <li>Move the “ SignIn” page to the first, since becoming a Limebike user is required.</li>
-                    <li>There should be a confirmation page after done with renting.</li>
-                    <li>Makes navigation buttons bigger and move it to the bottom of the screen for users easy to navigate.</li>
+                    
+                  
                     <li>Other details as suggested by usability testing.</li>
                   </ul>
                 </div>
@@ -365,11 +277,7 @@ class LH extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <ModalImage className="portfolio-img-page" small="files/lime-helmet/f1.png" large="files/lime-helmet/f1.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/f2.png" large="files/lime-helmet/f2.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/f3.png" large="files/lime-helmet/f3.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/f4.png" large="files/lime-helmet/f4.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/f5.png" large="files/lime-helmet/f5.png"/>
-              <ModalImage className="portfolio-img-page" small="files/lime-helmet/f6.png" large="files/lime-helmet/f6.png"/>
+              
             </div>
           </div>
         </div>
@@ -396,7 +304,7 @@ class LH extends React.Component {
               />
               <RaisedButton
                 style={{margin: '5px'}}
-                label="Link To Adobe XD Prototype"
+                label="Link To Interactive Prototype"
                 labelPosition="after"
                 primary={true}
                 target="_blank"

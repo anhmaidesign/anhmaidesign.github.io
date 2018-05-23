@@ -67,7 +67,7 @@ class HP extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Hopper's team is based in Montreal, QC, and Cambridge, MA. Hopper is a new kind of travel company that is reinventing the way people plan to travel and books flights by leveraging the power of mobile conversation and big data in the form of trillions of flight prices. Today, Hopper is one of the fastest growing travel apps ever, with over 10 million installs since our launch in 2015.
+              Hopper's team is based in Montreal, QC, and Cambridge, MA. Hopper is a new kind of travel company that is reinventing the way people plan to travel and books flights by leveraging the power of mobile conversation and big data in the form of trillions of flight prices. 
               </p>
               
             </div>
@@ -82,37 +82,13 @@ class HP extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
-              Their existing mobile site app is good but It is missing some of the basic information that is should be given immediately.
+              Their existing mobile site app is good but It is missing some of the basic information that is should be given immediately. A more user-friendly revision of their app will serve as a demonstration of Hopper’s excellent ticket options and care about their customers.
               </p>
-              <p>
-              A more user-friendly revision of their app will serve as a demonstration of Hopper’s excellent ticket options and care about their customers.
-              </p>
+              
             </div>
           </div>
         </div>        
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              TARGET AUDIENCE
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Aged 20-55
-              </p>
-              <p>
-              Travelers
-              </p>
-              <p>
-              Students
-              </p>
-              <p>
-              Businessman
-              </p>
-            </div>
-          </div>
-        </div>
+        
         
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
@@ -135,7 +111,7 @@ class HP extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              Hopping Team Tasks
+             Team Tasks
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
@@ -218,187 +194,59 @@ class HP extends React.Component {
             <div className="portfolio-right-col">
               <ModalImage className="portfolio-img-page" small="files/hp/ca1.png" large="files/hp/ca1.png"/>
               <ModalImage className="portfolio-img-page" small="files/hp/ca2.png" large="files/hp/ca2.png"/>
-              <ModalImage className="portfolio-img-page" small="files/hp/ca3.png" large="files/hp/ca3.png"/>
-              <ModalImage className="portfolio-img-page" small="files/hp/ca4.png" large="files/hp/ca4.png"/>
+              
             </div>
 
-            <p><b>PAGE HIERARCHY</b></p>
-            <div className="row">
-              <div className="col-xs-12 col-sm-4">
-                <p><b>Navigation Bar</b></p>
-                <ul>
-                  <li>
-                    <p>Watch</p>
-                  </li>
-                  <li>
-                    <p>Notification</p>
-                  </li>
-                  <li>
-                    <p>Search</p>
-                  </li>
-                  <li>
-                    <p>Trip</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-xs-12 col-sm-4">
-                <p><b>Flight option</b></p>
-                <ul>
-                  <li>
-                    <p>Price</p>
-                  </li>
-                  <li>
-                    <p>Depart</p>
-                  </li>
-                  <li>
-                    <p>Arrive</p>
-                  </li>
-                  <li>
-                    <p>Stop</p>
-                  </li>
-                  <li>
-                    <p>Checked Bag</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-xs-12 col-sm-4">
-                <p><b>New User</b></p>
-                <ul>
-                  <li>
-                    <p>Add new traveler</p>
-                  </li>
-                  <li>
-                    <p>New User Form</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col-xs-12 col-sm-4">
-                <p><b>Flight Search</b></p>
-                <ul>
-                  <li>
-                    <p>Departure</p>
-                  </li>
-                  <li>
-                    <p>Destination</p>
-                  </li>
-                  <li>
-                    <p>Flight form (One way/
-  Roundtrip)</p>
-                  </li>
-                  <li>
-                    <p>Date</p>
-                  </li>
-                  <li>
-                    <p>Traveler</p>
-                  </li>
-                  <li>
-                    <p>Search</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-xs-12 col-sm-4">
-                <p><b>Existing User</b></p>
-                <ul>
-                  <li>
-                    <p>Sign in</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-xs-12 col-sm-4">
-                <p><b>Payment</b></p>
-                <ul>
-                  <li>
-                    <p>Add/Update Card</p>
-                  </li>
-                  <li>
-                    <p>Card Type</p>
-                  </li>
-                  <li>
-                    <p>Payment Summary</p>
-                  </li>
-                  <li>
-                    <p>Submit Payment</p>
-                  </li>
-                  <li>
-                    <p>Confirmation</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
-        <div className="row portfolio-row">
+         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              USER SCENARIO AND PATHS
+              USER PERSONA
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <div className="col-xs-12 col-sm-4">
-                <img className="portfolio-img-page" src="files/hp/people/mia.jpg"/>
-              </div>
-              <div className="col-xs-12 col-sm-8">
-                <h3>Mia Wilson</h3>
-                <p>20, Female</p>
-                <p>Student</p>
-                <p>Portland, OR</p>
-                
-                <p>Mia is looking for the cheapest flight to her current foreign
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/hp/people/mia.jpg"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Mia Wilson,20</h3>
+                  <p>Mia is looking for the cheapest flight to her current foreign
 study program in Hyderabad, India.</p>
-                <p><b>Goals:</b></p>
-                <ul>
-                  <li>Looking for the best deal for her student budget</li>
-                  <li>To gain knowledge of the world around her to grow in
-her Degree.</li>
-                </ul>
+                </div>
               </div>
-              <div className="col-xs-12 col-sm-4">
-                <img className="portfolio-img-page" src="files/hp/people/VP.jpg"/>
-              </div>
-              <div className="col-xs-12 col-sm-8">
-                <h3>Vu Pham</h3>
-                <p>26, Male</p>
-                <p>Software Engineer</p>
-                <p>Redmond, WA</p>
-                
-                <p>He usually looks online and buy his flight tickets through
+
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/hp/people/VP.jpg"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Vu Pham,26</h3>
+                  <p>He usually looks online and buy his flight tickets through
 Hopper app for its affordable prices although the app
 somtimes is a bit complicated to navigate.</p>
-                <p><b>Goals:</b></p>
-                <ul>
-                  <li>Wants to buy a ticket more efficiently</li>
-                  <li>Introducing a good flight shopping experience to
-his colleagues.</li>
-                </ul>
+                </div>
               </div>
-              <div className="col-xs-12 col-sm-4">
-                <img className="portfolio-img-page" src="files/hp/people/grant.png"/>
-              </div>
-              <div className="col-xs-12 col-sm-8">
-                <h3>Grant Harrison</h3>
-                <p>56, Male</p>
-                <p>Life Coach, Entrepreneur</p>
-                <p>NewYork</p>
-                <p>His beginning was a humbling one that taught him the
+
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/hp/people/grant.png"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Grant Harrison, 56</h3>
+                  <p>His beginning was a humbling one that taught him the
 importance of saving your money. In continuing to live
 frugal in some cases, saving a money on a plane ticket
 is necessary.</p>
-              
-                <p><b>Goals:</b></p>
-                <ul>
-                  <li>Looking for an app that helps find the best plane
-ticket deals.</li>
-                  <li>Updated in and when tickets may go on sale, as well as
-when they rise.</li>
-                </ul>
+                </div>
               </div>
+
             </div>
           </div>
         </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -431,10 +279,9 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/sketches/home-04.png" large="files/hp/sketches/home-04.png"/>
+              
               <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/sketches/flight.png" large="files/hp/sketches/flight.png"/>
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/sketches/flight2.png" large="files/hp/sketches/flight2.png"/>
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/sketches/payment-04.png" large="files/hp/sketches/payment-04.png"/>
+              
             </div>
           </div>
         </div>
@@ -446,11 +293,9 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/home.png" large="files/hp/wireframes/home.png"/>
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/home.png" large="files/hp/wireframes/home.png"/>
+              
               <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/flight.png" large="files/hp/wireframes/flight.png"/>
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/flight2.png" large="files/hp/wireframes/flight2.png" />
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/hp/wireframes/payment.png" large="files/hp/wireframes/payment.png"/>
+              
             </div>
           </div>
         </div>
@@ -467,7 +312,6 @@ when they rise.</li>
             </div>
           </div>
         </div>
-      
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -476,44 +320,22 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <div className="row">
-                <div className="col-xs-12 col-sm-6">
-                  <p><b>Participant Qualifications</b></p>
-                  <ul>
-                    <li><p>College students</p></li>
-                    <li><p>Existing Hopper users for updating testing and new potential customers</p></li>
-                    <li><p>Shopping for flight twice a year</p></li>
-                  </ul>
-                </div>
-                <div className="col-xs-12 col-sm-6">
-                  <p><b>Tasks</b></p>
-                  <ol>
-                    <li><p>You are a new customer who are searching for round trip flight from SEA to CHI from Sep 2 to Sep 15</p></li>
-                    <li><p>Select the cheapest flight</p></li>
-                    <li><p>Choose the flight and review your trip, then adding your card to make a payment</p></li>
-                  </ol>
-                </div>
-              </div>
+           
+              <h3>Tasks</h3>
+              <ul>
+                <li>You are a new customer who are searching for round trip flight from SEA to CHI from Sep 2 to Sep 15</li>
+                <li>Select the cheapest flight</li>
+                <li>Choose the flight and review your trip, then adding your card to make a payment</li>
+                
+              </ul>
+              <h3>User Comments</h3>
+              <ul>
+                <li>Two users suggested a button that leads to the next step.</li>
+                <li>Four users were confused when the app didn't go anywhere after they had received confirmation for their order.</li>
+                
+                
+              </ul>
               
-              <div className="row">
-                <div className="col-xs-12">
-                  <p><b>We asked fours users. Here are the results:</b></p>
-                  <ul>
-                    <li><p>Two users suggested a button that leads to the next step.</p></li>
-                    <li><p>Two users didn't understand why their information wasn't entered.</p></li>
-                    <li><p>Three users were confused on which area they had clicked on.</p></li>
-                    <li><p>Four users were confused when the app didn't go anywhere after they had received confirmation for their order.</p></li>
-                  </ul>
-                  <p><b>Changes:</b></p>
-                  <ul>
-                    <li><p>Added a "next" button</p></li>
-                    <li><p>The filled out information's icon will change to a different color.</p></li>
-                    <li><p>Made "hit boxes" bigger for clicking.</p></li>
-                    <li><p>On confirmation page, added a "home" button to guide them back to the beginning.</p></li>
-              
-                  </ul>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -527,7 +349,7 @@ when they rise.</li>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <ModalImage className="portfolio-img-page" small="files/hp/sg1.png" large="files/hp/sg1.png"/>
-              <ModalImage className="portfolio-img-page" small="files/hp/sg2.png" large="files/hp/sg2.png"/>
+              
             </div>
           </div>
         </div>
@@ -540,17 +362,7 @@ when they rise.</li>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn1.png" large="files/hp/final/fn1.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn2.png" large="files/hp/final/fn2.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn3.png" large="files/hp/final/fn3.png"/>
-                </div>
-              </div>
+              
               <div className="row">
                 <div className="col-xs-12 col-sm-4">
                   <ModalImage className="portfolio-img-page" small="files/hp/final/fn4.png" large="files/hp/final/fn4.png"/>
@@ -562,50 +374,7 @@ when they rise.</li>
                   <ModalImage className="portfolio-img-page" small="files/hp/final/fn6.png" large="files/hp/final/fn6.png"/>
                 </div>
               </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn7.png" large="files/hp/final/fn7.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn8.png" large="files/hp/final/fn8.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn9.png" large="files/hp/final/fn9.png"/>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn10.png" large="files/hp/final/fn10.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn11.png" large="files/hp/final/fn11.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn12.png" large="files/hp/final/fn12.png"/>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn13.png" large="files/hp/final/fn13.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn14.png" large="files/hp/final/fn14.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn15.png" large="files/hp/final/fn15.png"/>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn16.png" large="files/hp/final/fn16.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn17.png" large="files/hp/final/fn17.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn18.png" large="files/hp/final/fn18.png"/>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -632,7 +401,7 @@ when they rise.</li>
               />
               <RaisedButton
                 style={{margin: '5px'}}
-                label="Link To Adobe XD Prototype"
+                label="Link To Interactive Prototype"
                 labelPosition="after"
                 primary={true}
                 target="_blank"

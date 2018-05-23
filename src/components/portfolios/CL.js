@@ -42,7 +42,7 @@ class CL extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">Craigslist</div>
-            <div className="portfolio-subtitle">Mobile App Version (IN-PROGRESS ACADEMIC PROJECT)</div>
+            <div className="portfolio-subtitle">Mobile App Version (ACADEMIC PROJECT)</div>
           </div>
           <div className="col-xs-12">
             <ModalImage className="portfolio-img-page" small="files/background/cl.png" large="files/background/cl.png"/>
@@ -66,40 +66,27 @@ class CL extends React.Component {
                 Craig Newmark (e.g., Craig) launched a free platform for classified ads in San Francisco Bay Area called Craigslist. Craigslist became a web-based service in 1996 and expanded into different classified categories.
               </p>
              
-              <h3>Objective</h3>
-              <p>
-                The app is created to help the current Craigslist users, particularly busy users who want to save more time spend on finding classified ads. The app also intends to improve the security of customer information.
-              </p>
+              
             </div>
           </div>
         </div>
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              Creative brief
+              Creative Brief
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <h3>About Craigslist App</h3>
-              <p>
-                Craigslist is an app created for the need of the current desktop users. It is designed to help local users find what they need instead of being required to have a computer anytime. The goal is to create a mobile app that eases to use for everyone without any confusion.
-              </p>
+              
               
               <h3>Problems</h3>
               <p>
-                There are several 3rd parties that officially licensed by Craigslist. When using their app, a user will be asked to accept Craigslist's term and conditions to be able to use the app.
+                There are several 3rd parties that officially licensed by Craigslist. When using their app, a user will be asked to accept Craigslist's term and conditions to be able to use the app. However, acceptance means that their information will be shared with a 3rd party, which make user concern about security. 
               </p>
-              <p>
-                However, acceptance means that their information will be shared with a 3rd party, which make user concern about security. That’s why Craigslist decides to create an official app for its users. It emphasizes that personal information of users is always a top priority.
-              </p>
-              <h3>Target Audiences</h3>
-              <ul>
-                <li>All Genders</li>
-                <li>College Students</li>
-                <li>Live in US</li>
-                <li>Average Incomes</li>
-              </ul>
+              
+              
+              
               <h3>Solutions</h3>
               <p>
                 Emphasizes the importance of information quality rather than focus on aesthetics. The core user value is to make the app works with a clear design layout and make it appears most specific to their primary target audiences.
@@ -149,33 +136,6 @@ class CL extends React.Component {
 
                   <TableRow striped={false}>
                     <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <b>NUMBER OF LANGUAGE SUPPORTED</b>
-                    </TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      13 Languages
-                    </TableRowColumn>
-                  </TableRow>
-
-                  <TableRow striped={false}>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <b>NUMBER OF COUNTRIES THAT CRAIGSLIST OPERATES IN</b>
-                    </TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                    70 Countries
-                    </TableRowColumn>
-                  </TableRow>
-
-                  <TableRow striped={false}>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <b>NUMBER OF MONTHLY USER POSTINGS IN CRAIGSLIST DISCUSSION FORUM</b>
-                    </TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      200 Million Postings
-                    </TableRowColumn>
-                  </TableRow>
-
-                  <TableRow striped={false}>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
                       <b>AVERAGE NUMBER OF MONTHLY JOBS LISTINGS POSTED</b>
                     </TableRowColumn>
                     <TableRowColumn style={{whiteSpace: 'initial'}}>
@@ -212,43 +172,10 @@ class CL extends React.Component {
 
                   <TableRow striped={false}>
                     <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <b>ESTIMATED CRAIGSLIST REVENUE IN 2015</b>
-                    </TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      $396 Million
-                    </TableRowColumn>
-                  </TableRow>
-
-                  <TableRow striped={false}>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <b>NUMBER OF CRAIGSLIST EMPLOYEES</b>
-                    </TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      40 Employees
-                    </TableRowColumn>
-                  </TableRow>
-
-                  <TableRow striped={false}>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
                       <b>AVERAGE NUMBER OF MONTHLY PAGEVIEWS</b>
                     </TableRowColumn>
                     <TableRowColumn style={{whiteSpace: 'initial'}}>
                       50 Billion Payviews Per Month
-                    </TableRowColumn>
-                  </TableRow>
-
-                  <TableRow striped={false}>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <b>WHERE DO VISITORS GO ON CRAIGSLIST.ORG?</b>
-                    </TableRowColumn>
-                    <TableRowColumn style={{whiteSpace: 'initial'}}>
-                      <ul style={{paddingLeft: '0px'}}>
-                        <li>accounts.craigslist.org: 10.21%</li>
-                        <li>post.craigslist.org: 10.02%</li>
-                        <li>sfbay.craigslist.org: 9.03%</li>
-                        <li>losangeles.craigslist.org: 6.92%</li>
-                        <li>craigslist.org: 6.11%</li>
-                      </ul>
                     </TableRowColumn>
                   </TableRow>
                 </TableBody>
@@ -265,8 +192,7 @@ class CL extends React.Component {
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-cs-1.png" large="files/cl/cl-cs-1.png"/>
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-cs-2.png" large="files/cl/cl-cs-2.png"/>
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-cs-3.png" large="files/cl/cl-cs-3.png"/>
+              
             </div>
           </div>
         </div>
@@ -281,164 +207,184 @@ class CL extends React.Component {
               <h1>OfferUp</h1>
               
               <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor1.png" large="files/cl/cl-competitor1.png"/>
-              <h3>Platform</h3>
-              <ul>
-                <li>iOS</li>
-                <li>Android</li>
-              </ul>
-              <h3>Price</h3>
-              <ul>
-                <li>Free</li>
-                <li>More options in-app purchases</li>
-              </ul>
+              
               <h3>Features</h3>
               <ul>
                 <li>Message buyers and sellers securely from within the app</li>
                 <li>Browse items by image and sort by category or location</li>
-                <li>List an item using your phone or tablet in as little as 30 seconds</li>
-                <li>Know who you’re dealing with through reputation and safety features</li>
+                
               </ul>
               <h3>Design</h3>
               <ul>
                 <li>Price highlighted</li>
                 <li>Bold text</li>
-                <li>Blur the image that currently view.</li>
-                <li>Grid design layout</li>
+                
               </ul>
-              <h3>Cons</h3>
-              <ul>
-                <li>Messages is glitchy with the latest update</li>
-                <li>Ads are not automatically deleted after 14 days unless the seller manually renews the ads</li>
-                <li>None of user posted items appear when searching for said items.</li>
-              </ul>
+              
 
               <h1>Cplus</h1>
               
               <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor2.png" large="files/cl/cl-competitor2.png"/>
-              <h3>Platform</h3>
-              <ul>
-                <li>iOS</li>
-                <li>Android</li>
-              </ul>
-              <h3>Price</h3>
-              <ul>
-                <li>Free</li>
-                <li>Premium alert feature: $1.99</li>
-                <li>Upgrade to the Pro version: $2.99</li>
-              </ul>
+              
               <h3>Features</h3>
               <ul>
                 <li>Post, edit, and browse listings</li>
                 <li>Search multiple cities at once</li>
-                <li>Many options to show search results in a grid, map or list.</li>
-                <li>Save searches that you frequently search and set up notifications for new listings.</li>
-                <li>Map search for nearby listings</li>
+                
               </ul>
               <h3>Design</h3>
               <ul>
                 <li>Multiple color theme options</li>
                 <li>Large screen display</li>
-                <li>Greys out listings you’ve already looked at</li>
-                <li>Change theme available</li>
+                
               </ul>
-              <h3>Cons</h3>
-              <ul>
-                <li>Should include a hide listings button from certain posts</li>
-                <li>Hard to update post</li>
-                <li>It takes a long time to load in between postings.</li>
-                <li>Lack of individually customize the search areas for each saved search.</li>
-              </ul>
-
-              <h1>Qwilo</h1>
-              
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor3.png" large="files/cl/cl-competitor3.png"/>
-              <h3>Platform</h3>
-              <ul>
-                <li>iOS</li>
-              </ul>
-              <h3>Price</h3>
-              <ul>
-                <li>Free</li>
-                <li>Pro Upgrade: $0.99</li>
-              </ul>
-              <h3>Features</h3>
-              <ul>
-                <li>Filter Craigslist search results; includes advanced search filters.</li>
-                <li>View results in Text-only, Grid, Thumbnail and Picture layouts</li>
-                <li>Run up to five alerts at one time (require Qwilo Pro)</li>
-                <li>Create Craigslist alerts to be notified when a listing matches your criteria.</li>
-                <li>Map view with clustering</li>
-              </ul>
-              <h3>Design</h3>
-              <ul>
-                <li>There is a handy night mode</li>
-                <li>A big contact button on every listing</li>
-                <li>Listing status icons (active, inactive, deleted)</li>
-                <li>Full screen pictures</li>
-              </ul>
-              <h3>Cons</h3>
-              <ul>
-                <li>Limited in posts management even if upgraded to Qwilo Pro.</li>
-                <li>Hard to update post</li>
-                <li>Qwilo locks saved searches and notifications behind a $1 paywall (CPlus includes both for free).</li>
-              </ul>
-
-              <h1>CSmart</h1>
-              
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/cl-competitor4.png" large="files/cl/cl-competitor4.png" />
-              <h3>Platform</h3>
-              <ul>
-                <li>iOS</li>
-              </ul>
-              <h3>Price</h3>
-              <ul>
-                <li>Free</li>
-                <li>CSmart Pro: $2.99</li>
-              </ul>
-              <h3>Features</h3>
-              <ul>
-                <li>Automatically notifies user when a new item is found that they are searching for.</li>
-                <li>Options to enable or disable: Automatic Sync, Notifications and Sounds</li>
-                <li>Multi-city saved searches</li>
-                <li>Integrated with Notification Center</li>
-                <li>Sort results by price, date, and optionally group first by city then sort within each city.</li>
-              </ul>
-              <h3>Design</h3>
-              <ul>
-                <li>Grey highlight for read listings</li>
-                <li>Starred Listings</li>
-                <li>Different cities are color coded in search results</li>
-              </ul>
-              <h3>Cons</h3>
-              <ul>
-                <li>Overall design looks a bit outdated</li>
-                <li>If you leave the app, users lose their place when they come back.</li>
-                <li>Sometimes the previous search information does not remove.</li>
-              </ul>
-              
-              
-              <h2>Adopt</h2>
-              <ul>
-                <li>Visual hierarchy</li>
-                <li>Fixed navigation</li>
-                <li>Suitable color scheme</li>
-                <li>Photo display layout</li>
-                <li>Bold and simple icons</li>
-                <li>Clear button designs</li>
-                <li>Organized grid layout</li>
-              </ul>
-              <h2>Avoid</h2>
-              <ul>
-                <li>Unnecessary information</li>
-                <li>Extra functions</li>
-                <li>Unclear description</li>
-                <li>Crowded design layout</li>
-                <li>Outdated design</li>
-                <li>Lack of photos</li>
-              </ul>
+             
             </div>
           </div>
         </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              MOODBOARD
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" small="files/cl/moodboard.png" large="files/cl/moodboard.png"/>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              USER PERSONA
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/cl/1.jpg"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Chloe Shakin, 22</h3>
+                  <p>Chloe is looking to buying a new car. She has little knowledge about cars, so she wants to know more details offered by Craigslist's seller. With a tight daily schedule, Chloe would love to use the mobile app to see all the available options before actually going out to see a car.</p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/cl/2.jpg"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Jonathan Howell, 42</h3>
+                  <p>Jonathan wants to help his daughter to find a friendly and safe apartment in Seattle. He loves to use his mobile phone to find information before spending an extra time communicating with the poster.</p>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="col-xs-12 col-sm-4">
+                  <img className="portfolio-img-page" src="files/cl/3.jpg"/>
+                </div>
+                <div className="col-xs-12 col-sm-8">
+                  <h3>Rebecca Jensen, 48</h3>
+                  <p>Rebecca frequently seeks for charity activities in Craigslist and encourages her students to contribute and help miserable people. She wants to contact people who have involved to see the requirements and positions are available so she can keep it for her students and her friends.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              USER FLOW
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" small="files/cl/fc.jpg" large="files/cl/fc.jpg"/>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+            SKETCHES
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" small="files/cl/s.png" large="files/cl/s.png"/>
+              
+            </div>
+          </div>
+        </div>
+
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+            WIREFRAME
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" small="files/cl/w.png" large="files/cl/w.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              USABILITY TESTING
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              
+          <h4>For the usability test, I designed a scenario and six small tasks. I create a prototype of Craigslist through Sketch and Invision. The tasks will be tested on the iPhone X.</h4>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/cl/test.png" large="files/cl/test.png"/>
+            
+              <h3>Tasks</h3>
+              <ul>
+                <li>Sign up a new account and login</li>
+                <li>Search for "Toyota 2018" for sale then contact a seller via email</li>
+                <li>Add a "housing" category under "add to favorite" section</li>
+                
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              STYLE GUIDE
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" small="files/cl/sg1.png" large="files/cl/sg1.png"/>
+              <ModalImage className="portfolio-img-page" small="files/cl/sg2.png" large="files/cl/sg2.png"/>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+            FINAL DESIGN
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" small="files/cl/f.png" large="files/cl/f.png"/>
+              
+            </div>
+          </div>
+        </div>
+
+
         
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
