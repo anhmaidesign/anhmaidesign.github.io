@@ -353,31 +353,22 @@ is necessary.</p>
             </div>
           </div>
         </div>
-
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              Final Design
+              Style Guide
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              
-              <div className="row">
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn4.png" large="files/hp/final/fn4.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn5.png" large="files/hp/final/fn5.png"/>
-                </div>
-                <div className="col-xs-12 col-sm-4">
-                  <ModalImage className="portfolio-img-page" small="files/hp/final/fn6.png" large="files/hp/final/fn6.png"/>
-                </div>
-              </div>
+              <ModalImage className="portfolio-img-page" small="files/hp/f1.png" large="files/hp/f1.png"/>
+              <ModalImage className="portfolio-img-page" small="files/hp/f2.png" large="files/hp/f2.png"/>
               
             </div>
           </div>
         </div>
+
+        
 
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
