@@ -356,13 +356,13 @@ is necessary.</p>
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              Style Guide
+              Final design
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <ModalImage className="portfolio-img-page" small="files/hp/f1.png" large="files/hp/f1.png"/>
-              <ModalImage className="portfolio-img-page" small="files/hp/f2.png" large="files/hp/f2.png"/>
+              
               
             </div>
           </div>
@@ -396,7 +396,7 @@ is necessary.</p>
                 labelPosition="after"
                 primary={true}
                 target="_blank"
-                href={"https://xd.adobe.com/view/949de50a-4b9a-4edf-a16a-8908ee0990d9/"}
+                href={"https://xd.adobe.com/view/79d72545-f3d5-4ff1-5501-5adf82c4332c-0fe6/"}
                 icon={<LinkIcon />}
               />
           </div>
