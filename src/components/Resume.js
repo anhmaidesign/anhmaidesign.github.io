@@ -2,8 +2,6 @@ import React from 'react';
 import IconButton from 'material-ui/IconButton';
 import FontIcon from 'material-ui/FontIcon';
 import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
-import Email from 'material-ui/svg-icons/communication/mail-outline';
-import Phone from 'material-ui/svg-icons/communication/phone';
 import FlatButton from 'material-ui/FlatButton';
 
 class Resume extends React.Component {
@@ -19,20 +17,12 @@ class Resume extends React.Component {
             <div className="portfolio-left-col">
             </div>
           </div>
-          <div className="col-xs-12 col-sm-9" style={{textAlign: "right"}}>
-              <FlatButton
-                label="anhmaidesign@gmail.com"
-                labelPosition="after"
-                href={"mailto:anhmaidesign@gmail.com"}
-                icon={<Email />}
-              />
+          <div className="col-xs-12 col-sm-9">
+              AnhMaiDesign@gmail.com
               <br/>
-              <FlatButton
-                label="(206) 886-6546"
-                labelPosition="after"
-                href="tel:1-206-886-6546"
-                icon={<Phone />}
-              />
+              Seattle, WA
+              <br/>
+              <br/>
           </div>
         </div>
         
