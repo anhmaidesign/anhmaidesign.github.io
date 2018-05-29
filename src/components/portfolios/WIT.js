@@ -32,7 +32,7 @@ class WIT extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">GIRLS WHO CODE</div>
-            <div className="portfolio-subtitle">WOMEN IN TECH INFOGRAPHIC (ACADEMIC PROJECT)</div>
+            <div className="portfolio-subtitle">WOMEN IN TECH INFOGRAPHIC</div>
           </div>
           <div className="col-xs-12">
             <img className="portfolio-img-page" src="files/background/wit.jpg"/>
@@ -96,24 +96,7 @@ girls to learn coding and get exposure to tech jobs.
             </div>
           </div>
         </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              CLIENT EXPECTATION
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Convert statistics into an engaging and educational Infographic
-              </p>
-              <p>
-              Highlighting the reality of women working in technology to call more students to participate in the summer program.
-              </p>
-
-            </div>
-          </div>
-        </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -173,28 +156,9 @@ typography and a well-structured layout.
               SOLUTION
             </div>
           </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              A both side portrait flyer size 6.6 x 11 inches 
-              </p>
-            </div>
-          </div>
+          
         </div>
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
-            <div className="portfolio-left-col">
-              PROJECT TOOLS
-            </div>
-          </div>
-          <div className="col-xs-12 col-sm-9">
-            <div className="portfolio-right-col">
-              <p>
-              Sketches, Illustrator, InDesign
-              </p>
-            </div>
-          </div>
-        </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-6">
             <img className="portfolio-img-page" src="files/wit1.png"/>
@@ -215,7 +179,7 @@ typography and a well-structured layout.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
           <RaisedButton
-                label="See full case study"
+                label="See full project"
                 labelPosition="after"
                 primary={true}
                 target="_blank"
