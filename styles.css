@@ -45,11 +45,10 @@ nav ul li {
 
 nav ul li a {
   display: inline-block;
-  width: 33%;
+  width: 50%;
   text-decoration: none;
   cursor: pointer;
-  line-height: 1em;
-  font-size: 0.8em;
+  line-height: 2em;
 }
 
 
@@ -57,30 +56,30 @@ nav ul li a {
   margin-left: 0;
 }
 #nav-two:hover ~ hr {
-  margin-left: 33.33%;
+  margin-left: 50%;
 }
-#nav-three:hover ~ hr {
+/* #nav-three:hover ~ hr {
   margin-left: 66.66%;
-}
-// #nav-four:hover ~ hr {
-//   margin-left: 75%;
-// }
+} */
+/* #nav-four:hover ~ hr {
+ margin-left: 75%;
+} */
 #nav-hr.one {
   margin-left: 0;
 }
 #nav-hr.two {
-  margin-left: 33.33%;
+  margin-left: 50%;
 }
-#nav-hr.three {
+/* #nav-hr.three {
   margin-left: 66.66%;
 }
-// #nav-hr.four {
-//   margin-left: 75%;
-// }
+#nav-hr.four {
+ margin-left: 75%;
+} */
 
 #nav-hr {
   height: .15rem;
-  width: 33.33%;
+  width:50%;
   margin: 0;
   background: #692C4F;
   border: none;
@@ -97,7 +96,7 @@ nav ul li a {
 
 @media only screen and (min-width: 760px) {
   nav {
-    width: 400px;
+    width: 250px;
     margin: 0 auto;
   }
 
@@ -115,7 +114,7 @@ nav ul li a {
     position: absolute;
     top: 15px;
     left: 0;
-    width: 20%;
+    width: 30%;
     background: #692C4F;
     height: 1px;
     margin: 0;
@@ -127,7 +126,7 @@ nav ul li a {
     position: absolute;
     top: 15px;
     right: 0;
-    width: 20%;
+    width: 30%;
     background: #692C4F;
     height: 1px;
     margin: 0;
@@ -138,10 +137,10 @@ nav ul li a {
 
 @media only screen and (min-width: 1000px) {
   #nav-line-left {
-    width: 30%;
+    width: 35%;
   }
   #nav-line-right {
-    width: 30%;
+    width: 35%;
   }
 }
 
@@ -397,18 +396,14 @@ nav ul li a {
 
 /*Footer*/
 #footer {
-  margin-bottom: 25px;
-}
-
-#footer-icons {
-  display: none;
+  margin-bottom: 100px;
+  border-top: 1px dashed;
+  margin-top: 50px;
+  padding-top: 10px;
 }
 
 #footer-text {
-  display: inline-block;
-  margin-top: 5px;
-  float: right;
-  font-size: 12px;
+  margin-left: 10px;
 }
 
 #share-group {
@@ -460,10 +455,8 @@ nav ul li a {
 @media only screen and (min-width: 760px) {
   #footer {
     margin: 0 auto;
-    padding: 5px;
-    border-top: 1px dashed;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding: 10px 5px;
+    margin-bottom: 150px;
   }
 
   #footer-icons {
@@ -471,8 +464,10 @@ nav ul li a {
   }
 
   #footer-text {
+    display: inline-block;
     margin-top: 12px;
     font-size: 14px;
+    float: right;
   }
   #share-group {
     right: auto;
