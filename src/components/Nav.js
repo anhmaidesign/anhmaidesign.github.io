@@ -15,9 +15,9 @@ class Nav extends React.Component {
       // case '/blog':
       //   active = "three";
       //   break;
-      case '/contact':
-        active = "three";
-        break;
+      // case '/contact':
+      //   active = "three";
+      //   break;
     }
 
     this.state = {
@@ -46,11 +46,11 @@ class Nav extends React.Component {
             </a>
           </li>
         */}
-          <li id="nav-three">
+          {/* <li id="nav-three">
             <a href="/contact">
               CONTACT
             </a>
-          </li>
+          </li> */}
           <hr id="nav-hr" className={this.state.active}/>
         </ul>
       </nav>

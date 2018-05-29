@@ -47,12 +47,12 @@ const tilesData = [
     info: 'Rebranding'
   },
   {
-    img: 'files/gg-cover.png',
+    img: 'files/wit-cover.png',
     id: '6',
-    link: '/google-duo',
-    title: 'Google Duo',
-    type: 'Motion Graphic',
-    info: 'Introducing Duo'
+    link: '/wit',
+    title: 'Girls Who Code',
+    type: 'Infographic',
+    info: 'Woman In Tech Infographic'
   },
 ];
 

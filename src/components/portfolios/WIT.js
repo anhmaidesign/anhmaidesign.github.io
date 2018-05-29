@@ -206,8 +206,8 @@ typography and a well-structured layout.
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Garden Of Wisdom"
-              href={"/gow"}
+              label="Back"
+              href={"/octo"}
               labelPosition="after"
               primary={true}
               icon={<Back />}
@@ -225,9 +225,9 @@ typography and a well-structured layout.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="HOPPER"
+              label="Up Next"
               labelPosition="before"
-              href={"/hp"}
+              disabled={true}
               icon={<Forward />}
             />
           </div>

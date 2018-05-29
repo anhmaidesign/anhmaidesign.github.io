@@ -450,7 +450,7 @@ center to get more cohesion. </p></li>
               label="NEXT"
               labelPosition="before"
               primary={true}
-              href={"/google-duo"}
+              href={"/wit"}
               icon={<Forward />}
             />
             
