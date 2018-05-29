@@ -397,6 +397,9 @@ nav ul li a {
 /*Footer*/
 #footer {
   margin-bottom: 100px;
+  border-top: 1px dashed;
+  margin-top: 50px;
+  padding-top: 10px;
 }
 
 #footer-text {
@@ -452,9 +455,7 @@ nav ul li a {
 @media only screen and (min-width: 760px) {
   #footer {
     margin: 0 auto;
-    padding: 5px;
-    border-top: 1px dashed;
-    margin-top: 50px;
+    padding: 10px 5px;
     margin-bottom: 150px;
   }
 
