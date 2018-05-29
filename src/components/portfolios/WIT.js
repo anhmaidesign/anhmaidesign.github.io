@@ -8,6 +8,7 @@ import FlatButton from 'material-ui/FlatButton';
 import ShareButton from '../ShareButton';
 import RaisedButton from 'material-ui/RaisedButton';
 import LinkIcon from 'material-ui/svg-icons/content/link';
+import ModalImage from 'react-modal-image';
 
 const styles = {
   mediumIcon: {
@@ -120,6 +121,7 @@ girls to learn coding and get exposure to tech jobs.
               STRATEGIES
             </div>
           </div>
+          
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
               <p>
@@ -134,39 +136,33 @@ girls to learn coding and get exposure to tech jobs.
             </div>
           </div>
         </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              PROJECT STYLE
+              Sketches
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <p>
-              Design and present the statistics visually. Layout the content in a way that helps
-students understand and remember by using contrasting colors, readable
-typography and a well-structured layout. 
-              </p>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/wit-s.png" large="files/wit-s.png"/>
             </div>
           </div>
         </div>
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              SOLUTION
+              final design
             </div>
           </div>
-          
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/wit-f.png" large="files/wit-f.png"/>
+            </div>
+          </div>
         </div>
+
         
-        <div className="row portfolio-row">
-          <div className="col-xs-12 col-sm-6">
-            <img className="portfolio-img-page" src="files/wit1.png"/>
-          </div>
-          <div className="col-xs-12 col-sm-6">
-            <img className="portfolio-img-page" src="files/wit2.png"/>
-          </div>
-        </div>
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
@@ -179,7 +175,7 @@ typography and a well-structured layout.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
           <RaisedButton
-                label="See full project"
+                label="See actual infographic size"
                 labelPosition="after"
                 primary={true}
                 target="_blank"
