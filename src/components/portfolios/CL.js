@@ -42,7 +42,7 @@ class CL extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">Craigslist</div>
-            <div className="portfolio-subtitle">Mobile App Version (ACADEMIC PROJECT)</div>
+            <div className="portfolio-subtitle">Mobile App Version</div>
           </div>
           <div className="col-xs-12">
             <ModalImage className="portfolio-img-page" small="files/background/cl.png" large="files/background/cl.png"/>
@@ -407,7 +407,7 @@ class CL extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Hopper"
+              label="Next"
               labelPosition="before"
               primary={true}
               href={"/hp"}

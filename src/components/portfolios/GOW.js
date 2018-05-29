@@ -41,7 +41,7 @@ class GOW extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">GARDEN OF WISDOM</div>
-            <div className="portfolio-subtitle">WEB APPLICATION PROPOSAL (ACADEMIC PROJECT)</div>
+            <div className="portfolio-subtitle">WEB APPLICATION PROPOSAL</div>
           </div>
           <div className="col-xs-12">
             <img className="portfolio-img-page" src="files/background/gow.jpg"/>
@@ -291,7 +291,7 @@ consistency to convey a “family handmade” feeling.
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="LimeHelmet"
+              label="BACK"
               href={"/lh"}
               labelPosition="after"
               primary={true}
@@ -320,7 +320,7 @@ consistency to convey a “family handmade” feeling.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Octo Sushi"
+              label="NEXT"
               labelPosition="before"
               href={"/octo"}
               icon={<Forward />}

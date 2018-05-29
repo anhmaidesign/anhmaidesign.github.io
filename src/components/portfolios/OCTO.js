@@ -34,7 +34,7 @@ class OCTO extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">Octo Sushi</div>
-            <div className="portfolio-subtitle">Rebrand Case Study (ACADEMIC PROJECT)</div>
+            <div className="portfolio-subtitle">Rebrand Case Study</div>
           </div>
           <div className="col-xs-12">
             <ModalImage className="portfolio-img-page" style={ {marginTop: '20px'}} small="files/background/octo.png" large="files/background/octo.png"/>
@@ -297,6 +297,7 @@ class OCTO extends React.Component {
             </div>
           </div>
         </div>
+        {/*
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -423,11 +424,11 @@ center to get more cohesion. </p></li>
             </div>
           </div>
         </div>
-
+        */}
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="Garden Of Wisdom"
+              label="BACK"
               href={"/gow"}
               labelPosition="after"
               primary={true}
@@ -446,7 +447,7 @@ center to get more cohesion. </p></li>
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Introducing Google Duo"
+              label="NEXT"
               labelPosition="before"
               primary={true}
               href={"/google-duo"}

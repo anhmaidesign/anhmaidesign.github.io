@@ -42,7 +42,7 @@ class LH extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">LimeHelmet</div>
-            <div className="portfolio-subtitle">Introducing face detection technology (ACADEMIC PROJECT)</div>
+            <div className="portfolio-subtitle">Introducing face detection technology</div>
           </div>
           <div className="col-xs-12">
             <ModalImage className="portfolio-img-page" small="files/background/lh.png" large="files/background/lh.png"/>
@@ -285,7 +285,7 @@ class LH extends React.Component {
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="HOPPER"
+              label="BACK"
               href={"/hp"}
               labelPosition="after"
               primary={true}
@@ -314,7 +314,7 @@ class LH extends React.Component {
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="Garden of Wisdom"
+              label="NEXT"
               labelPosition="before"
               primary={true}
               href={"/gow"}

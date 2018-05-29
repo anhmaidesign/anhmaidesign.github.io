@@ -12,7 +12,7 @@ const tilesData = [
     link: '/cl',
     title: 'Craigslist',
     type: 'Mobile Design - iOS',
-    info: 'Mobile App Proposal (Academic Project)'
+    info: 'Mobile App Proposal'
   },
   {
     img: 'files/hp-cover.png',
@@ -20,7 +20,7 @@ const tilesData = [
     link: '/hp',
     title: 'Hopper',
     type: 'Mobile Design - Android',
-    info: 'Mobile App Proposal (Academic Project)'
+    info: 'Mobile App Proposal'
   },
   {
     img: 'files/lh-cover.png',
@@ -28,7 +28,7 @@ const tilesData = [
     link: '/lh',
     title: 'LimeHelmet',
     type: 'Interface Design',
-    info: 'Introducing Face Detection Technology (Academic Project)'
+    info: 'Introducing Face Detection Technology'
   },
   {
     img: 'files/gow-cover.jpg',
@@ -36,7 +36,7 @@ const tilesData = [
     link: '/gow',
     title: 'Garden of Wisdom',
     type: 'Web Design',
-    info: 'Web Design Proposal (Academic Project)'
+    info: 'Web Design Proposal'
   },
   {
     img: 'files/octo-cover.png',
@@ -44,7 +44,7 @@ const tilesData = [
     link: '/octo',
     title: 'Octo Sushi',
     type: 'Graphic and Web Design',
-    info: 'Rebranding (Academic Project)'
+    info: 'Rebranding'
   },
   {
     img: 'files/gg-cover.png',
@@ -52,7 +52,7 @@ const tilesData = [
     link: '/google-duo',
     title: 'Google Duo',
     type: 'Motion Graphic',
-    info: 'Introducing Duo (Academic Project)'
+    info: 'Introducing Duo'
   },
 ];
 

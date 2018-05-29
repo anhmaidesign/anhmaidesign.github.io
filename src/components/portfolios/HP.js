@@ -42,7 +42,7 @@ class HP extends React.Component {
         <div className="row">
           <div className="col-xs-12">
             <div className="portfolio-title">HOPPER</div>
-            <div className="portfolio-subtitle">FLIGHT MOBILE APP PROPOSAL (ACADEMIC PROJECT)</div>
+            <div className="portfolio-subtitle">FLIGHT MOBILE APP PROPOSAL</div>
           </div>
           <div className="col-xs-12">
           <ModalImage 
@@ -373,7 +373,7 @@ is necessary.</p>
         <div className="row portfolio-row portfolio-control">
           <div className="col-xs-12 col-sm-4 portfolio-back">
             <FlatButton
-              label="CRAIGSLIST"
+              label="BACK"
               href={"/cl"}
               labelPosition="after"
               primary={true}
@@ -402,7 +402,7 @@ is necessary.</p>
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-next">
             <FlatButton
-              label="LimeHelmet"
+              label="NEXT"
               labelPosition="before"
               primary={true}
               href={"/lh"}
