@@ -20,9 +20,8 @@ class Resume extends React.Component {
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
-              AnhMaiDesign@gmail.com
-              <br/>
-              Seattle, WA
+              <a style={{textDecoration: "underline"}} href="mailto:anhmaidesign@gmail.com"><i className="fa fa-envelope" style={{marginRight: "5px"}} />  anhmaidesign@gmail.com</a>
+              <p><i className="fa fa-building" style={{marginRight: "10px"}}/>Seattle, WA</p>
               <br/>
               <br/>
           </div>
