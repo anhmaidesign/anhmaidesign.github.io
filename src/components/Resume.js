@@ -42,7 +42,7 @@ class Resume extends React.Component {
                   <p className="resume-subtitle">Bachelor of Fine Art (BFA), Graphic and Web Design</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>Jan 2016 - Jun 2018</p>
+                  <p>Jun 2018</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -53,7 +53,7 @@ class Resume extends React.Component {
                   <p className="resume-subtitle">Associate of Art (AA), Communication</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>Jun 2012 - Mar 2014</p>
+                  <p>Mar 2014</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -64,7 +64,7 @@ class Resume extends React.Component {
                   <p className="resume-subtitle">Associate of Art (AA), Business Management</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>Oct 2010 - Apr 2012</p>
+                  <p>Apr 2012</p>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ class Resume extends React.Component {
                   <div className="resume-title-x">
                     Seattle Central College
                   </div>
-                  <p className="resume-subtitle">Providing outstanding Student Service and ensuring all information is communicated to the student correctly.</p>
+                  <p className="resume-subtitle">Provided outstanding Student Service Ensuring all information is communicated to the student correctly.</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Aug 2012 - Mar 2014</p>
@@ -152,8 +152,8 @@ class Resume extends React.Component {
                   <div className="resume-title-x">
                     Martin College - Ho Chi Minh, Vietnam
                   </div>
-                  <p className="resume-subtitle">Event planner of Masquerade’s party</p>
-                  <p className="resume-subtitle">Designing posters, flyers and event tickets.</p>
+                  <p className="resume-subtitle">Event planner for Masquerade party</p>
+                  <p className="resume-subtitle">Designed posters, flyers and event tickets.</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Aug 2010 - Sep 2010</p>
