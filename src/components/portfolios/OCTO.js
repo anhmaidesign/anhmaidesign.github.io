@@ -314,6 +314,19 @@ class OCTO extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
+              grayscale logo
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/gs.png" large="files/octo/gs.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
               Styling
             </div>
           </div>

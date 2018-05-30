@@ -175,7 +175,7 @@ girls to learn coding and get exposure to tech jobs.
           </div>
           <div className="col-xs-12 col-sm-4 portfolio-download">
           <RaisedButton
-                label="See actual infographic size"
+                label="See full case study"
                 labelPosition="after"
                 primary={true}
                 target="_blank"

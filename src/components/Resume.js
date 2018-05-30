@@ -18,7 +18,7 @@ class Resume extends React.Component {
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
-              AnhMaiDesign@gmail.com
+              anhmaidesign@gmail.com
               <br/>
               Seattle, WA
               <br/>
