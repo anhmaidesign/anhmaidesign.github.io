@@ -127,7 +127,7 @@ class Resume extends React.Component {
                   <p className="resume-subtitle">Gather user feedback and identify existing design problems and user-interaction challenges</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>Apr 2018 - Present</p>
+                  <p>Apr 2018 - Jun 2018</p>
                 </div>
               </div>
               <div className="row portfolio-row">
