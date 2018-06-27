@@ -39,7 +39,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     The Art Institute of Seattle
                   </div>
-                  <p className="resume-subtitle">Bachelor of Fine Art (BFA), Graphic and Web Design</p>
+                  <p className="resume-subtitle">Bachelor of Fine Arts (BFA), Graphic and Web Design</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Jun 2018</p>
@@ -50,7 +50,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Seattle Central College
                   </div>
-                  <p className="resume-subtitle">Associate of Art (AA), Communication</p>
+                  <p className="resume-subtitle">Associate of Arts (AA), Communication</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Mar 2014</p>
@@ -61,7 +61,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Martin College
                   </div>
-                  <p className="resume-subtitle">Associate of Art (AA), Business Management</p>
+                  <p className="resume-subtitle">Associate of Arts (AA), Business Management</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Apr 2012</p>
@@ -138,7 +138,8 @@ class Resume extends React.Component {
                   <div className="resume-title-x">
                     Seattle Central College
                   </div>
-                  <p className="resume-subtitle">Provided outstanding Student Service Ensuring all information is communicated to the student correctly.</p>
+                  <p className="resume-subtitle">Provided outstanding Student Service</p>
+                  <p className="resume-subtitle">Ensuring all information is communicated to the student correctly.</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Aug 2012 - Mar 2014</p>
@@ -147,13 +148,14 @@ class Resume extends React.Component {
               <div className="row portfolio-row">
                 <div className="col-xs-9 col-sm-9">
                   <div className="resume-title">
-                    Event Designer
+                    Visual Designer
                   </div>
                   <div className="resume-title-x">
                     Martin College - Ho Chi Minh, Vietnam
                   </div>
-                  <p className="resume-subtitle">Event planner for Masquerade party</p>
-                  <p className="resume-subtitle">Designed posters, flyers and event tickets.</p>
+                  <p className="resume-subtitle">Build branding projects from the ground up</p>
+                  <p className="resume-subtitle">Develop campaigns and provide quality art and creative direction</p>
+                  <p className="resume-subtitle">Design poster, flyers, and event tickets</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Aug 2010 - Sep 2010</p>
