@@ -40,6 +40,7 @@ class Resume extends React.Component {
                     The Art Institute of Seattle
                   </div>
                   <p className="resume-subtitle">Bachelor of Fine Arts (BFA), Graphic and Web Design</p>
+                  <p className="resume-subtitle">Graduating with Honors</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Jun 2018</p>
