@@ -2,8 +2,6 @@ import React from 'react';
 import IconButton from 'material-ui/IconButton';
 import FontIcon from 'material-ui/FontIcon';
 import PDF from 'material-ui/svg-icons/image/picture-as-pdf';
-import LocationCity from 'material-ui/svg-icons/social/location-city';
-import Email from 'material-ui/svg-icons/communication/mail-outline';
 import FlatButton from 'material-ui/FlatButton';
 
 class Resume extends React.Component {
@@ -20,8 +18,9 @@ class Resume extends React.Component {
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
-              <a style={{textDecoration: "underline"}} href="mailto:anhmaidesign@gmail.com"><i className="fa fa-envelope" style={{marginRight: "5px"}} />  anhmaidesign@gmail.com</a>
-              <p><i className="fa fa-building" style={{marginRight: "10px"}}/>Seattle, WA</p>
+              anhmaidesign@gmail.com
+              <br/>
+              Seattle, WA
               <br/>
               <br/>
           </div>
@@ -40,10 +39,11 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     The Art Institute of Seattle
                   </div>
-                  <p className="resume-subtitle">Bachelor of Fine Art (BFA), Graphic and Web Design</p>
+                  <p className="resume-subtitle">Bachelor of Fine Arts (BFA), Graphic and Web Design</p>
+                  <p className="resume-subtitle">Graduating with Honors</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>Jan 2016 - Jun 2018</p>
+                  <p>Jun 2018</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -51,10 +51,10 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Seattle Central College
                   </div>
-                  <p className="resume-subtitle">Associate of Art (AA), Communication</p>
+                  <p className="resume-subtitle">Associate of Arts (AA), Communication</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>Jun 2012 - Mar 2014</p>
+                  <p>Mar 2014</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -62,10 +62,10 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Martin College
                   </div>
-                  <p className="resume-subtitle">Associate of Art (AA), Business Management</p>
+                  <p className="resume-subtitle">Associate of Arts (AA), Business Management</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>Oct 2010 - Apr 2012</p>
+                  <p>Apr 2012</p>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Web Design
                   </div>
-                  <p>HTML & CSS, Wordpress, Bootstrap, Web & Multimedia Design, Responsive Design, Mobile Design, Illustrator, Photoshop, Sublime Text, After Effects,Premiere Pro</p>
+                  <p>HTML & CSS, Wordpress, Bootstrap, Web & Multimedia Design, Responsive Design, Mobile Design, Adobe Illustrator, Adobe Photoshop, Sublime Text, Adobe After Effects, Adobe Premiere Pro</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -100,7 +100,7 @@ class Resume extends React.Component {
                   <div className="resume-title">
                     Graphic Design
                   </div>
-                  <p>Layout Design, Poster Design, Wayfinding Design, Typography, Branding,InDesign</p>
+                  <p>Layout Design, Poster Design, Wayfinding Design, Typography, Branding, Adobe InDesign</p>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ class Resume extends React.Component {
                   <p className="resume-subtitle">Gather user feedback and identify existing design problems and user-interaction challenges</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
-                  <p>Apr 2018 - Present</p>
+                  <p>Apr 2018 - Jun 2018</p>
                 </div>
               </div>
               <div className="row portfolio-row">
@@ -139,7 +139,8 @@ class Resume extends React.Component {
                   <div className="resume-title-x">
                     Seattle Central College
                   </div>
-                  <p className="resume-subtitle">Providing outstanding Student Service and ensuring all information is communicated to the student correctly.</p>
+                  <p className="resume-subtitle">Provided outstanding Student Service</p>
+                  <p className="resume-subtitle">Ensuring all information is communicated to the student correctly.</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Aug 2012 - Mar 2014</p>
@@ -148,13 +149,14 @@ class Resume extends React.Component {
               <div className="row portfolio-row">
                 <div className="col-xs-9 col-sm-9">
                   <div className="resume-title">
-                    Event Designer
+                    Visual Designer
                   </div>
                   <div className="resume-title-x">
                     Martin College - Ho Chi Minh, Vietnam
                   </div>
-                  <p className="resume-subtitle">Event planner of Masquerade’s party</p>
-                  <p className="resume-subtitle">Designing posters, flyers and event tickets.</p>
+                  <p className="resume-subtitle">Build branding projects from the ground up</p>
+                  <p className="resume-subtitle">Develop campaigns and provide quality art and creative direction</p>
+                  <p className="resume-subtitle">Design poster, flyers, and event tickets</p>
                 </div>
                 <div className="col-xs-3 col-sm-3 portfolio-vertical-align">
                   <p>Aug 2010 - Sep 2010</p>

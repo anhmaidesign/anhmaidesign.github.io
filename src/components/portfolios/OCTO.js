@@ -287,16 +287,17 @@ class OCTO extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              Style guide - logo design
+              final logo decisions
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/sg2.png" large="files/octo/sg2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/v4.png" large="files/octo/v4.png"/>
               
             </div>
           </div>
         </div>
+        
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
@@ -313,13 +314,65 @@ class OCTO extends React.Component {
         <div className="row portfolio-row">
           <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
             <div className="portfolio-left-col">
-              Mockup
+              grayscale logo
             </div>
           </div>
           <div className="col-xs-12 col-sm-9">
             <div className="portfolio-right-col">
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/m1.png" large="files/octo/m1.png"/>
-              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/m2.png" large="files/octo/m2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/gs.png" large="files/octo/gs.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              Styling
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/sg2.png" large="files/octo/sg2.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              business card
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/b1.png" large="files/octo/b1.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/b2.png" large="files/octo/b2.png"/>
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/b3.png" large="files/octo/b3.png"/>
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              letterhead
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/letter-head-04.png" large="files/octo/letter-head-04.png"/>
+              
+            </div>
+          </div>
+        </div>
+        <div className="row portfolio-row">
+          <div className="col-xs-12 col-sm-3 portfolio-vertical-align">
+            <div className="portfolio-left-col">
+              envelop
+            </div>
+          </div>
+          <div className="col-xs-12 col-sm-9">
+            <div className="portfolio-right-col">
+              <ModalImage className="portfolio-img-page" style={ {marginTop: '15px'}} small="files/octo/envelop-05.png" large="files/octo/envelop-05.png"/>
               
             </div>
           </div>
